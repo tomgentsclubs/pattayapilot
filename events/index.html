@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-85334WX8VT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-85334WX8VT');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Calendar - GentsClubs.com</title>
+    
+    <!-- Meta tags for better sharing in Line and other messengers -->
+    <meta property="og:title" content="GentsClubs Events Calendar">
+    <meta property="og:description" content="View all upcoming events and parties at GentsClubs.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tomgentsclubs.github.io/events/">
+    
+    <!-- Force external browser on Line -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- Elfsight Platform Script - Loaded early for stability -->
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+        }
+        .brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffd700;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 48px;
+            color: #fff;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 0 #8b1428;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: rgba(255,255,255,0.9);
+        }
+        .calendar-wrapper {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            position: relative;
+            min-height: 600px;
+        }
+        
+        /* Loading overlay */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(26, 26, 26, 0.98);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .loading-text {
+            color: #ffd700;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .loading-bar-container {
+            width: 80%;
+            max-width: 400px;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .loading-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%);
+            background-size: 200% 100%;
+            border-radius: 4px;
+            animation: fillBar 3s ease-in-out forwards, shimmer 1.5s linear infinite;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        
+        @keyframes fillBar {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+        
+        @keyframes shimmer {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+        
+        .loading-subtext {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        
+        /* Hide the elfsight message */
+        .calendar-wrapper .elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3 {
+            min-height: 600px;
+        }
+        
+        /* Line browser detection banner */
+        .line-banner {
+            display: none;
+            background: #00B900;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        .line-banner a {
+            color: #ffd700;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        
+        /* Calendar fix banner */
+        .fix-banner {
+            background: linear-gradient(135deg, #8b1428 0%, #a91d3a 100%);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.5;
+            box-shadow: 0 4px 15px rgba(139, 20, 40, 0.3);
+        }
+        
+        .fix-button {
+            background: #ffd700;
+            color: #1a1a1a;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .fix-button:hover {
+            background: #ffed4e;
+            transform: scale(1.05);
+        }
+        
+        .fix-button:active {
+            transform: scale(0.98);
+        }
+        
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+            .brand {
+                font-size: 18px;
+            }
+            .header {
+                padding: 20px 10px;
+            }
+            .calendar-wrapper {
+                padding: 10px;
+            }
+            .loading-text {
+                font-size: 20px;
+            }
+            .loading-bar-container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Line browser warning -->
+        <div class="line-banner" id="lineBanner">
+            ⚠️ This page works best in Safari or Chrome.<br>
+            If it didn't open automatically, <a href="#" onclick="copyToClipboard(); return false;">tap here to copy the link</a> and paste it in your browser.
+        </div>
+        
+        <div class="header">
+            <div class="brand">🎩 GentsClubs.com 🎩</div>
+            <h1>Events Calendar</h1>
+            <div class="subtitle">All upcoming events and parties</div>
+        </div>
+        <div class="calendar-wrapper">
+            <!-- Loading overlay -->
+            <div class="loading-overlay" id="loadingOverlay">
+                <div class="loading-text">Loading Events Calendar...</div>
+                <div class="loading-bar-container">
+                    <div class="loading-bar"></div>
+                </div>
+                <div class="loading-subtext">Please wait a moment</div>
+            </div>
+            
+            <!-- Elfsight Event Calendar -->
+            <div class="elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Detect Line browser
+        function isLineBrowser() {
+            const ua = navigator.userAgent.toLowerCase();
+            return ua.includes('line/');
+        }
+        
+        // Detect other in-app browsers
+        function isInAppBrowser() {
+            const ua = navigator.userAgent.toLowerCase();
+            // Check for common in-app browsers
+            return ua.includes('line/') || 
+                   ua.includes('fban') || // Facebook
+                   ua.includes('fbav') || // Facebook
+                   ua.includes('instagram') ||
+                   ua.includes('twitter') ||
+                   ua.includes('micromessenger') || // WeChat
+                   ua.includes('kakao'); // KakaoTalk
+        }
+        
+        // Attempt to open in external browser
+        function openInExternalBrowser() {
+            const url = window.location.href;
+            
+            // For iOS devices, try to open in Safari
+            if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+                // Try the universal link approach first
+                window.location.href = 'x-safari-' + url;
+                
+                // Fallback after a delay
+                setTimeout(() => {
+                    // If still here, show instructions
+                    if (isInAppBrowser()) {
+                        document.getElementById('lineBanner').style.display = 'block';
+                    }
+                }, 500);
+            } else {
+                // For Android, try intent URL
+                window.location.href = 'intent://' + url.replace(/https?:\/\//, '') + '#Intent;scheme=https;end';
+                
+                // Fallback after a delay
+                setTimeout(() => {
+                    if (isInAppBrowser()) {
+                        document.getElementById('lineBanner').style.display = 'block';
+                    }
+                }, 500);
+            }
+        }
+        
+        // Show banner or attempt redirect if in in-app browser
+        if (isInAppBrowser()) {
+            // Try to open in external browser immediately
+            openInExternalBrowser();
+        }
+        
+        // Copy URL to clipboard
+        function copyToClipboard() {
+            const url = window.location.href;
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(url).then(() => {
+                    alert('Link copied! Now paste it in Safari or Chrome.');
+                });
+            } else {
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = url;
+                textArea.style.position = 'fixed';
+                textArea.style.left = '-999999px';
+                document.body.appendChild(textArea);
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    alert('Link copied! Now paste it in Safari or Chrome.');
+                } catch (err) {
+                    alert('Please copy this link manually: ' + url);
+                }
+                document.body.removeChild(textArea);
+            }
+        }
+        
+        // Simple loading overlay hide function
+        function hideLoadingOverlay() {
+            const overlay = document.getElementById('loadingOverlay');
+            overlay.classList.add('hidden');
+            
+            // Remove overlay from DOM after transition
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 500);
+        }
+        
+        // Check if this is a fresh load (no cache-bust parameter)
+        const urlParams = new URLSearchParams(window.location.search);
+        const isCacheBusted = urlParams.has('_cb');
+        
+        // If not cache-busted yet, reload with cache-busting parameter
+        if (!isCacheBusted) {
+            console.log('First load - forcing cache-busted reload...');
+            const cacheBustUrl = window.location.href + (window.location.href.includes('?') ? '&' : '?') + '_cb=' + Date.now();
+            window.location.replace(cacheBustUrl);
+            // Stop execution here as we're reloading
+        }
+        
+        // Simple loading overlay hide function
+        function hideLoadingOverlay() {
+            const overlay = document.getElementById('loadingOverlay');
+            overlay.classList.add('hidden');
+            
+            // Remove overlay from DOM after transition
+            setTimeout(() => {
+                overlay.style.display = 'none';
+            }, 500);
+        }
+        
+        // Manual fix function - reload without cache
+        function manualFix() {
+            console.log('Manual fix triggered - reloading...');
+            const cacheBustUrl = window.location.pathname + '?_cb=' + Date.now();
+            window.location.replace(cacheBustUrl);
+        }
+        
+        // Hide loading bar after 3 seconds
+        setTimeout(() => {
+            hideLoadingOverlay();
+        }, 3000);
+        
+        // Fallback: Always hide loading after 5 seconds maximum
+        setTimeout(() => {
+            hideLoadingOverlay();
+        }, 5000);
+    
+    </script>
+</body>
+</html>
