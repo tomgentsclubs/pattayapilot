@@ -21,6 +21,7 @@
     <!-- SEO Meta Tags -->
     <title>Pattaya Events Calendar | What's On Today</title>
     <meta name="description" content="The ultimate Pattaya events calendar. Find parties, bar crawls, drink promotions and nightlife events happening today.">
+    <link rel="canonical" href="https://pattayapilot.com/events/">
     
     <!-- Open Graph / Social Media Preview -->
     <meta property="og:title" content="Pattaya Events Calendar | What's On in Pattaya">
@@ -257,9 +258,9 @@
         </div>
         
         <div class="header">
-            <div class="brand">🎩 GentsClubs.com 🎩</div>
-            <h1>Events Calendar</h1>
-            <div class="subtitle">All upcoming events and parties</div>
+            <div class="brand">🧭 PATTAYA PILOT 🧭</div>
+            <h1>Pattaya Events Calendar</h1>
+            <div class="subtitle">All upcoming nightlife events and parties in Pattaya</div>
         </div>
         <div class="calendar-wrapper">
             <!-- Loading overlay -->
@@ -377,17 +378,6 @@
             const cacheBustUrl = window.location.href + (window.location.href.includes('?') ? '&' : '?') + '_cb=' + Date.now();
             window.location.replace(cacheBustUrl);
             // Stop execution here as we're reloading
-        }
-        
-        // Simple loading overlay hide function
-        function hideLoadingOverlay() {
-            const overlay = document.getElementById('loadingOverlay');
-            overlay.classList.add('hidden');
-            
-            // Remove overlay from DOM after transition
-            setTimeout(() => {
-                overlay.style.display = 'none';
-            }, 500);
         }
         
         // Manual fix function - reload without cache
