@@ -173,13 +173,34 @@ header {
     height: auto;
 }
 
-footer {
+/* Subpage header */
+.subpage-header {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #0a1628;
+    border-bottom: 1px solid #1a2d4d;
+}
+
+.home-link {
+    color: #d4af37;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.home-link:hover {
+    color: #ffffff;
+}
+
+/* Subpage footer */
+.subpage-footer {
     padding: 30px 0;
     text-align: center;
     background-color: #050d18;
     color: #888;
     font-size: 0.9rem;
     margin-top: 60px;
+    border-top: 1px solid #1a2d4d;
 }
 
 .footer-link {
@@ -193,11 +214,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .logo {
-        max-width: 200px;
-    }
-    
-    header {
-        padding: 30px 0 15px;
+    .subpage-header {
+        padding: 15px 0;
     }
 }
