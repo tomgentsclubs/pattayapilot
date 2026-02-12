@@ -180,21 +180,27 @@ header {
     border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-.home-link {
+.home-link,
+.footer-link {
     color: #ffffff;
     text-decoration: none;
     font-size: 0.9rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.5px;
     opacity: 0.85;
     transition: opacity 0.2s ease;
 }
 
-.home-link:hover {
-    opacity: 1;
+.home-link:visited,
+.footer-link:visited {
+    color: #ffffff;
 }
 
+.home-link:hover,
+.footer-link:hover {
+    opacity: 1;
+    color: #ffffff;
+}
 .subpage-footer {
     padding: 16px 20px;
     text-align: center;
