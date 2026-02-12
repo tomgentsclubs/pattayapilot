@@ -226,8 +226,7 @@
             transform: scale(0.98);
         }
         
-/* Mobile responsive */
-        @media (max-width: 768px) {
+@media (max-width: 768px) {
             h1 {
                 font-size: 32px;
             }
@@ -255,55 +254,64 @@
             border-bottom: 1px solid rgba(255,255,255,0.08);
         }
 
-        .subpage-header a,
-        .subpage-header a:link,
-        .subpage-header a:visited,
-        .home-link,
-        .home-link:link,
-        .home-link:visited {
-            color: #ffffff !important;
-            text-decoration: none !important;
-            font-size: 0.9rem;
-            font-weight: 500;
-            opacity: 0.85;
-            transition: opacity 0.2s ease;
-        }
-
-        .subpage-header a:hover,
-        .home-link:hover {
-            opacity: 1;
-        }
-
         .subpage-footer {
-            padding: 16px 20px;
+            padding: 12px 20px;
             text-align: center;
             background-color: #0a0a0a;
             border-top: 1px solid rgba(255,255,255,0.08);
         }
 
-        .subpage-footer a,
-        .subpage-footer a:link,
-        .subpage-footer a:visited,
-        .footer-link,
-        .footer-link:link,
-        .footer-link:visited {
+        .subpage-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .subpage-nav a,
+        .subpage-nav a:link,
+        .subpage-nav a:visited {
             color: #ffffff !important;
             text-decoration: none !important;
             font-size: 0.9rem;
             font-weight: 500;
-            opacity: 0.85;
+            opacity: 0.75;
             transition: opacity 0.2s ease;
         }
 
-        .subpage-footer a:hover,
-        .footer-link:hover {
+        .subpage-nav a:hover {
             opacity: 1;
+        }
+
+        .discord-link {
+            color: #5865F2 !important;
+            opacity: 1 !important;
+        }
+
+        .discord-link:hover {
+            opacity: 0.85 !important;
+        }
+
+        @media (max-width: 480px) {
+            .subpage-nav {
+                gap: 15px;
+            }
+            .subpage-nav a {
+                font-size: 0.8rem;
+            }
         }
     </style>
 </head>
 <body>
 <header class="subpage-header">
-    <a href="/" class="home-link">← Home</a>
+    <nav class="subpage-nav">
+        <a href="/" class="home-link">← Home</a>
+        <a href="/bar-crawls" class="nav-link">Bar Crawls</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="https://lin.ee/tJwS2kU" class="nav-link" target="_blank">Contact</a>
+        <a href="https://discord.gg/pattayamongers" class="nav-link discord-link" target="_blank">Discord</a>
+    </nav>
 </header>
     <div class="container">
         <!-- Line browser warning -->
@@ -454,7 +462,13 @@
     
     </script>
 <footer class="subpage-footer">
-    <a href="/" class="footer-link">← Home</a>
+    <nav class="subpage-nav">
+        <a href="/" class="home-link">← Home</a>
+        <a href="/bar-crawls" class="nav-link">Bar Crawls</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="https://lin.ee/tJwS2kU" class="nav-link" target="_blank">Contact</a>
+        <a href="https://discord.gg/pattayamongers" class="nav-link discord-link" target="_blank">Discord</a>
+    </nav>
 </footer>
 </body>
 </html>
