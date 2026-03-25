@@ -66,26 +66,38 @@
         }
         .header {
             text-align: center;
-            padding: 40px 20px;
+            padding: 40px 20px 30px;
             margin-bottom: 30px;
         }
+        .header-logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 18px;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
+        }
         .brand {
-            font-size: 24px;
+            font-size: 16px;
             font-weight: bold;
             color: #ffd700;
             text-transform: uppercase;
-            letter-spacing: 3px;
-            margin-bottom: 15px;
+            letter-spacing: 4px;
+            margin-bottom: 14px;
         }
         h1 {
-            font-size: 48px;
+            font-size: 56px;
             color: #fff;
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 4px 4px 0px rgba(0,0,0,0.5);
             margin-bottom: 10px;
-            text-shadow: 2px 2px 0 #8b1428;
+            line-height: 1.1;
         }
         .subtitle {
-            font-size: 20px;
-            color: rgba(255,255,255,0.9);
+            font-size: 18px;
+            color: rgba(255,255,255,0.75);
+            margin-top: 8px;
         }
         .calendar-wrapper {
             background: rgba(255,255,255,0.05);
@@ -145,21 +157,13 @@
         }
         
         @keyframes fillBar {
-            0% {
-                width: 0%;
-            }
-            100% {
-                width: 100%;
-            }
+            0% { width: 0%; }
+            100% { width: 100%; }
         }
         
         @keyframes shimmer {
-            0% {
-                background-position: 200% 0;
-            }
-            100% {
-                background-position: -200% 0;
-            }
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
         }
         
         .loading-subtext {
@@ -168,7 +172,6 @@
             margin-top: 20px;
         }
         
-        /* Hide the elfsight message */
         .calendar-wrapper .elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3 {
             min-height: 600px;
         }
@@ -226,26 +229,15 @@
         .fix-button:active {
             transform: scale(0.98);
         }
-        
-@media (max-width: 768px) {
-            h1 {
-                font-size: 32px;
-            }
-            .brand {
-                font-size: 18px;
-            }
-            .header {
-                padding: 20px 10px;
-            }
-            .calendar-wrapper {
-                padding: 10px;
-            }
-            .loading-text {
-                font-size: 20px;
-            }
-            .loading-bar-container {
-                width: 90%;
-            }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            .header-logo { width: 75px; }
+            .brand { font-size: 14px; }
+            .header { padding: 20px 10px; }
+            .calendar-wrapper { padding: 10px; }
+            .loading-text { font-size: 20px; }
+            .loading-bar-container { width: 90%; }
         }
 
         .subpage-header {
@@ -322,10 +314,16 @@
         </div>
         
         <div class="header">
-            <div class="brand">🎩 GentsClubs.com 🎩</div>
+            <img 
+                src="https://www.dropbox.com/scl/fi/glj0iqh4kqwh27kh8uqqx/TRANSPARENT-LOGO.png?rlkey=igmvf9oaocgd4vdvv0rj5lrc5&raw=1" 
+                alt="GentsClubs.com" 
+                class="header-logo"
+            >
+            <div class="brand">GentsClubs.com</div>
             <h1>Pattaya Events Calendar</h1>
             <div class="subtitle">All upcoming nightlife events and parties in Pattaya</div>
         </div>
+
         <div class="calendar-wrapper">
             <!-- Loading overlay -->
             <div class="loading-overlay" id="loadingOverlay">
@@ -342,46 +340,33 @@
     </div>
     
     <script>
-        // Detect Line browser
         function isLineBrowser() {
             const ua = navigator.userAgent.toLowerCase();
             return ua.includes('line/');
         }
         
-        // Detect other in-app browsers
         function isInAppBrowser() {
             const ua = navigator.userAgent.toLowerCase();
-            // Check for common in-app browsers
             return ua.includes('line/') || 
-                   ua.includes('fban') || // Facebook
-                   ua.includes('fbav') || // Facebook
+                   ua.includes('fban') ||
+                   ua.includes('fbav') ||
                    ua.includes('instagram') ||
                    ua.includes('twitter') ||
-                   ua.includes('micromessenger') || // WeChat
-                   ua.includes('kakao'); // KakaoTalk
+                   ua.includes('micromessenger') ||
+                   ua.includes('kakao');
         }
         
-        // Attempt to open in external browser
         function openInExternalBrowser() {
             const url = window.location.href;
-            
-            // For iOS devices, try to open in Safari
             if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
-                // Try the universal link approach first
                 window.location.href = 'x-safari-' + url;
-                
-                // Fallback after a delay
                 setTimeout(() => {
-                    // If still here, show instructions
                     if (isInAppBrowser()) {
                         document.getElementById('lineBanner').style.display = 'block';
                     }
                 }, 500);
             } else {
-                // For Android, try intent URL
                 window.location.href = 'intent://' + url.replace(/https?:\/\//, '') + '#Intent;scheme=https;end';
-                
-                // Fallback after a delay
                 setTimeout(() => {
                     if (isInAppBrowser()) {
                         document.getElementById('lineBanner').style.display = 'block';
@@ -390,13 +375,10 @@
             }
         }
         
-        // Show banner or attempt redirect if in in-app browser
         if (isInAppBrowser()) {
-            // Try to open in external browser immediately
             openInExternalBrowser();
         }
         
-        // Copy URL to clipboard
         function copyToClipboard() {
             const url = window.location.href;
             if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -404,7 +386,6 @@
                     alert('Link copied! Now paste it in Safari or Chrome.');
                 });
             } else {
-                // Fallback for older browsers
                 const textArea = document.createElement('textarea');
                 textArea.value = url;
                 textArea.style.position = 'fixed';
@@ -421,47 +402,31 @@
             }
         }
         
-        // Simple loading overlay hide function
         function hideLoadingOverlay() {
             const overlay = document.getElementById('loadingOverlay');
             overlay.classList.add('hidden');
-            
-            // Remove overlay from DOM after transition
             setTimeout(() => {
                 overlay.style.display = 'none';
             }, 500);
         }
         
-        // Check if this is a fresh load (no cache-bust parameter)
         const urlParams = new URLSearchParams(window.location.search);
         const isCacheBusted = urlParams.has('_cb');
         
-        // If not cache-busted yet, reload with cache-busting parameter
         if (!isCacheBusted) {
-            console.log('First load - forcing cache-busted reload...');
             const cacheBustUrl = window.location.href + (window.location.href.includes('?') ? '&' : '?') + '_cb=' + Date.now();
             window.location.replace(cacheBustUrl);
-            // Stop execution here as we're reloading
         }
         
-        // Manual fix function - reload without cache
         function manualFix() {
-            console.log('Manual fix triggered - reloading...');
             const cacheBustUrl = window.location.pathname + '?_cb=' + Date.now();
             window.location.replace(cacheBustUrl);
         }
         
-        // Hide loading bar after 3 seconds
-        setTimeout(() => {
-            hideLoadingOverlay();
-        }, 3000);
-        
-        // Fallback: Always hide loading after 5 seconds maximum
-        setTimeout(() => {
-            hideLoadingOverlay();
-        }, 5000);
-    
+        setTimeout(() => { hideLoadingOverlay(); }, 3000);
+        setTimeout(() => { hideLoadingOverlay(); }, 5000);
     </script>
+
 <footer class="subpage-footer">
     <nav class="subpage-nav">
         <a href="/" class="home-link">← Home</a>
