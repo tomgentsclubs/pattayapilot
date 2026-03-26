@@ -111,6 +111,7 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             position: relative;
             min-height: 600px;
+            overflow: hidden;
         }
 
         /* Loading overlay */
@@ -177,12 +178,23 @@
             margin-top: 20px;
         }
 
-        /* Elfsight Masonry stabiliser */
-        .eapp-events-calendar-grid-item-imageContainer {
-            padding-top: 182%;
+        /* Elfsight container constraint */
+        [class*="eapp-events-calendar"] {
+            max-width: 100% !important;
+            overflow-x: hidden !important;
         }
-        .eapp-events-calendar-grid-item-imageContainer img {
+
+        /* Elfsight Masonry image stabiliser */
+        .eapp-events-calendar-media-image {
+            width: 100% !important;
+            height: auto !important;
             object-fit: cover;
+        }
+
+        .Media__Image-sc-6de188ed-0 {
+            width: 100%;
+            height: auto;
+            display: block;
         }
 
         /* Line browser banner */
