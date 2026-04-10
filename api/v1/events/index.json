@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-04-09T05:26:31Z",
+    "generated_at": "2026-04-10T06:54:42Z",
     "source": "elfsight",
-    "total_events": 159
+    "total_events": 162
   },
   "event_types": [
     {
@@ -1476,6 +1476,32 @@
       ]
     },
     {
+      "id": "1ae34090-64dc-4a7b-83af-0408a706310d",
+      "title": "Pulled Pork Sandwich Wednesdays",
+      "date": "2025-10-15",
+      "start_time": "16:00",
+      "end_time": "19:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Food Special",
+      "event_type_id": "food-special",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/90defb65-48c9-4816-a697-b9d460eef7e7/Pulled-Pork-Poolside.jpg",
+      "description": "Join us at Maggie Mays Resort every Wednesday for a midweek treat. Buy any lady a lady drink and get a free pulled pork sandwich. Delicious, moist, tender and full of flavour! Every Wednesday from 4pm until they're gone at Maggie Mays Resort. Map Location: https://maps.app.goo.gl/AZYytRqAcHkvNocq8",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/AZYytRqAcHkvNocq8",
+      "button_text": "Direction",
+      "recurring": true,
+      "recurrence_rule": "weekly:wednesday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
       "id": "dc97944a-8883-4cac-8de3-1bd8024058b6",
       "title": "Bird & Fah's Birthday Party",
       "date": "2025-10-17",
@@ -1574,6 +1600,32 @@
       "recurring": false,
       "recurrence_rule": null,
       "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "e3ea5fa6-099d-4765-b572-3db691d524ff",
+      "title": "Peri Peri BBQ",
+      "date": "2025-10-24",
+      "start_time": "16:00",
+      "end_time": "19:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Food Special",
+      "event_type_id": "food-special",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/205c2805-4082-4424-8f56-958f92c6f98c/Chicken-BBQ-FB.png",
+      "description": "Join us at Maggie Mays Resort & Gents Club for a tasty, spicy and juicy peri-peri chicken BBQ with garlic bread Served every Friday fresh off the BBQ from 4pm until it's gone so be sure to get in early Free for anyone that buys a lady drink Map Location: https://maps.app.goo.gl/tbnNv6xaNwshwK7b6",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/tbnNv6xaNwshwK7b6",
+      "button_text": "Directions",
+      "recurring": true,
+      "recurrence_rule": "weekly:friday",
+      "repeat_ends": "never",
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
@@ -4201,6 +4253,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "a468d4c0-71b1-4e95-9122-9ab6668aa979",
+      "title": "Mill's Birthday Party",
+      "date": "2026-04-23",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7d6e63e8-fc98-4348-b080-2d092a6fe03e/MMP-April-23rd.png",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": "https://maps.app.goo.gl/DfUJTcBG5zvoXAKJ9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     },
     {
