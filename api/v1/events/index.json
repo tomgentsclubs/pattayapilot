@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-04-10T06:54:42Z",
+    "generated_at": "2026-04-14T12:44:38Z",
     "source": "elfsight",
-    "total_events": 162
+    "total_events": 159
   },
   "event_types": [
     {
@@ -204,32 +204,6 @@
       ]
     },
     {
-      "id": "ba3367f6-3b9d-4185-9f93-53ef9bb5f54c",
-      "title": "Camel Toe Bar Crawl",
-      "date": "2025-08-02",
-      "start_time": "13:00",
-      "end_time": "20:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Bar Crawl",
-      "event_type_id": "bar-crawl",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/de13ed6c-3c68-4338-99fe-284a6220090e/Events-Calendar-Bar-Crawl.png",
-      "description": "Includes Darkside and Resort Gents Clubs! Meet up between 1pm and 2pm at The Camel Toe. We depart at 2pm. Free transport around 6 Gents Clubs all over Pattaya Free shots in every bar Free entry into the beer card raffle (drawn at Club Fate) Meeting Location: https://maps.app.goo.gl/A3wf5quyeP2vdLZf6 Full Details: https://pattayapilot.com/bar-crawls",
-      "color": "rgb(255, 235, 0)",
-      "button_link": "https://maps.app.goo.gl/A3wf5quyeP2vdLZf6",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:saturday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
-      ]
-    },
-    {
       "id": "2269dbc6-281d-435e-9b83-6dd306ab5fee",
       "title": "Fishnet Sundays",
       "date": "2025-08-03",
@@ -253,32 +227,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
-      ]
-    },
-    {
-      "id": "24ecb195-4e91-43d3-a4d7-17264574d8b9",
-      "title": "Sunday Roast Dinner",
-      "date": "2025-08-03",
-      "start_time": "14:00",
-      "end_time": "16:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Food Special",
-      "event_type_id": "food-special",
-      "venue": "Maggie Mays Darkside",
-      "venue_id": "maggie-mays-darkside",
-      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/2eba665d-b3e0-4632-992c-96c54ad80b1c/Sunday-Roast-Poster-3.png",
-      "description": "Free Sunday Roast Dinner when you buy 2 Lady Drinks at Maggie Mays Darkside. Every Sunday from 2pm to 4pm. Map Location: https://maps.app.goo.gl/hMqmtGTrcGi2tCkZ6",
-      "color": "rgb(151, 130, 65)",
-      "button_link": "https://maps.app.goo.gl/hMqmtGTrcGi2tCkZ6",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:thursday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Darkside"
       ]
     },
     {
@@ -331,58 +279,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Buzzin Lounge"
-      ]
-    },
-    {
-      "id": "1d1eae92-226d-43f8-825b-601117e5aac7",
-      "title": "CatFlaps Bar Crawl",
-      "date": "2025-08-05",
-      "start_time": "13:00",
-      "end_time": "20:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Bar Crawl",
-      "event_type_id": "bar-crawl",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7e3a7fdc-3c11-420a-aaca-57c1da6e0f2a/Bar-Crawl-Events-Calendar-Version.png",
-      "description": "Meet up between 1pm and 2pm at CatFlaps in Pratumnak. We depart at 2pm. Free transport around 6 Gents Clubs all over Pattaya Free shots in every bar Free goulash at Free Willy Free entry into the beer card raffle (drawn at Club Fate) Meeting Location: https://maps.app.goo.gl/VgTht1E74swMrVCd8 Full Details: https://pattayapilot.com/bar-crawls",
-      "color": "rgb(255, 255, 255)",
-      "button_link": "https://maps.app.goo.gl/VgTht1E74swMrVCd8",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:tuesday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "CatFlaps"
-      ]
-    },
-    {
-      "id": "fadd1cda-de95-45d0-820a-aa13a57e2bda",
-      "title": "Maggie Mays Jomtien Bar Crawl",
-      "date": "2025-08-06",
-      "start_time": "13:00",
-      "end_time": "20:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Bar Crawl",
-      "event_type_id": "bar-crawl",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d9af172b-a621-4a33-b84a-a728f5461021/FB-Jomtien-Bar-Crawl.png",
-      "description": "Meet up between 1pm and 2pm at Maggie Mays Jomtien. We depart at 2pm. Free transport around 6 Gents Clubs all over Pattaya Free shots in every bar Free lasagne at Camel Toe Free entry into the beer card raffle (drawn at Club Fate) Meeting Location: https://maps.app.goo.gl/dYJK9pkYJQfVuEpVA Full Details: https://pattayapilot.com/bar-crawls",
-      "color": "rgb(163, 202, 255)",
-      "button_link": "https://maps.app.goo.gl/jSCTemPjkkSw6Kju8",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:wednesday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Jomtien"
       ]
     },
     {
@@ -4227,6 +4123,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "3dc16b32-55f9-4640-8d59-25357cb0dd19",
+      "title": "May's Birthday Party",
+      "date": "2026-04-13",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/09996e36-a1ce-4231-b813-031a97dd2d90/B97DB1C7-D7C9-448E-A9EE-4A7D8C1B4C0A.png",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": "https://maps.app.goo.gl/UmHbpL9RVxtL6MAW8",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
       ]
     },
     {
