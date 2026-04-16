@@ -1070,12 +1070,6 @@
 
             <!-- TUESDAY - CATFLAPS (FREE) -->
             <div class="crawl-card free" id="card-tuesday">
-                <div class="songkran-banner">
-                    <div class="songkran-icon">🌊</div>
-                    <div class="songkran-title">Postponed for Songkran</div>
-                    <div class="songkran-msg">We're giving our crew a splash — this crawl is taking a break for the Songkran festivities.</div>
-                    <div class="songkran-return">🗓️ Returns Tuesday 21st April</div>
-                </div>
                 <div class="crawl-header">
                     <div class="crawl-logo">
                         <img src="https://www.dropbox.com/scl/fi/nymjgfkjtaa4qbnhg70vx/Cat-Flaps-Logo-New.png?rlkey=z6363zz7jjx7do6393coeiw0v&raw=1" alt="CatFlaps">
@@ -1198,12 +1192,6 @@
 
             <!-- WEDNESDAY - MAGGIE MAYS JOMTIEN (FREE) -->
             <div class="crawl-card free" id="card-wednesday">
-                <div class="songkran-banner">
-                    <div class="songkran-icon">🌊</div>
-                    <div class="songkran-title">Postponed for Songkran</div>
-                    <div class="songkran-msg">We're giving our crew a splash — this crawl is taking a break for the Songkran festivities.</div>
-                    <div class="songkran-return">🗓️ Returns Wednesday 22nd April</div>
-                </div>
                 <div class="crawl-header">
                     <div class="crawl-logo">
                         <img src="https://www.dropbox.com/scl/fi/jco1gch7vrvgoo7upf2k7/Maggie-Mays-Jomtien-Logo-V2-Transparent.png?rlkey=ay3kgbszx79xsuwv8rvlav5uz&raw=1" alt="Maggie Mays Jomtien">
@@ -1934,23 +1922,23 @@
             var schedule = [
                 {
                     id: 'card-tuesday',
-                    greyAfter:  ictCutoff(2026, 4, 7),   // Tue 7 Apr after 6pm ICT
-                    revertAfter: ictCutoff(2026, 4, 21)  // Tue 21 Apr after 6pm ICT
+                    greyAfter:  ictCutoff(2026, 4, 7),
+                    revertAfter: ictCutoff(2026, 4, 15)  // already passed — card is live again
                 },
                 {
                     id: 'card-wednesday',
-                    greyAfter:  ictCutoff(2026, 4, 8),   // Wed 8 Apr after 6pm ICT
-                    revertAfter: ictCutoff(2026, 4, 22)  // Wed 22 Apr after 6pm ICT
+                    greyAfter:  ictCutoff(2026, 4, 8),
+                    revertAfter: ictCutoff(2026, 4, 16)  // already passed — card is live again
                 },
                 {
                     id: 'card-thursday',
-                    greyAfter:  ictCutoff(2026, 4, 9),   // Thu 9 Apr after 6pm ICT
-                    revertAfter: ictCutoff(2026, 4, 23)  // Thu 23 Apr after 6pm ICT
+                    greyAfter:  ictCutoff(2026, 4, 9),
+                    revertAfter: ictCutoff(2026, 4, 17)
                 },
                 {
                     id: 'card-saturday',
-                    greyAfter:  ictCutoff(2026, 4, 11),  // Sat 11 Apr after 6pm ICT
-                    revertAfter: ictCutoff(2026, 4, 25)  // Sat 25 Apr after 6pm ICT
+                    greyAfter:  ictCutoff(2026, 4, 11),
+                    revertAfter: ictCutoff(2026, 4, 19)
                 }
             ];
 
