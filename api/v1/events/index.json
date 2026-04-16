@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-04-14T12:44:38Z",
+    "generated_at": "2026-04-16T07:46:20Z",
     "source": "elfsight",
-    "total_events": 159
+    "total_events": 160
   },
   "event_types": [
     {
@@ -282,29 +282,55 @@
       ]
     },
     {
-      "id": "4ae59965-16d4-411d-902b-dd4e426559b2",
-      "title": "Maggie Mays Bar Crawl",
-      "date": "2025-08-07",
+      "id": "1d1eae92-226d-43f8-825b-601117e5aac7",
+      "title": "CatFlaps Bar Crawl",
+      "date": "2025-08-05",
       "start_time": "13:00",
       "end_time": "20:00",
       "is_all_day": false,
       "timezone": "Asia/Bangkok",
       "event_type": "Bar Crawl",
       "event_type_id": "bar-crawl",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0ebd5415-cd67-45fe-87fa-b4eca8aedf63/Maggie-Mays-Bar-Crawl-Events-Calendar-Version.png",
-      "description": "Meet up between 1pm and 2pm at Maggie Mays Soi Chaiyapoon. We depart at 2pm. Free transport around 6 Gents Clubs all over Pattaya Free shots in every bar Free tacos at Camel Toe Free entry into the beer card raffle (drawn at Club Fate) Meeting Location: https://maps.app.goo.gl/RKFvxTd25HCpjC12A Full Details: https://pattayapilot.com/bar-crawls",
-      "color": "rgb(87, 87, 87)",
-      "button_link": "https://maps.app.goo.gl/RKFvxTd25HCpjC12A",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7e3a7fdc-3c11-420a-aaca-57c1da6e0f2a/Bar-Crawl-Events-Calendar-Version.png",
+      "description": "Meet up between 1pm and 2pm at CatFlaps in Pratumnak. We depart at 2pm. Free transport around 6 Gents Clubs all over Pattaya Free shots in every bar Free goulash at Free Willy Free entry into the beer card raffle (drawn at Club Fate) Meeting Location: https://maps.app.goo.gl/VgTht1E74swMrVCd8 Full Details: https://pattayapilot.com/bar-crawls",
+      "color": "rgb(255, 255, 255)",
+      "button_link": "https://maps.app.goo.gl/VgTht1E74swMrVCd8",
       "button_text": "Directions",
       "recurring": true,
-      "recurrence_rule": "weekly:thursday",
+      "recurrence_rule": "weekly:tuesday",
       "repeat_ends": "never",
       "repeat_ends_date": null,
       "tags": [
-        "Maggie Mays Pattaya"
+        "CatFlaps"
+      ]
+    },
+    {
+      "id": "fadd1cda-de95-45d0-820a-aa13a57e2bda",
+      "title": "Maggie Mays Jomtien Bar Crawl",
+      "date": "2025-08-06",
+      "start_time": "13:00",
+      "end_time": "20:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Bar Crawl",
+      "event_type_id": "bar-crawl",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d9af172b-a621-4a33-b84a-a728f5461021/FB-Jomtien-Bar-Crawl.png",
+      "description": "Meet up between 1pm and 2pm at Maggie Mays Jomtien. We depart at 2pm. Free transport around 6 Gents Clubs all over Pattaya Free shots in every bar Free lasagne at Camel Toe Free entry into the beer card raffle (drawn at Club Fate) Meeting Location: https://maps.app.goo.gl/dYJK9pkYJQfVuEpVA Full Details: https://pattayapilot.com/bar-crawls",
+      "color": "rgb(163, 202, 255)",
+      "button_link": "https://maps.app.goo.gl/jSCTemPjkkSw6Kju8",
+      "button_text": "Directions",
+      "recurring": true,
+      "recurrence_rule": "weekly:wednesday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
@@ -984,32 +1010,6 @@
       ]
     },
     {
-      "id": "7bd38c3f-dc0a-420a-9067-e69ba292ba78",
-      "title": "Irish Mondays",
-      "date": "2025-09-15",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Weekly Event",
-      "event_type_id": "weekly-event",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ac3fb4ca-272c-4094-b1b4-4e14e3309079/Irish-Mondays.png",
-      "description": "Irish Mondays at Maggie Mays on Soi Chaiyapoon (Pothole) Have a great \"craic\" at Maggie Mays Pattaya every Monday from 1pm. Delicious and free Irish stew, free lucky shots, great Irish drinking songs and a \"Split the G\" competition. Successfully \"Split the G\" on your pint of Guinness and get a half of Guinness completely free! Don't miss this fantastic weekly event every Monday at Maggie Mays Pattaya from 1pm until midnight. Map Location: https://maps.app.goo.gl/7WngQSCeUMW956jo7",
-      "color": "rgb(87, 87, 87)",
-      "button_link": "https://maps.app.goo.gl/7WngQSCeUMW956jo7",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:monday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
-      ]
-    },
-    {
       "id": "76e7094d-8dad-468c-a107-b7be8ff3d953",
       "title": "Anna, Bejang & Beebee's Birthday Party",
       "date": "2025-09-15",
@@ -1373,10 +1373,10 @@
     },
     {
       "id": "1ae34090-64dc-4a7b-83af-0408a706310d",
-      "title": "Pulled Pork Sandwich Wednesdays",
+      "title": "Pulled Pork Poolside",
       "date": "2025-10-15",
       "start_time": "16:00",
-      "end_time": "19:00",
+      "end_time": "17:00",
       "is_all_day": false,
       "timezone": "Asia/Bangkok",
       "event_type": "Food Special",
@@ -1384,7 +1384,7 @@
       "venue": "Maggie Mays Resort",
       "venue_id": "maggie-mays-resort",
       "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/90defb65-48c9-4816-a697-b9d460eef7e7/Pulled-Pork-Poolside.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a2f1f154-61ef-478e-81a7-6f9f7bbdbfde/Pulled-Pork-Poolside.png",
       "description": "Join us at Maggie Mays Resort every Wednesday for a midweek treat. Buy any lady a lady drink and get a free pulled pork sandwich. Delicious, moist, tender and full of flavour! Every Wednesday from 4pm until they're gone at Maggie Mays Resort. Map Location: https://maps.app.goo.gl/AZYytRqAcHkvNocq8",
       "color": "rgb(153, 229, 227)",
       "button_link": "https://maps.app.goo.gl/AZYytRqAcHkvNocq8",
@@ -3086,6 +3086,32 @@
       ]
     },
     {
+      "id": "72932ade-11e1-45ea-9171-cfd513ae1251",
+      "title": "Pool Party",
+      "date": "2026-02-14",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a8b6c63c-5a6a-4d90-8fec-27f10978e9cc/Pool-Party-Fortnightly.png",
+      "description": "Epic Pool Parties at Maggie Mays Resort every fortnight. Free Entry, Free BBQ, Wet T-Shirt, Limbo and Twerk Contests plus more naughty pool games. From 1pm until midnight. Contests and games start from 3pm so be sure to get in early and get the best seats! BBQ served up by 4pm. Map Location: https://maps.app.goo.gl/DTD2vsH9QLcRH5Ff6",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/DTD2vsH9QLcRH5Ff6",
+      "button_text": "Directions",
+      "recurring": true,
+      "recurrence_rule": "custom:weekly:2",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
       "id": "70973663-27ec-4089-a29c-bc2dde17160d",
       "title": "Mimi, One & Dada's Party",
       "date": "2026-02-14",
@@ -4166,7 +4192,7 @@
       "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f5d4af83-37fe-45d7-b241-ac7227d3df06/MMD-April-18th-Songkran.png",
       "description": "",
-      "color": "rgb(97, 85, 35)",
+      "color": "rgb(151, 130, 65)",
       "button_link": "https://maps.app.goo.gl/RsSHmCHBiKpdLJoe8",
       "button_text": "Directions",
       "recurring": false,
