@@ -45,8 +45,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     
-    <!-- Elfsight Platform Script -->
-    <script src="https://elfsightcdn.com/platform.js" async></script>
+    <!-- Elfsight Platform Script - in head, no async, loads before DOM renders -->
+    <script src="https://elfsightcdn.com/platform.js"></script>
     
     <style>
         * {
@@ -131,7 +131,7 @@
             align-items: center;
             justify-content: center;
             z-index: 9999;
-            transition: opacity 0.5s ease;
+            transition: opacity 0.6s ease;
         }
 
         .loading-overlay.hidden {
@@ -162,24 +162,21 @@
             background: linear-gradient(90deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%);
             background-size: 200% 100%;
             border-radius: 4px;
-            animation: fillBar 2s ease-in-out forwards, shimmer 1.5s linear infinite;
+            animation: shimmer 1.5s linear infinite;
             box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-        }
-
-        @keyframes fillBar {
-            0% { width: 0%; }
-            100% { width: 100%; }
-        }
-
-        @keyframes shimmer {
-            0% { background-position: 200% 0; }
-            100% { background-position: -200% 0; }
+            width: 0%;
+            transition: width 0.3s ease;
         }
 
         .loading-subtext {
             color: rgba(255, 255, 255, 0.7);
             font-size: 14px;
             margin-top: 20px;
+        }
+
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
         }
 
         /* Line browser banner */
@@ -292,14 +289,14 @@
         <div class="subtitle">All upcoming nightlife events and parties in Pattaya</div>
     </div>
 
-    <div class="calendar-wrapper">
+    <div class="calendar-wrapper" id="calendarWrapper">
         <!-- Loading overlay -->
         <div class="loading-overlay" id="loadingOverlay">
             <div class="loading-text">Loading Events Calendar...</div>
             <div class="loading-bar-container">
-                <div class="loading-bar"></div>
+                <div class="loading-bar" id="loadingBar"></div>
             </div>
-            <div class="loading-subtext">Please wait a moment</div>
+            <div class="loading-subtext" id="loadingSubtext">Please wait a moment</div>
         </div>
 
         <!-- Elfsight Event Calendar -->
@@ -309,22 +306,16 @@
 </div>
 
 <script>
-    // Show LINE banner if in-app browser detected
+    // ─── In-app browser detection ───────────────────────────────────────────
     function isInAppBrowser() {
         const ua = navigator.userAgent.toLowerCase();
-        return ua.includes('line/') ||
-               ua.includes('fban') ||
-               ua.includes('fbav') ||
-               ua.includes('instagram') ||
-               ua.includes('micromessenger') ||
-               ua.includes('kakao');
+        return ua.includes('line/') || ua.includes('fban') || ua.includes('fbav') ||
+               ua.includes('instagram') || ua.includes('micromessenger') || ua.includes('kakao');
     }
-
     if (isInAppBrowser()) {
         document.getElementById('lineBanner').style.display = 'block';
     }
 
-    // Copy URL to clipboard
     function copyToClipboard() {
         const url = window.location.href;
         if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -338,25 +329,125 @@
             textArea.style.left = '-999999px';
             document.body.appendChild(textArea);
             textArea.select();
-            try {
-                document.execCommand('copy');
-                alert('Link copied! Now paste it in Safari or Chrome.');
-            } catch (err) {
-                alert('Please copy this link manually: ' + url);
-            }
+            try { document.execCommand('copy'); alert('Link copied! Now paste it in Safari or Chrome.'); }
+            catch (err) { alert('Please copy this link manually: ' + url); }
             document.body.removeChild(textArea);
         }
     }
 
-    // Hide loading overlay
-    function hideLoadingOverlay() {
-        const overlay = document.getElementById('loadingOverlay');
-        overlay.classList.add('hidden');
-        setTimeout(() => { overlay.style.display = 'none'; }, 500);
+    // ─── Loading overlay ────────────────────────────────────────────────────
+    const overlay    = document.getElementById('loadingOverlay');
+    const loadingBar = document.getElementById('loadingBar');
+    const subtext    = document.getElementById('loadingSubtext');
+    let overlayGone  = false;
+
+    // Animate progress bar to reflect actual wait feel
+    function setBarWidth(pct) {
+        loadingBar.style.width = pct + '%';
+    }
+    setBarWidth(15);
+    setTimeout(() => setBarWidth(40), 600);
+    setTimeout(() => setBarWidth(65), 1200);
+    // Hold at 65% until we confirm render, then rush to 100%
+
+    function hideOverlay() {
+        if (overlayGone) return;
+        overlayGone = true;
+        setBarWidth(100);
+        setTimeout(() => {
+            overlay.classList.add('hidden');
+            setTimeout(() => { overlay.style.display = 'none'; }, 600);
+        }, 300); // brief pause at 100% so bar completes visually
     }
 
-    setTimeout(() => { hideLoadingOverlay(); }, 2000);
-    setTimeout(() => { hideLoadingOverlay(); }, 3500);
+    // ─── Elfsight render detection ──────────────────────────────────────────
+    // We look for actual rendered event cards, not just the container existing.
+    // Elfsight masonry items typically appear as elements with data-id or
+    // inside a grid/masonry container with multiple children.
+    function isCalendarRendered() {
+        const widget = document.querySelector('.elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3');
+        if (!widget) return false;
+        const shadowRoot = widget.shadowRoot;
+        // Check inside shadow DOM if present
+        const root = shadowRoot || widget;
+        // Look for rendered event cards — Elfsight wraps items in divs with eapp- classes
+        const cards = root.querySelectorAll('[class*="eapp-events"]');
+        return cards.length > 3; // at least a few cards = properly rendered
+    }
+
+    // ─── Layout repair: fire resize nudges after reveal ─────────────────────
+    function nudgeLayout() {
+        // Staggered resize events trick masonry into recalculating positions
+        const delays = [50, 200, 500, 1000, 2000];
+        delays.forEach(delay => {
+            setTimeout(() => {
+                window.dispatchEvent(new Event('resize'));
+            }, delay);
+        });
+    }
+
+    // ─── Stacking detection & auto-fix ──────────────────────────────────────
+    // After the overlay is gone, watch for signs the layout is broken.
+    // Broken masonry: multiple items share the same top value (stacked).
+    function detectAndFixStacking() {
+        const widget = document.querySelector('.elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3');
+        if (!widget) return false;
+        const root = widget.shadowRoot || widget;
+        const items = root.querySelectorAll('[class*="eapp-events-calendar-masonry-item"], [class*="eapp-events-calendar-grid-item"]');
+        if (items.length < 2) return false;
+
+        const tops = Array.from(items).map(el => el.getBoundingClientRect().top);
+        // Count how many items share the same top value (stacking symptom)
+        const topCounts = {};
+        tops.forEach(t => { topCounts[Math.round(t)] = (topCounts[Math.round(t)] || 0) + 1; });
+        const maxStack = Math.max(...Object.values(topCounts));
+
+        if (maxStack >= 3) {
+            // Stacking detected — force a container hide/show relayout
+            console.log('[Events] Stacking detected, forcing relayout...');
+            const wrapper = document.getElementById('calendarWrapper');
+            wrapper.style.display = 'none';
+            // Force reflow
+            void wrapper.offsetHeight;
+            wrapper.style.display = '';
+            setTimeout(() => window.dispatchEvent(new Event('resize')), 50);
+            setTimeout(() => window.dispatchEvent(new Event('resize')), 300);
+            return true;
+        }
+        return false;
+    }
+
+    // ─── Main polling loop ───────────────────────────────────────────────────
+    let pollCount  = 0;
+    const maxPolls = 80; // 8 seconds at 100ms intervals
+
+    const pollInterval = setInterval(() => {
+        pollCount++;
+
+        if (isCalendarRendered()) {
+            clearInterval(pollInterval);
+            hideOverlay();
+            // Give the layout a moment to fully paint before nudging
+            setTimeout(nudgeLayout, 400);
+            // Then check for stacking a bit later
+            setTimeout(detectAndFixStacking, 1500);
+            setTimeout(detectAndFixStacking, 3000);
+            return;
+        }
+
+        // Update subtext to reassure on slower loads
+        if (pollCount === 30) subtext.textContent = 'Almost there...';
+        if (pollCount === 50) subtext.textContent = 'Nearly ready...';
+
+        // Hard fallback: give up waiting and show whatever is there
+        if (pollCount >= maxPolls) {
+            clearInterval(pollInterval);
+            hideOverlay();
+            setTimeout(nudgeLayout, 400);
+            setTimeout(detectAndFixStacking, 1500);
+        }
+    }, 100);
+
 </script>
 
 <footer class="subpage-footer">
