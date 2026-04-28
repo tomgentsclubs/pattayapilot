@@ -361,60 +361,53 @@
     }
 
     // ─── Elfsight render detection ──────────────────────────────────────────
-    // We look for actual rendered event cards, not just the container existing.
-    // Elfsight masonry items typically appear as elements with data-id or
-    // inside a grid/masonry container with multiple children.
+    // Elfsight injects a nested iframe OR renders directly into the div.
+    // We check for either: an iframe with content, or eapp- classed children.
     function isCalendarRendered() {
         const widget = document.querySelector('.elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3');
         if (!widget) return false;
-        const shadowRoot = widget.shadowRoot;
-        // Check inside shadow DOM if present
-        const root = shadowRoot || widget;
-        // Look for rendered event cards — Elfsight wraps items in divs with eapp- classes
-        const cards = root.querySelectorAll('[class*="eapp-events"]');
-        return cards.length > 3; // at least a few cards = properly rendered
-    }
 
-    // ─── Layout repair: fire resize nudges after reveal ─────────────────────
-    function nudgeLayout() {
-        // Staggered resize events trick masonry into recalculating positions
-        const delays = [50, 200, 500, 1000, 2000];
-        delays.forEach(delay => {
-            setTimeout(() => {
-                window.dispatchEvent(new Event('resize'));
-            }, delay);
-        });
-    }
+        // Method 1: Elfsight sometimes uses an iframe
+        const iframe = widget.querySelector('iframe');
+        if (iframe && iframe.offsetHeight > 100) return true;
 
-    // ─── Stacking detection & auto-fix ──────────────────────────────────────
-    // After the overlay is gone, watch for signs the layout is broken.
-    // Broken masonry: multiple items share the same top value (stacked).
-    function detectAndFixStacking() {
-        const widget = document.querySelector('.elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3');
-        if (!widget) return false;
-        const root = widget.shadowRoot || widget;
-        const items = root.querySelectorAll('[class*="eapp-events-calendar-masonry-item"], [class*="eapp-events-calendar-grid-item"]');
-        if (items.length < 2) return false;
+        // Method 2: Direct DOM injection — look for any child elements at all
+        // (Elfsight adds substantial children when rendered)
+        if (widget.children.length > 0 && widget.offsetHeight > 200) return true;
 
-        const tops = Array.from(items).map(el => el.getBoundingClientRect().top);
-        // Count how many items share the same top value (stacking symptom)
-        const topCounts = {};
-        tops.forEach(t => { topCounts[Math.round(t)] = (topCounts[Math.round(t)] || 0) + 1; });
-        const maxStack = Math.max(...Object.values(topCounts));
+        // Method 3: Check for eapp- classes anywhere in subtree
+        const eappEls = widget.querySelectorAll('[class*="eapp-"]');
+        if (eappEls.length > 2) return true;
 
-        if (maxStack >= 3) {
-            // Stacking detected — force a container hide/show relayout
-            console.log('[Events] Stacking detected, forcing relayout...');
-            const wrapper = document.getElementById('calendarWrapper');
-            wrapper.style.display = 'none';
-            // Force reflow
-            void wrapper.offsetHeight;
-            wrapper.style.display = '';
-            setTimeout(() => window.dispatchEvent(new Event('resize')), 50);
-            setTimeout(() => window.dispatchEvent(new Event('resize')), 300);
-            return true;
-        }
         return false;
+    }
+
+    // ─── Forced relayout — the nuclear option ───────────────────────────────
+    // We ALWAYS do this after reveal regardless of whether stacking is detected.
+    // Sequence: wait for paint → hide wrapper → reflow → show wrapper → resize spam
+    function forceRelayout(label) {
+        console.log('[Events] forceRelayout:', label);
+        const wrapper = document.getElementById('calendarWrapper');
+
+        // Phase 1: collapse to nothing (forces masonry to reset)
+        wrapper.style.visibility = 'hidden';
+        wrapper.style.height = '0px';
+        wrapper.style.overflow = 'hidden';
+
+        // Force synchronous reflow
+        void wrapper.offsetHeight;
+
+        // Phase 2: restore after a tick
+        setTimeout(() => {
+            wrapper.style.height = '';
+            wrapper.style.overflow = '';
+            wrapper.style.visibility = '';
+
+            // Phase 3: spam resize events as layout restores
+            [50, 150, 300, 600, 1000, 1800].forEach(d => {
+                setTimeout(() => window.dispatchEvent(new Event('resize')), d);
+            });
+        }, 80);
     }
 
     // ─── Main polling loop ───────────────────────────────────────────────────
@@ -426,12 +419,11 @@
 
         if (isCalendarRendered()) {
             clearInterval(pollInterval);
+            // Overlay drops first, then relayout fires after a paint delay
             hideOverlay();
-            // Give the layout a moment to fully paint before nudging
-            setTimeout(nudgeLayout, 400);
-            // Then check for stacking a bit later
-            setTimeout(detectAndFixStacking, 1500);
-            setTimeout(detectAndFixStacking, 3000);
+            setTimeout(() => forceRelayout('on-render'), 500);
+            // Second pass in case images finish loading after first fix
+            setTimeout(() => forceRelayout('second-pass'), 3500);
             return;
         }
 
@@ -443,8 +435,8 @@
         if (pollCount >= maxPolls) {
             clearInterval(pollInterval);
             hideOverlay();
-            setTimeout(nudgeLayout, 400);
-            setTimeout(detectAndFixStacking, 1500);
+            setTimeout(() => forceRelayout('fallback'), 500);
+            setTimeout(() => forceRelayout('fallback-second'), 3500);
         }
     }, 100);
 
