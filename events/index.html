@@ -13,18 +13,18 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    
+
     <!-- SEO Meta Tags -->
     <title>Pattaya Events Calendar | What's On Today</title>
     <meta name="description" content="The ultimate Pattaya events calendar. Find parties, bar crawls, drink promotions and nightlife events happening today.">
     <link rel="canonical" href="https://pattayapilot.com/events/">
-    
-    <!-- Open Graph / Social Media Preview -->
+
+    <!-- Open Graph -->
     <meta property="og:title" content="Pattaya Events Calendar | What's On in Pattaya">
     <meta property="og:description" content="Discover the best nightlife, parties, bar crawls and special events happening in Pattaya. Updated daily by Pattaya Pilot.">
     <meta property="og:type" content="website">
@@ -34,31 +34,24 @@
     <meta property="og:image" content="https://pattayapilot.com/images/events-preview.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Pattaya Events Calendar | What's On in Pattaya">
     <meta name="twitter:description" content="Find the best nightlife events, parties, bar crawls and promotions in Pattaya today.">
     <meta name="twitter:image" content="https://pattayapilot.com/images/events-preview.png">
-    
+
     <!-- Mobile Web App -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    
-    <!-- Elfsight Platform Script - in head, no async, loads before DOM renders -->
-    <script src="https://elfsightcdn.com/platform.js"></script>
-    
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
 
-        html, body {
-            overflow-x: hidden;
-            max-width: 100%;
-        }
+    <!-- Elfsight — synchronous, no async, loads before DOM renders -->
+    <script src="https://elfsightcdn.com/platform.js"></script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html, body { overflow-x: hidden; max-width: 100%; }
 
         body {
             font-family: Arial, sans-serif;
@@ -67,11 +60,7 @@
             padding: 20px;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            overflow-x: hidden;
-        }
+        .container { max-width: 1200px; margin: 0 auto; overflow-x: hidden; }
 
         .header {
             text-align: center;
@@ -98,11 +87,7 @@
             line-height: 1.1;
         }
 
-        .subtitle {
-            font-size: 18px;
-            color: rgba(255,255,255,0.75);
-            margin-top: 8px;
-        }
+        .subtitle { font-size: 18px; color: rgba(255,255,255,0.75); margin-top: 8px; }
 
         .calendar-wrapper {
             background: rgba(255,255,255,0.05);
@@ -111,20 +96,12 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             position: relative;
             min-height: 600px;
-            overflow: hidden;
-        }
-
-        .calendar-wrapper .elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3 {
-            min-height: 600px;
         }
 
         /* Loading overlay */
         .loading-overlay {
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            top: 0; left: 0; right: 0; bottom: 0;
             background: rgba(26, 26, 26, 0.98);
             display: flex;
             flex-direction: column;
@@ -134,10 +111,7 @@
             transition: opacity 0.6s ease;
         }
 
-        .loading-overlay.hidden {
-            opacity: 0;
-            pointer-events: none;
-        }
+        .loading-overlay.hidden { opacity: 0; pointer-events: none; }
 
         .loading-text {
             color: #ffd700;
@@ -151,33 +125,28 @@
             width: 80%;
             max-width: 400px;
             height: 8px;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255,255,255,0.1);
             border-radius: 4px;
             overflow: hidden;
-            position: relative;
         }
 
         .loading-bar {
             height: 100%;
+            width: 0%;
             background: linear-gradient(90deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%);
             background-size: 200% 100%;
             border-radius: 4px;
-            animation: shimmer 1.5s linear infinite;
-            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-            width: 0%;
             transition: width 0.3s ease;
-        }
-
-        .loading-subtext {
-            color: rgba(255, 255, 255, 0.7);
-            font-size: 14px;
-            margin-top: 20px;
+            animation: shimmer 1.5s linear infinite;
+            box-shadow: 0 0 10px rgba(255,215,0,0.5);
         }
 
         @keyframes shimmer {
-            0% { background-position: 200% 0; }
+            0%   { background-position: 200% 0; }
             100% { background-position: -200% 0; }
         }
+
+        .loading-subtext { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 20px; }
 
         /* Line browser banner */
         .line-banner {
@@ -192,21 +161,9 @@
             line-height: 1.5;
         }
 
-        .line-banner a {
-            color: #ffd700;
-            text-decoration: underline;
-            font-weight: bold;
-        }
+        .line-banner a { color: #ffd700; text-decoration: underline; font-weight: bold; }
 
-        @media (max-width: 768px) {
-            h1 { font-size: 36px; }
-            .header-logo { width: 130px; }
-            .header { padding: 20px 10px; }
-            .calendar-wrapper { padding: 5px; }
-            .loading-text { font-size: 20px; }
-            .loading-bar-container { width: 90%; }
-        }
-
+        /* Nav */
         .subpage-header {
             padding: 12px 20px;
             text-align: center;
@@ -240,17 +197,18 @@
             transition: opacity 0.2s ease;
         }
 
-        .subpage-nav a:hover {
-            opacity: 1;
-        }
+        .subpage-nav a:hover { opacity: 1; }
 
-        .discord-link {
-            color: #5865F2 !important;
-            opacity: 1 !important;
-        }
+        .discord-link { color: #5865F2 !important; opacity: 1 !important; }
+        .discord-link:hover { opacity: 0.85 !important; }
 
-        .discord-link:hover {
-            opacity: 0.85 !important;
+        @media (max-width: 768px) {
+            h1 { font-size: 36px; }
+            .header-logo { width: 130px; }
+            .header { padding: 20px 10px; }
+            .calendar-wrapper { padding: 5px; }
+            .loading-text { font-size: 20px; }
+            .loading-bar-container { width: 90%; }
         }
 
         @media (max-width: 480px) {
@@ -273,7 +231,6 @@
 
 <div class="container">
 
-    <!-- Line browser warning -->
     <div class="line-banner" id="lineBanner">
         ⚠️ This page works best in Safari or Chrome.<br>
         If it didn't open automatically, <a href="#" onclick="copyToClipboard(); return false;">tap here to copy the link</a> and paste it in your browser.
@@ -290,7 +247,6 @@
     </div>
 
     <div class="calendar-wrapper" id="calendarWrapper">
-        <!-- Loading overlay -->
         <div class="loading-overlay" id="loadingOverlay">
             <div class="loading-text">Loading Events Calendar...</div>
             <div class="loading-bar-container">
@@ -299,147 +255,102 @@
             <div class="loading-subtext" id="loadingSubtext">Please wait a moment</div>
         </div>
 
-        <!-- Elfsight Event Calendar -->
         <div class="elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3"></div>
     </div>
 
 </div>
 
 <script>
-    // ─── In-app browser detection ───────────────────────────────────────────
-    function isInAppBrowser() {
-        const ua = navigator.userAgent.toLowerCase();
-        return ua.includes('line/') || ua.includes('fban') || ua.includes('fbav') ||
-               ua.includes('instagram') || ua.includes('micromessenger') || ua.includes('kakao');
-    }
-    if (isInAppBrowser()) {
-        document.getElementById('lineBanner').style.display = 'block';
-    }
+    // In-app browser detection
+    (function() {
+        var ua = navigator.userAgent.toLowerCase();
+        var inApp = ua.includes('line/') || ua.includes('fban') || ua.includes('fbav') ||
+                    ua.includes('instagram') || ua.includes('micromessenger') || ua.includes('kakao');
+        if (inApp) document.getElementById('lineBanner').style.display = 'block';
+    })();
 
     function copyToClipboard() {
-        const url = window.location.href;
+        var url = window.location.href;
         if (navigator.clipboard && navigator.clipboard.writeText) {
-            navigator.clipboard.writeText(url).then(() => {
+            navigator.clipboard.writeText(url).then(function() {
                 alert('Link copied! Now paste it in Safari or Chrome.');
             });
         } else {
-            const textArea = document.createElement('textarea');
-            textArea.value = url;
-            textArea.style.position = 'fixed';
-            textArea.style.left = '-999999px';
-            document.body.appendChild(textArea);
-            textArea.select();
+            var t = document.createElement('textarea');
+            t.value = url;
+            t.style.position = 'fixed';
+            t.style.left = '-999999px';
+            document.body.appendChild(t);
+            t.select();
             try { document.execCommand('copy'); alert('Link copied! Now paste it in Safari or Chrome.'); }
-            catch (err) { alert('Please copy this link manually: ' + url); }
-            document.body.removeChild(textArea);
+            catch(e) { alert('Please copy this link manually: ' + url); }
+            document.body.removeChild(t);
         }
     }
 
-    // ─── Loading overlay ────────────────────────────────────────────────────
-    const overlay    = document.getElementById('loadingOverlay');
-    const loadingBar = document.getElementById('loadingBar');
-    const subtext    = document.getElementById('loadingSubtext');
-    let overlayGone  = false;
+    // Loading bar
+    var overlay    = document.getElementById('loadingOverlay');
+    var loadingBar = document.getElementById('loadingBar');
+    var subtext    = document.getElementById('loadingSubtext');
+    var gone       = false;
 
-    // Animate progress bar to reflect actual wait feel
-    function setBarWidth(pct) {
-        loadingBar.style.width = pct + '%';
-    }
-    setBarWidth(15);
-    setTimeout(() => setBarWidth(40), 600);
-    setTimeout(() => setBarWidth(65), 1200);
-    // Hold at 65% until we confirm render, then rush to 100%
+    function setBar(pct) { loadingBar.style.width = pct + '%'; }
+    setBar(15);
+    setTimeout(function(){ setBar(40); }, 600);
+    setTimeout(function(){ setBar(65); }, 1400);
 
     function hideOverlay() {
-        if (overlayGone) return;
-        overlayGone = true;
-        setBarWidth(100);
-        setTimeout(() => {
+        if (gone) return;
+        gone = true;
+        setBar(100);
+        setTimeout(function() {
             overlay.classList.add('hidden');
-            setTimeout(() => { overlay.style.display = 'none'; }, 600);
-        }, 300); // brief pause at 100% so bar completes visually
+            setTimeout(function() { overlay.style.display = 'none'; }, 650);
+        }, 300);
     }
 
-    // ─── Elfsight render detection ──────────────────────────────────────────
-    // Elfsight injects a nested iframe OR renders directly into the div.
-    // We check for either: an iframe with content, or eapp- classed children.
-    function isCalendarRendered() {
-        const widget = document.querySelector('.elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3');
-        if (!widget) return false;
-
-        // Method 1: Elfsight sometimes uses an iframe
-        const iframe = widget.querySelector('iframe');
-        if (iframe && iframe.offsetHeight > 100) return true;
-
-        // Method 2: Direct DOM injection — look for any child elements at all
-        // (Elfsight adds substantial children when rendered)
-        if (widget.children.length > 0 && widget.offsetHeight > 200) return true;
-
-        // Method 3: Check for eapp- classes anywhere in subtree
-        const eappEls = widget.querySelectorAll('[class*="eapp-"]');
-        if (eappEls.length > 2) return true;
-
-        return false;
+    // Detect that Elfsight has actually put content in the DOM
+    function isRendered() {
+        var w = document.querySelector('.elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3');
+        if (!w) return false;
+        // Has meaningful height AND some child nodes
+        return w.offsetHeight > 200 && w.children.length > 0;
     }
 
-    // ─── Forced relayout — the nuclear option ───────────────────────────────
-    // We ALWAYS do this after reveal regardless of whether stacking is detected.
-    // Sequence: wait for paint → hide wrapper → reflow → show wrapper → resize spam
-    function forceRelayout(label) {
-        console.log('[Events] forceRelayout:', label);
-        const wrapper = document.getElementById('calendarWrapper');
-
-        // Phase 1: collapse to nothing (forces masonry to reset)
-        wrapper.style.visibility = 'hidden';
-        wrapper.style.height = '0px';
-        wrapper.style.overflow = 'hidden';
-
-        // Force synchronous reflow
-        void wrapper.offsetHeight;
-
-        // Phase 2: restore after a tick
-        setTimeout(() => {
-            wrapper.style.height = '';
-            wrapper.style.overflow = '';
-            wrapper.style.visibility = '';
-
-            // Phase 3: spam resize events as layout restores
-            [50, 150, 300, 600, 1000, 1800].forEach(d => {
-                setTimeout(() => window.dispatchEvent(new Event('resize')), d);
-            });
-        }, 80);
+    // After render is confirmed, fire a single window resize after a short delay.
+    // This is the gentlest possible nudge — just tells Elfsight the viewport may
+    // have changed so it rechecks column widths. No DOM manipulation at all.
+    function gentleNudge() {
+        setTimeout(function() {
+            window.dispatchEvent(new Event('resize'));
+        }, 250);
+        // One more pass a bit later for slow image loads
+        setTimeout(function() {
+            window.dispatchEvent(new Event('resize'));
+        }, 2000);
     }
 
-    // ─── Main polling loop ───────────────────────────────────────────────────
-    let pollCount  = 0;
-    const maxPolls = 80; // 8 seconds at 100ms intervals
+    // Poll until rendered or 10s timeout
+    var polls = 0;
+    var timer = setInterval(function() {
+        polls++;
 
-    const pollInterval = setInterval(() => {
-        pollCount++;
-
-        if (isCalendarRendered()) {
-            clearInterval(pollInterval);
-            // Overlay drops first, then relayout fires after a paint delay
+        if (isRendered()) {
+            clearInterval(timer);
             hideOverlay();
-            setTimeout(() => forceRelayout('on-render'), 500);
-            // Second pass in case images finish loading after first fix
-            setTimeout(() => forceRelayout('second-pass'), 3500);
+            gentleNudge();
             return;
         }
 
-        // Update subtext to reassure on slower loads
-        if (pollCount === 30) subtext.textContent = 'Almost there...';
-        if (pollCount === 50) subtext.textContent = 'Nearly ready...';
+        if (polls === 35) subtext.textContent = 'Almost there...';
+        if (polls === 60) subtext.textContent = 'Nearly ready...';
 
-        // Hard fallback: give up waiting and show whatever is there
-        if (pollCount >= maxPolls) {
-            clearInterval(pollInterval);
+        if (polls >= 100) {
+            clearInterval(timer);
             hideOverlay();
-            setTimeout(() => forceRelayout('fallback'), 500);
-            setTimeout(() => forceRelayout('fallback-second'), 3500);
+            gentleNudge();
         }
     }, 100);
-
 </script>
 
 <footer class="subpage-footer">
