@@ -14,7 +14,13 @@ jobs:
 
       - name: Run generate script
         run: |
-          curl -s "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fpattayapilot.com%2Fevents%2F&w=a420d7b3-7429-492e-b394-3f772b3d23b3" | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(list(d.keys()), indent=2)); print(json.dumps(list(d.get('data',{}).keys()), indent=2))"
+          curl -s "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fpattayapilot.com%2Fevents%2F&w=a420d7b3-7429-492e-b394-3f772b3d23b3" | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)
+          widget = list(d['data']['widgets'].values())[0]
+          print('widget keys:', list(widget.keys()))
+          print('widget data keys:', list(widget.get('data',{}).keys()))
+          "
 
       - name: Commit and push if changed
         run: |
