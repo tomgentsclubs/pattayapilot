@@ -18,8 +18,9 @@ jobs:
           import json,sys
           d=json.load(sys.stdin)
           widget = list(d['data']['widgets'].values())[0]
-          print('widget keys:', list(widget.keys()))
-          print('widget data keys:', list(widget.get('data',{}).keys()))
+          settings = widget['data']['settings']
+          print('settings type:', type(settings).__name__)
+          print('settings keys:', list(settings.keys()) if isinstance(settings, dict) else settings[:200])
           "
 
       - name: Commit and push if changed
