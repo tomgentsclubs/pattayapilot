@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-04-29T07:07:40Z",
+    "generated_at": "2026-04-29T10:03:47Z",
     "source": "elfsight",
-    "total_events": 178
+    "total_events": 179
   },
   "event_types": [
     {
@@ -4669,6 +4669,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Catflaps"
+      ]
+    },
+    {
+      "id": "bfaa64ed-6af2-4083-a69b-44f7ad6f1a20",
+      "title": "Pool Party",
+      "date": "2026-05-09",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/1111830e-cda1-44b4-86ec-13064f1dd711/MMR-May-9th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/EmdXxKpQdxx6sZnF9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
