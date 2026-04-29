@@ -13,7 +13,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run generate script
-        run: bash scripts/regenerate-events.sh
+        run: |
+          curl -s "https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fpattayapilot.com%2Fevents%2F&w=a420d7b3-7429-492e-b394-3f772b3d23b3" | python3 -c "import json,sys; d=json.load(sys.stdin); print(json.dumps(list(d.keys()), indent=2)); print(json.dumps(list(d.get('data',{}).keys()), indent=2))"
 
       - name: Commit and push if changed
         run: |
