@@ -41,7 +41,7 @@ with open(sys.argv[1]) as f:
     raw = json.load(f)
 output_path = sys.argv[2]
 
-widget_data = list(raw["data"]["widgets"].values())[0]["data"]["settings"]
+widget_data = json.loads(list(raw["data"]["widgets"].values())[0]["data"]["settings"])
 
 events_raw = widget_data["events"]
 event_types = {t["id"]: t for t in widget_data.get("eventTypes", [])}
