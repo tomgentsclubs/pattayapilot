@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-04-29T10:03:47Z",
+    "generated_at": "2026-04-29T13:04:00Z",
     "source": "elfsight",
-    "total_events": 179
+    "total_events": 180
   },
   "event_types": [
     {
@@ -1592,7 +1592,7 @@
       "venue": "Maggie Mays Resort",
       "venue_id": "maggie-mays-resort",
       "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a802d5b1-d3aa-492c-8986-cde198cf4941/Chicken-BBQ-FB.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/614e1d02-efda-4630-8537-c0b032f0b80c/Friday-Chicken-BBQ-May-2026.jpg",
       "description": "Join us at Maggie Mays Resort & Gents Club for a tasty, spicy and juicy peri-peri chicken BBQ with garlic bread Served every Friday fresh off the BBQ from 4pm until it's gone so be sure to get in early Free for anyone that buys a lady drink Map Location: https://maps.app.goo.gl/tbnNv6xaNwshwK7b6",
       "color": "rgb(153, 229, 227)",
       "button_link": "https://maps.app.goo.gl/tbnNv6xaNwshwK7b6",
@@ -4669,6 +4669,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Catflaps"
+      ]
+    },
+    {
+      "id": "fb36d07b-f9a6-438b-bc48-655f37a06327",
+      "title": "Bum, Nupuk, Ploy Birthday",
+      "date": "2026-05-08",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/250ccc47-0abc-404e-9d4c-f787b17b0c56/Club-Fate-May-8th-Bum-Nupuk-Ploy.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/1Y7oEWiS1EWP3Fn36",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
