@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-04-30T10:53:51Z",
+    "generated_at": "2026-04-30T12:14:30Z",
     "source": "elfsight",
     "total_events": 180
   },
@@ -138,8 +138,8 @@
       "venue": "The Camel Toe",
       "venue_id": "the-camel-toe",
       "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7544812f-7767-41af-8e0c-5d80ea91e703/Free-Lasagne.jpg",
-      "description": "Free Lasagne at The Camel Toe every Thursday when you buy a Lady Drink. Doors open 1pm, Lasagne served until 7pm Map Location: https://maps.app.goo.gl/Q6fye9HGkxFgrQGU9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/11e7c9d7-49b5-4a54-935a-dfe3b603004a/Lasagne-Thursday.jpg",
+      "description": "Free Lasagne at The Camel Toe every Thursday when you buy a Lady Drink. Doors open 1pm, Lasagne served until 9pm Map Location: https://maps.app.goo.gl/Q6fye9HGkxFgrQGU9",
       "color": "rgb(255, 235, 0)",
       "button_link": "https://maps.app.goo.gl/7LeGsWFnNMREBa386",
       "button_text": "Directions",
