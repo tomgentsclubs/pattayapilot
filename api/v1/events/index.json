@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-04T06:11:10Z",
+    "generated_at": "2026-05-04T09:16:27Z",
     "source": "elfsight",
-    "total_events": 181
+    "total_events": 182
   },
   "event_types": [
     {
@@ -4721,6 +4721,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "952424cd-3dcf-4a45-b0c7-5a81b4fbf1ab",
+      "title": "Aussie BBQ",
+      "date": "2026-05-10",
+      "start_time": "17:00",
+      "end_time": "20:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Food Special",
+      "event_type_id": "food-special",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/79ac13bc-b9b8-4773-85ab-f3a6a40baad4/Aussie-BBQ-4x5.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/DLXWr2fVdS6Yu9dC6",
+      "button_text": "Directions",
+      "recurring": true,
+      "recurrence_rule": "weekly:sunday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
       ]
     },
     {
