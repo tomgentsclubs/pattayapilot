@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-06T08:27:16Z",
+    "generated_at": "2026-05-06T11:05:16Z",
     "source": "elfsight",
-    "total_events": 182
+    "total_events": 184
   },
   "event_types": [
     {
@@ -4724,6 +4724,32 @@
       ]
     },
     {
+      "id": "75b30608-15cd-4d07-9952-40b61757baf5",
+      "title": "Kik's Birthday Party",
+      "date": "2026-05-09",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7d10e11a-ef42-4381-9b6a-2d9178416046/MMBB-April-13th.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": "https://maps.app.goo.gl/b5s5uvyN7HVF9zUg9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
+      ]
+    },
+    {
       "id": "952424cd-3dcf-4a45-b0c7-5a81b4fbf1ab",
       "title": "Aussie BBQ",
       "date": "2026-05-10",
@@ -4747,6 +4773,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "d93f913c-bcaf-4500-9a53-d230e52ab2ad",
+      "title": "PanPan's Birthday Party",
+      "date": "2026-05-13",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Brass House",
+      "venue_id": "the-brass-house",
+      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/1ec1788c-aa48-46a8-ab31-6239e78495f2/The-Brass-House-May-13th-PanPan.jpg",
+      "description": "",
+      "color": "rgb(112, 32, 32)",
+      "button_link": "https://maps.app.goo.gl/5PpSELoAH4ZKVg4z5",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Brass House"
       ]
     },
     {
