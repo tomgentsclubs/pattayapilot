@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-07T09:30:24Z",
+    "generated_at": "2026-05-07T11:45:47Z",
     "source": "elfsight",
-    "total_events": 184
+    "total_events": 186
   },
   "event_types": [
     {
@@ -4877,6 +4877,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "70c2b323-e97e-4633-b204-6b044e3d877d",
+      "title": "Crazy Cats Party",
+      "date": "2026-05-20",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/bff342b5-85fa-4a5a-8b99-cb8da0224816/Free-Willy-May-20th-Crazy-Cats.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": "https://maps.app.goo.gl/8GRG53tuSZEK9V3w7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
+      "id": "82ec0729-1cc3-41ae-8c1c-90a941d00174",
+      "title": "Maya's Birthday Party",
+      "date": "2026-05-23",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/bc0bc7b1-a536-40f9-b7d8-2c24f12b5916/MMD-May-23rd-Maya.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/W6ftGUc9j1NLVRsAA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
       ]
     }
   ]
