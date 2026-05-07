@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-07T02:42:03Z",
+    "generated_at": "2026-05-07T06:08:45Z",
     "source": "elfsight",
     "total_events": 184
   },
@@ -4725,7 +4725,7 @@
     },
     {
       "id": "75b30608-15cd-4d07-9952-40b61757baf5",
-      "title": "Kik's Birthday Party",
+      "title": "Kiki's Birthday Party",
       "date": "2026-05-09",
       "start_time": "18:00",
       "end_time": "04:00",
@@ -4736,7 +4736,7 @@
       "venue": "Maggie Mays Beer Bar",
       "venue_id": "maggie-mays-beer-bar",
       "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7d10e11a-ef42-4381-9b6a-2d9178416046/MMBB-April-13th.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/183e2650-e9b1-4508-8832-968b8ec72a14/MMBB-May-9th-Kiki.jpg",
       "description": "",
       "color": "rgb(14, 139, 37)",
       "button_link": "https://maps.app.goo.gl/b5s5uvyN7HVF9zUg9",
