@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-10T13:14:31Z",
+    "generated_at": "2026-05-10T14:51:04Z",
     "source": "elfsight",
-    "total_events": 186
+    "total_events": 187
   },
   "event_types": [
     {
@@ -4877,6 +4877,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "05115f38-bc6a-4b4d-8b1d-a0d7a74c745c",
+      "title": "Demi's Birthday Party",
+      "date": "2026-05-19",
+      "start_time": "15:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Bradleys",
+      "venue_id": "bradleys",
+      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0eceb0ad-6682-4178-abc8-b8231c0f7a3d/Bradleys-May-19th-Demi.jpg",
+      "description": "",
+      "color": "rgb(17, 17, 17)",
+      "button_link": "https://maps.app.goo.gl/xB5GRGtnMTnQhgiF6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Bradleys"
       ]
     },
     {
