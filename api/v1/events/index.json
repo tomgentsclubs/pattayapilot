@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-11T10:37:28Z",
+    "generated_at": "2026-05-11T13:47:29Z",
     "source": "elfsight",
-    "total_events": 188
+    "total_events": 192
   },
   "event_types": [
     {
@@ -1454,7 +1454,7 @@
       "title": "Pulled Pork Poolside",
       "date": "2025-10-15",
       "start_time": "16:00",
-      "end_time": "17:00",
+      "end_time": "18:00",
       "is_all_day": false,
       "timezone": "Asia/Bangkok",
       "event_type": "Food Special",
@@ -4828,6 +4828,58 @@
       ]
     },
     {
+      "id": "cf71b93b-082f-4ecd-8da4-4466b773de36",
+      "title": "Triple Birthday Party",
+      "date": "2026-05-15",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/4fe19f97-6f15-49a0-8e6a-8aa7de337de1/MMR-May-15th-Triple-Bday.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/eToveK97LR5UxHHDA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "b6f95cbf-522f-474d-8555-ce11a54d4c68",
+      "title": "Pyjama Party",
+      "date": "2026-05-15",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ff3f5d10-f516-495f-9f2e-c61b57822ce8/Club-Fate-May-15th-Pyjama.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/JD7Pgg2VSwcPFiQo7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
+      ]
+    },
+    {
       "id": "97ad8239-6040-403f-b162-bfcfeb390d2a",
       "title": "Koi's Birthday Party",
       "date": "2026-05-15",
@@ -4851,6 +4903,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "98984d64-0fd2-4f34-bad7-c124259a1ec6",
+      "title": "Tiki Party",
+      "date": "2026-05-16",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/684c93eb-dadc-4a1d-91ca-ec4546c4c88c/MMP-May-16th-Tiki-Party.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": "https://maps.app.goo.gl/cNWj3Heu9MMm89Jg8",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
+      ]
+    },
+    {
+      "id": "1509a380-8808-45aa-bdc1-03aae0fd0bfc",
+      "title": "Live Music Poolside",
+      "date": "2026-05-16",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9c6fe3c6-2d70-4938-8224-7235f1c66eef/MMR-May-16th-Live-Music.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/1US7Jrr4faCVr2cr6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
