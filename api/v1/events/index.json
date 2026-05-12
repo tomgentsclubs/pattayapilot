@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-12T06:35:08Z",
+    "generated_at": "2026-05-12T09:36:15Z",
     "source": "elfsight",
-    "total_events": 192
+    "total_events": 194
   },
   "event_types": [
     {
@@ -5062,6 +5062,32 @@
       ]
     },
     {
+      "id": "23af9730-3963-4fcb-a91a-c14d3fdc882d",
+      "title": "Focus Birthday Party",
+      "date": "2026-05-21",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7f265fff-7e37-4bcd-b0a3-81949f5f99db/Camel-Toe-May-21st-Focus.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": "https://maps.app.goo.gl/8nhaZfFvNWFptY3m9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
+      ]
+    },
+    {
       "id": "82ec0729-1cc3-41ae-8c1c-90a941d00174",
       "title": "Maya's Birthday Party",
       "date": "2026-05-23",
@@ -5085,6 +5111,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "ec72dfb2-2b19-4b51-93e9-c3f55260c6d6",
+      "title": "Pan & Moa's Birthday Party",
+      "date": "2026-05-30",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3a81bd3c-e4e5-402b-86bf-034212d2d629/Catflaps-May-30th-Pan-Moa.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": "https://maps.app.goo.gl/zbUoT9Cj11kWgYEB7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
       ]
     }
   ]
