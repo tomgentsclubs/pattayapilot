@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-13T10:24:56Z",
+    "generated_at": "2026-05-13T13:10:34Z",
     "source": "elfsight",
-    "total_events": 195
+    "total_events": 196
   },
   "event_types": [
     {
@@ -5111,6 +5111,32 @@
       "repeat_ends_date": null,
       "tags": [
         "The Camel Toe"
+      ]
+    },
+    {
+      "id": "8742efa0-b167-4602-a691-d4718a553695",
+      "title": "Gift, Minny & Fon's Birthday",
+      "date": "2026-05-22",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/35055b41-fe83-4246-a497-22924b928e64/Club-Fate-May-22nd-Gift-Minny-Fon.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/yVXfwFoUXcbsVgZE7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
