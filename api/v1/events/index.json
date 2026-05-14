@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-14T06:44:39Z",
+    "generated_at": "2026-05-14T09:33:12Z",
     "source": "elfsight",
-    "total_events": 196
+    "total_events": 195
   },
   "event_types": [
     {
@@ -123,32 +123,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
-      ]
-    },
-    {
-      "id": "a4bdb91e-61fd-487d-9386-67711019cf32",
-      "title": "Lasagne Thursday",
-      "date": "2025-07-31",
-      "start_time": "13:00",
-      "end_time": "19:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Food Special",
-      "event_type_id": "food-special",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c2cabfcb-593c-4a9b-95de-b62b282a509e/Lasagne-Thursday.png",
-      "description": "Free Lasagne at The Camel Toe every Thursday when you buy a Lady Drink. Doors open 1pm, Lasagne served until 9pm Map Location: https://maps.app.goo.gl/Q6fye9HGkxFgrQGU9",
-      "color": "rgb(255, 235, 0)",
-      "button_link": "https://maps.app.goo.gl/7LeGsWFnNMREBa386",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:thursday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
       ]
     },
     {
@@ -4802,32 +4776,6 @@
       ]
     },
     {
-      "id": "d93f913c-bcaf-4500-9a53-d230e52ab2ad",
-      "title": "PanPan's Birthday Party",
-      "date": "2026-05-13",
-      "start_time": "14:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Brass House",
-      "venue_id": "the-brass-house",
-      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/1ec1788c-aa48-46a8-ab31-6239e78495f2/The-Brass-House-May-13th-PanPan.jpg",
-      "description": "",
-      "color": "rgb(112, 32, 32)",
-      "button_link": "https://maps.app.goo.gl/5PpSELoAH4ZKVg4z5",
-      "button_text": "Directions",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Brass House"
-      ]
-    },
-    {
       "id": "97fafdfa-b3b7-43e8-a57a-f0fc90174aca",
       "title": "Dirty Bunny Party",
       "date": "2026-05-13",
@@ -4851,6 +4799,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "d93f913c-bcaf-4500-9a53-d230e52ab2ad",
+      "title": "PanPan's Birthday Party",
+      "date": "2026-05-13",
+      "start_time": "14:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Brass House",
+      "venue_id": "the-brass-house",
+      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/1ec1788c-aa48-46a8-ab31-6239e78495f2/The-Brass-House-May-13th-PanPan.jpg",
+      "description": "",
+      "color": "rgb(112, 32, 32)",
+      "button_link": "https://maps.app.goo.gl/5PpSELoAH4ZKVg4z5",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Brass House"
       ]
     },
     {
