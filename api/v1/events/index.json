@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-17T02:53:25Z",
+    "generated_at": "2026-05-17T06:21:42Z",
     "source": "elfsight",
-    "total_events": 195
+    "total_events": 196
   },
   "event_types": [
     {
@@ -5007,6 +5007,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "c85b8ab2-7655-427f-8b09-f9fd55834930",
+      "title": "Nadia's Birthday Party",
+      "date": "2026-05-19",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c5c664df-977d-41e5-b2ea-8034d5144673/MMJ-May-19th-Nadia.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": "https://maps.app.goo.gl/PevGwovAjbmUvrYw6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
