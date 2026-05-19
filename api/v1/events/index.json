@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-19T04:58:58Z",
+    "generated_at": "2026-05-19T08:34:55Z",
     "source": "elfsight",
-    "total_events": 196
+    "total_events": 197
   },
   "event_types": [
     {
@@ -5137,6 +5137,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Club Fate"
+      ]
+    },
+    {
+      "id": "94ab660f-a02c-455e-8690-b20f24ed6035",
+      "title": "Pool Party",
+      "date": "2026-05-23",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a4b0501b-2f2b-41d9-9ab6-bd65e014c04d/MMR-May-23rd-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/YcFy46Axv6JEFJPQA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
