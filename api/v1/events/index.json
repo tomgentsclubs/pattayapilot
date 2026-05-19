@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-19T12:08:28Z",
+    "generated_at": "2026-05-19T16:17:52Z",
     "source": "elfsight",
     "total_events": 197
   },
@@ -4767,9 +4767,9 @@
       "color": "rgb(151, 130, 65)",
       "button_link": "https://maps.app.goo.gl/CDKbpM3aCEJvFCa88",
       "button_text": "Directions",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
+      "recurring": true,
+      "recurrence_rule": "weekly:wednesday",
+      "repeat_ends": "never",
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
