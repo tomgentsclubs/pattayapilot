@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-22T10:48:40Z",
+    "generated_at": "2026-05-22T13:30:30Z",
     "source": "elfsight",
-    "total_events": 197
+    "total_events": 199
   },
   "event_types": [
     {
@@ -5189,6 +5189,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "c64acbbe-9089-4516-a1d6-1a37406e1bb4",
+      "title": "Prang's Birthday Party",
+      "date": "2026-05-27",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/584a818d-2aa4-4eb9-add7-1ad4402dd11b/MMD-May-27th-Prang.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/YXJQbv3DiWdBVhJw9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "87593fdf-c31c-4f01-a8bf-84555b7061be",
+      "title": "Bikini Party",
+      "date": "2026-05-28",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f0043bd1-1775-4b89-8eda-3165fd6ede0a/Free-Willy-May-28th-Bikini-Party.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": "https://maps.app.goo.gl/KwUPzd7YG7VbHCEu6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
