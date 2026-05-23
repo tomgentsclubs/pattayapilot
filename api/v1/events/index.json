@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-23T04:38:18Z",
+    "generated_at": "2026-05-23T07:29:59Z",
     "source": "elfsight",
-    "total_events": 199
+    "total_events": 200
   },
   "event_types": [
     {
@@ -5189,6 +5189,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "b39c82f9-22a4-4bbe-b05d-53540a9ee0f8",
+      "title": "Adam's Birthday Party",
+      "date": "2026-05-24",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c6bb9e93-c9c7-4b47-a4c7-5679f4c15941/MMR-May-24th-Adam.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/sL92TgyuC7yxJdnA7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
