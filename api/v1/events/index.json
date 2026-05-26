@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-26T05:01:57Z",
+    "generated_at": "2026-05-26T09:53:04Z",
     "source": "elfsight",
-    "total_events": 200
+    "total_events": 201
   },
   "event_types": [
     {
@@ -5293,6 +5293,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Catflaps"
+      ]
+    },
+    {
+      "id": "a9718ce5-f4e3-48f6-a82d-57fe6b540b20",
+      "title": "Live Music Poolside Party",
+      "date": "2026-05-30",
+      "start_time": "14:00",
+      "end_time": "20:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0e10c624-904d-413c-89fb-1419d7ae6324/MMR-May-30th-Poolside-Music.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/toBBt63y9ijb9tSa6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     }
   ]
