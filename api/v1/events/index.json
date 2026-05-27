@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-27T08:01:27Z",
+    "generated_at": "2026-05-27T12:18:33Z",
     "source": "elfsight",
-    "total_events": 203
+    "total_events": 204
   },
   "event_types": [
     {
@@ -5364,6 +5364,32 @@
       "description": "",
       "color": "rgb(153, 229, 227)",
       "button_link": "https://maps.app.goo.gl/toBBt63y9ijb9tSa6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "7bf70e67-3fe0-40e0-918d-fd913cad9ee8",
+      "title": "Pool Party",
+      "date": "2026-06-06",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7cf90b70-2b20-4e2f-9fdb-b0025a43e07c/MMR-June-6th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/ancvL3USfqyqDsX59",
       "button_text": "Directions",
       "recurring": false,
       "recurrence_rule": null,
