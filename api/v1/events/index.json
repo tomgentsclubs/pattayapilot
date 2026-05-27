@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-27T03:36:21Z",
+    "generated_at": "2026-05-27T08:01:27Z",
     "source": "elfsight",
-    "total_events": 201
+    "total_events": 203
   },
   "event_types": [
     {
@@ -5267,6 +5267,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "1d2a504c-d95a-4846-a8de-0901cb1c63a3",
+      "title": "Noyna & Nooker's Birthday",
+      "date": "2026-05-29",
+      "start_time": "13:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c8059b68-36e6-4d2d-bea9-ff8d4621fa75/Club-Fate-May-29th-Noyna-Nooker.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/YBCK9qkUAWy94ZbD6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
+      ]
+    },
+    {
+      "id": "c9821f01-418b-4a96-bec8-dff59bdcfafd",
+      "title": "Neon Glow Party",
+      "date": "2026-05-30",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/000329a7-abb8-4254-8b25-7db005a2f203/MMP-May-30th-Glow.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": "https://maps.app.goo.gl/KdPTEdYWToAKfR6QA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     },
     {
