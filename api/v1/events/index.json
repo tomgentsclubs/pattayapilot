@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-05-31T10:13:35Z",
+    "generated_at": "2026-05-31T12:10:29Z",
     "source": "elfsight",
-    "total_events": 204
+    "total_events": 206
   },
   "event_types": [
     {
@@ -5371,6 +5371,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "9fda4f9a-b4b9-4faf-8cc4-bc38479f1e82",
+      "title": "Paulie, Nan & Jenny's Birthday",
+      "date": "2026-06-03",
+      "start_time": "13:00",
+      "end_time": "13:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/41fc7125-2540-4a69-9fd1-8bade652e9ca/MMR-June-3rd-Triple.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/iyY44XXDTETsTK1g9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "9750b657-f51e-4037-ad2f-43bfa221caff",
+      "title": "Puinoon, Pudding & Kaekai",
+      "date": "2026-06-05",
+      "start_time": "18:56",
+      "end_time": "18:56",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/1fc16d4e-4571-4367-ab1c-adb000932171/Catflaps-June-5th-Triple.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": "https://maps.app.goo.gl/ebZ5STS8sqTmyYwL7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
       ]
     },
     {
