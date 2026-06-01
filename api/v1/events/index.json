@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-01T12:35:01Z",
+    "generated_at": "2026-06-01T18:36:08Z",
     "source": "elfsight",
-    "total_events": 207
+    "total_events": 208
   },
   "event_types": [
     {
@@ -5449,6 +5449,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "3e8b3ebf-5ea3-405f-853c-e3423b90a4be",
+      "title": "Crazy Cat Party",
+      "date": "2026-06-10",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/68774117-422d-4e1e-9f27-2304324276c4/Free-Willy-June-10th-Crazy-Cats.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": "https://maps.app.goo.gl/WWK72aPXCkfNskM78",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
