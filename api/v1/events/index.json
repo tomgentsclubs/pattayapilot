@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-01T06:00:24Z",
+    "generated_at": "2026-06-01T12:35:01Z",
     "source": "elfsight",
-    "total_events": 206
+    "total_events": 207
   },
   "event_types": [
     {
@@ -123,6 +123,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "a4bdb91e-61fd-487d-9386-67711019cf32",
+      "title": "Lasagne Thursday",
+      "date": "2025-07-31",
+      "start_time": "13:00",
+      "end_time": "19:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Food Special",
+      "event_type_id": "food-special",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c2cabfcb-593c-4a9b-95de-b62b282a509e/Lasagne-Thursday.png",
+      "description": "Free Lasagne at The Camel Toe every Thursday when you buy a Lady Drink. Doors open 1pm, Lasagne served until 9pm Map Location: https://maps.app.goo.gl/Q6fye9HGkxFgrQGU9",
+      "color": "rgb(255, 235, 0)",
+      "button_link": "https://maps.app.goo.gl/7LeGsWFnNMREBa386",
+      "button_text": "Directions",
+      "recurring": true,
+      "recurrence_rule": "weekly:thursday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
       ]
     },
     {
@@ -3918,32 +3944,6 @@
       ]
     },
     {
-      "id": "c4f3ca77-edd0-4d13-9a9a-43a9fa9da7fb",
-      "title": "After Party",
-      "date": "2026-03-25",
-      "start_time": "20:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Agogo",
-      "venue_id": "maggie-mays-agogo",
-      "directions_url": "https://maps.app.goo.gl/MAKpkbhdQQFtPdwA8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a605fc63-87c6-4555-a33c-bb81c35129d4/after-party.jpg",
-      "description": "Join the After Party every night until 4am in Maggie Mays Agogo Located inside Maggie Mays Beer Garden on Soi Made in Thailand https://maps.app.goo.gl/MAKpkbhdQQFtPdwA8",
-      "color": "rgb(56, 22, 102)",
-      "button_link": "https://maps.app.goo.gl/MAKpkbhdQQFtPdwA8",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "daily",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Agogo"
-      ]
-    },
-    {
       "id": "85109970-1c47-4901-93e9-2ae1149f3674",
       "title": "Me & My Monkey Party",
       "date": "2026-03-26",
@@ -5449,6 +5449,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "38013961-3925-4b99-a290-b958b754c313",
+      "title": "Christmas in June Party",
+      "date": "2026-06-25",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/595efed4-7ce8-42bf-958b-fcaf0f33886e/MMP-June-25th-Xmas.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": "https://maps.app.goo.gl/96EQdbtnMjRntSmw9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     }
   ]
