@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-01T18:36:08Z",
+    "generated_at": "2026-06-01T21:58:41Z",
     "source": "elfsight",
-    "total_events": 208
+    "total_events": 209
   },
   "event_types": [
     {
@@ -5449,6 +5449,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "8f34296a-d524-4fb7-9ca9-fc1adf622b84",
+      "title": "Keaw's Birthday Party",
+      "date": "2026-06-06",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/01895565-f57a-4a00-8b8b-eee5d51f7b1d/MMBB-June-6th-Keaw-Killer.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": "https://maps.app.goo.gl/SUN6pbTNhQrd2oLn7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
       ]
     },
     {
