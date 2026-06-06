@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-06T09:24:14Z",
+    "generated_at": "2026-06-06T11:24:25Z",
     "source": "elfsight",
-    "total_events": 210
+    "total_events": 211
   },
   "event_types": [
     {
@@ -5527,6 +5527,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "ccde160f-e815-4889-8a35-2a6827c7b21e",
+      "title": "Nanny's Birthday Party",
+      "date": "2026-06-13",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/69714d15-2378-4b33-8fe8-bf9bdae11e4a/MMJ-June-13th-Nanny.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": "https://maps.app.goo.gl/eT9Wp899qKLDVfbE8",
+      "button_text": "Get Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
