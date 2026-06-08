@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-08T10:49:36Z",
+    "generated_at": "2026-06-08T14:46:49Z",
     "source": "elfsight",
-    "total_events": 212
+    "total_events": 214
   },
   "event_types": [
     {
@@ -5504,6 +5504,32 @@
       ]
     },
     {
+      "id": "67512fae-0fd6-48ce-bc78-de0d3d3b3039",
+      "title": "Nanny's Birthday Party",
+      "date": "2026-06-10",
+      "start_time": "14:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Brass House",
+      "venue_id": "the-brass-house",
+      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/47efae4f-75e2-4fde-8f1a-28f63285d2ac/Brass-House-June-10th-Nanny.jpg",
+      "description": "",
+      "color": "rgb(112, 32, 32)",
+      "button_link": "https://maps.app.goo.gl/JmdpiBy3FZkQHP8G6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Brass House"
+      ]
+    },
+    {
       "id": "3e8b3ebf-5ea3-405f-853c-e3423b90a4be",
       "title": "Crazy Cat Party",
       "date": "2026-06-10",
@@ -5527,6 +5553,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "eb1909ac-c7ee-4178-a181-eb10e06ff2bb",
+      "title": "Triple Birthday Party",
+      "date": "2026-06-11",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3dbace3c-38e0-431a-a8a2-92ea0fba68ee/Club-Fate-June-11th-Triple.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/r6DzjRp8YjnJn1tH8",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
