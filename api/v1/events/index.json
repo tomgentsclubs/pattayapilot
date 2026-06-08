@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-08T05:48:24Z",
+    "generated_at": "2026-06-08T10:49:36Z",
     "source": "elfsight",
-    "total_events": 211
+    "total_events": 212
   },
   "event_types": [
     {
@@ -5530,29 +5530,55 @@
       ]
     },
     {
-      "id": "ccde160f-e815-4889-8a35-2a6827c7b21e",
-      "title": "Nanny's Birthday Party",
+      "id": "87959ff9-e8a2-45cb-bab7-6e5fe90a2221",
+      "title": "Live Music Poolside Party",
       "date": "2026-06-13",
       "start_time": "13:00",
       "end_time": "23:59",
       "is_all_day": false,
       "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/69714d15-2378-4b33-8fe8-bf9bdae11e4a/MMJ-June-13th-Nanny.jpg",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7a424ba5-faaf-4da3-a67a-ad8017b152d3/MMR-June-13th-Live-Music.jpg",
       "description": "",
-      "color": "rgb(163, 202, 255)",
-      "button_link": "https://maps.app.goo.gl/eT9Wp899qKLDVfbE8",
-      "button_text": "Get Directions",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/PLZTy8fBa6yCGQEb9",
+      "button_text": "Directions",
       "recurring": false,
       "recurrence_rule": null,
       "repeat_ends": null,
       "repeat_ends_date": null,
       "tags": [
-        "Maggie Mays Jomtien"
+        "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "7017a4df-e551-433b-8b73-395570e75db6",
+      "title": "Pool Party",
+      "date": "2026-06-20",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cd98123d-65f9-45cc-9b7c-69cf9639adac/MMR-June-20th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/PLZTy8fBa6yCGQEb9",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
@@ -5568,7 +5594,7 @@
       "venue": "Maggie Mays Pattaya",
       "venue_id": "maggie-mays-pattaya",
       "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/595efed4-7ce8-42bf-958b-fcaf0f33886e/MMP-June-25th-Xmas.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7701e957-5796-4574-aac3-d62edd7e56cc/MMP-June-25th-Junemas.jpg",
       "description": "",
       "color": "rgb(87, 87, 87)",
       "button_link": "https://maps.app.goo.gl/96EQdbtnMjRntSmw9",
