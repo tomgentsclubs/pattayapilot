@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-10T09:55:50Z",
+    "generated_at": "2026-06-10T12:56:26Z",
     "source": "elfsight",
-    "total_events": 214
+    "total_events": 216
   },
   "event_types": [
     {
@@ -5530,6 +5530,32 @@
       ]
     },
     {
+      "id": "ffc795c7-1e04-4961-afed-3e0948323b8f",
+      "title": "Triple Birthday Party",
+      "date": "2026-06-11",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0515e91d-45b0-4525-ba75-ea5e53469254/Club-Fate-June-11th-Triple.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/FBhZRwrQdEZqZuyRA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
+      ]
+    },
+    {
       "id": "87959ff9-e8a2-45cb-bab7-6e5fe90a2221",
       "title": "Live Music Poolside Party",
       "date": "2026-06-13",
@@ -5553,6 +5579,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "ab522d6b-3f6e-418f-b58b-d9335f65f66d",
+      "title": "Bundy Mondays",
+      "date": "2026-06-15",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Weekly Event",
+      "event_type_id": "weekly-event",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/295cd247-903d-42f4-8e8d-7d7812a94dfc/Bundy-Mondays.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/sGG82KGuRuBbLw4ZA",
+      "button_text": "Directions",
+      "recurring": true,
+      "recurrence_rule": "weekly:monday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
       ]
     },
     {
