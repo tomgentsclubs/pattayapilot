@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-10T05:16:12Z",
+    "generated_at": "2026-06-10T09:55:50Z",
     "source": "elfsight",
     "total_events": 214
   },
@@ -5504,32 +5504,6 @@
       ]
     },
     {
-      "id": "67512fae-0fd6-48ce-bc78-de0d3d3b3039",
-      "title": "Nanny's Birthday Party",
-      "date": "2026-06-10",
-      "start_time": "14:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Brass House",
-      "venue_id": "the-brass-house",
-      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/47efae4f-75e2-4fde-8f1a-28f63285d2ac/Brass-House-June-10th-Nanny.jpg",
-      "description": "",
-      "color": "rgb(112, 32, 32)",
-      "button_link": "https://maps.app.goo.gl/JmdpiBy3FZkQHP8G6",
-      "button_text": "Directions",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Brass House"
-      ]
-    },
-    {
       "id": "3e8b3ebf-5ea3-405f-853c-e3423b90a4be",
       "title": "Crazy Cat Party",
       "date": "2026-06-10",
@@ -5553,32 +5527,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
-      ]
-    },
-    {
-      "id": "eb1909ac-c7ee-4178-a181-eb10e06ff2bb",
-      "title": "Triple Birthday Party",
-      "date": "2026-06-11",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3dbace3c-38e0-431a-a8a2-92ea0fba68ee/Club-Fate-June-11th-Triple.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": "https://maps.app.goo.gl/r6DzjRp8YjnJn1tH8",
-      "button_text": "Directions",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
@@ -5657,6 +5605,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Pattaya"
+      ]
+    },
+    {
+      "id": "1133f9c7-d754-4173-b46a-3020b85cf783",
+      "title": "Hillbilly Party",
+      "date": "2026-06-26",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/536af74b-d18e-4db4-8af4-e3bcd3767cce/MMD-June-26th-Hillbilly.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/sGG82KGuRuBbLw4ZA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "dcc00bd4-3249-4371-b544-c3a7a7103f4d",
+      "title": "Live Music Poolside Party",
+      "date": "2026-06-27",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9cc70269-8dbe-491e-a56c-74f493d623b6/MMR-June-27th-Live-Music.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/PthoMpt3ENGcoGjMA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     }
   ]
