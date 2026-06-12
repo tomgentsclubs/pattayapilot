@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-12T05:47:19Z",
+    "generated_at": "2026-06-12T10:08:45Z",
     "source": "elfsight",
-    "total_events": 217
+    "total_events": 218
   },
   "event_types": [
     {
@@ -5631,6 +5631,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "973e2e27-9156-4cf1-b4ff-6f4cb7de49fc",
+      "title": "Black & White Party",
+      "date": "2026-06-17",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/1c7b23c3-6c21-4971-bc0b-505ed7281d30/Free-Willy-June-17th-Black-and-White.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": "https://maps.app.goo.gl/e9RMHu2qX2mJ2Pou6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
