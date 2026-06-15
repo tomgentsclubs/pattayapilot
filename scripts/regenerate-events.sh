@@ -35,7 +35,7 @@ python3 - "$TEMP_FILE" "$OUTPUT_FILE" << 'PYTHON_SCRIPT'
 import json
 import sys
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 with open(sys.argv[1]) as f:
     raw = json.load(f)
@@ -158,6 +158,23 @@ for event in events_raw:
 # Sort by date, then start_time
 transformed.sort(key=lambda e: (e.get("date") or "", e.get("start_time") or ""))
 
+# Filter out old one-off events but always keep recurring events
+cutoff = (datetime.now(timezone.utc) - timedelta(days=7)).strftime("%Y-%m-%d")
+filtered = []
+skipped = 0
+for event in transformed:
+    if event.get("recurring"):
+        # Always keep recurring events
+        filtered.append(event)
+    else:
+        event_date = event.get("date") or ""
+        if event_date >= cutoff:
+            filtered.append(event)
+        else:
+            skipped += 1
+
+transformed = filtered
+
 # Build location and event_type lookup tables for the response
 locations_list = [
     {
@@ -191,7 +208,7 @@ output = {
 with open(output_path, "w") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
 
-print(f"Generated {len(transformed)} events (skipped {len(events_raw) - len(transformed)} hidden)")
+print(f"Generated {len(transformed)} events (skipped {len(events_raw) - len(transformed)} hidden, {skipped} old one-off events removed)")
 print(f"Event types: {len(event_types_list)}")
 print(f"Venues: {len(locations_list)}")
 PYTHON_SCRIPT
