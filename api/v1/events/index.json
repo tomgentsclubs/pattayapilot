@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-17T11:45:44Z",
+    "generated_at": "2026-06-17T15:22:49Z",
     "source": "elfsight",
     "total_events": 34
   },
@@ -880,6 +880,32 @@
       ]
     },
     {
+      "id": "756f1616-0699-42b5-826c-858636d24c6b",
+      "title": "Pyjama Party",
+      "date": "2026-06-18",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9cfb1b7e-82f1-41ba-8055-1a5307d05c01/1000016909.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/HsPebqEwHjeWZ5Jr7",
+      "button_text": "Direction",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
+      ]
+    },
+    {
       "id": "7017a4df-e551-433b-8b73-395570e75db6",
       "title": "Pool Party",
       "date": "2026-06-20",
@@ -955,32 +981,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "dcc00bd4-3249-4371-b544-c3a7a7103f4d",
-      "title": "Live Music Poolside Party",
-      "date": "2026-06-27",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9cc70269-8dbe-491e-a56c-74f493d623b6/MMR-June-27th-Live-Music.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": "https://maps.app.goo.gl/PthoMpt3ENGcoGjMA",
-      "button_text": "Directions",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
       ]
     }
   ]
