@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-18T03:42:37Z",
+    "generated_at": "2026-06-18T06:13:45Z",
     "source": "elfsight",
     "total_events": 33
   },
@@ -464,32 +464,6 @@
       ]
     },
     {
-      "id": "7bd38c3f-dc0a-420a-9067-e69ba292ba78",
-      "title": "Irish Mondays",
-      "date": "2025-09-15",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Weekly Event",
-      "event_type_id": "weekly-event",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cc52d74e-ab27-4583-81e6-5a8b7a97fbe3/irish-monday-4x5.jpg",
-      "description": "Irish Mondays at Maggie Mays on Soi Chaiyapoon (Pothole) Have a great \"craic\" at Maggie Mays Pattaya every Monday from 1pm. Delicious and free Irish stew, free lucky shots, great Irish drinking songs and a \"Split the G\" competition. Successfully \"Split the G\" on your pint of Guinness and get a half of Guinness completely free! Don't miss this fantastic weekly event every Monday at Maggie Mays Pattaya from 1pm until midnight. Map Location: https://maps.app.goo.gl/7WngQSCeUMW956jo7",
-      "color": "rgb(87, 87, 87)",
-      "button_link": "https://maps.app.goo.gl/7WngQSCeUMW956jo7",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:monday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
-      ]
-    },
-    {
       "id": "378ac284-8427-4a59-b3c5-8cd3555bcf9c",
       "title": "Finger Lickin' Saturdays",
       "date": "2025-09-27",
@@ -929,6 +903,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Pattaya"
+      ]
+    },
+    {
+      "id": "0d4c7cce-b359-4d30-ab7d-fbee69dbfc8c",
+      "title": "May & Nita's Birthday Party",
+      "date": "2026-06-26",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/725071e1-3f7a-474a-a13e-5dc8a906174c/Catflaps-June-26th-May-Nita.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": "https://maps.app.goo.gl/mVhppH4tsu42curD6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
       ]
     },
     {
