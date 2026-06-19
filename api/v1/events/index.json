@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-18T22:05:30Z",
+    "generated_at": "2026-06-19T00:24:45Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 33
   },
   "event_types": [
     {
@@ -695,32 +695,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "ffc795c7-1e04-4961-afed-3e0948323b8f",
-      "title": "Triple Birthday Party",
-      "date": "2026-06-11",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0515e91d-45b0-4525-ba75-ea5e53469254/Club-Fate-June-11th-Triple.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": "https://maps.app.goo.gl/FBhZRwrQdEZqZuyRA",
-      "button_text": "Directions",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
