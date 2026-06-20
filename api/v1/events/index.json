@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-20T05:11:15Z",
+    "generated_at": "2026-06-20T05:58:01Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 34
   },
   "event_types": [
     {
@@ -346,7 +346,7 @@
       "venue": "Bradleys",
       "venue_id": "bradleys",
       "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/00530658-841a-40c2-b59e-7dd28b7daf87/Ladyboy-Lingerie-Events-Calendar-Version.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3516f832-0ebf-406c-9081-5d6eea593e44/Ladyboy-Lingerie-Events-Calendar-Version.jpg",
       "description": "",
       "color": "rgb(17, 17, 17)",
       "button_link": "https://maps.app.goo.gl/YR7Fs5hZQWGXgoAt8",
@@ -903,6 +903,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Pattaya"
+      ]
+    },
+    {
+      "id": "e7e70c22-24ed-4c4e-8e1a-7b497db57027",
+      "title": "Ninee & Sandy's Birthday",
+      "date": "2026-06-25",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/92fb075f-2e82-4d95-b1c8-797a2bd0ec68/Free-Willy-June-25th-Sandy-Ninee.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": "https://maps.app.goo.gl/1rMtajCmAyv6mdb99",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
