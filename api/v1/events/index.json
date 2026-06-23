@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-23T04:58:16Z",
+    "generated_at": "2026-06-23T08:32:28Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 36
   },
   "event_types": [
     {
@@ -1007,6 +1007,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "7d053b0f-abb2-4b13-b914-57b40b3d88be",
+      "title": "Discord Bar Crawl",
+      "date": "2026-10-30",
+      "start_time": "13:00",
+      "end_time": "21:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Bar Crawl",
+      "event_type_id": "bar-crawl",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/fa72beda-a315-4873-8338-7e1ee8b16862/Discord-Bar-Crawl-Halloween.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": "https://maps.app.goo.gl/f8k14qnDGdCs2qfp7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     }
   ]
