@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-24T03:24:01Z",
+    "generated_at": "2026-06-24T07:37:54Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 38
   },
   "event_types": [
     {
@@ -331,32 +331,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Buzzin Lounge"
-      ]
-    },
-    {
-      "id": "04b2a120-fa16-4dc4-bf24-bd9844def691",
-      "title": "Ladyboy Lingerie Sundays",
-      "date": "2025-08-17",
-      "start_time": "15:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Weekly Event",
-      "event_type_id": "weekly-event",
-      "venue": "Bradleys",
-      "venue_id": "bradleys",
-      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3516f832-0ebf-406c-9081-5d6eea593e44/Ladyboy-Lingerie-Events-Calendar-Version.jpg",
-      "description": "",
-      "color": "rgb(17, 17, 17)",
-      "button_link": "https://maps.app.goo.gl/YR7Fs5hZQWGXgoAt8",
-      "button_text": "Directions",
-      "recurring": true,
-      "recurrence_rule": "weekly:sunday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Bradley's"
       ]
     },
     {
@@ -922,6 +896,84 @@
       "description": "",
       "color": "rgb(151, 130, 65)",
       "button_link": "https://maps.app.goo.gl/sGG82KGuRuBbLw4ZA",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "a1010093-0461-4f2c-a53e-57a26a624ad2",
+      "title": "Election Weekend Beers & BBQ",
+      "date": "2026-06-27",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a75fc1af-e925-47be-bd85-24721a79a377/MMD-Election-Weekend.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/NFo1vy6GNZz88NeC8",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "3d32059d-4cb5-4e82-b801-68a4bd7a18f1",
+      "title": "Expansion Party",
+      "date": "2026-06-28",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a4eb5cc5-3d0a-4a8f-beb7-d9e38157ad74/MMJ-June-28th-Expansion.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": "https://maps.app.goo.gl/bdoj7VcbnXdkHYC27",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "bd06b058-5baf-407f-9233-2d7e8dbaffe7",
+      "title": "Election Weekend BBQ & Beers",
+      "date": "2026-06-28",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cf4b4e57-b0e8-41db-9320-9e1cd315fe72/MMD-Election-Weekend.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/NFo1vy6GNZz88NeC8",
       "button_text": "Directions",
       "recurring": false,
       "recurrence_rule": null,
