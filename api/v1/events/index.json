@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-25T23:16:08Z",
+    "generated_at": "2026-06-26T03:30:42Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 36
   },
   "event_types": [
     {
@@ -695,32 +695,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "756f1616-0699-42b5-826c-858636d24c6b",
-      "title": "Pyjama Party",
-      "date": "2026-06-18",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9cfb1b7e-82f1-41ba-8055-1a5307d05c01/1000016909.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": "https://maps.app.goo.gl/HsPebqEwHjeWZ5Jr7",
-      "button_text": "Direction",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
