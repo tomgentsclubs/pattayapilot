@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-29T22:57:26Z",
+    "generated_at": "2026-06-30T00:08:59Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 34
   },
   "event_types": [
     {
@@ -695,32 +695,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "5f59edef-36e0-430f-932f-e2d448ad6d20",
-      "title": "Bikini Party",
-      "date": "2026-06-22",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ae6f3f95-5ef1-4e43-a0ab-55c39e969653/Free-Willy-June-22nd-Bikini.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": "https://maps.app.goo.gl/p3vuaUf4VoM5MKJ86",
-      "button_text": "Directions",
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
       ]
     },
     {
