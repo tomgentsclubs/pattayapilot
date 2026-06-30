@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-06-30T09:30:34Z",
+    "generated_at": "2026-06-30T11:21:01Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 38
   },
   "event_types": [
     {
@@ -880,6 +880,32 @@
       ]
     },
     {
+      "id": "74487b15-0d88-4ce4-b0d9-075f6de92bc6",
+      "title": "Nok, Dow & Mind's Birthday",
+      "date": "2026-07-02",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/72abb9b6-4e69-447a-b445-5b506b178d59/Fate-July-2nd-Nok-Dow-Mind.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": "https://maps.app.goo.gl/HsPebqEwHjeWZ5Jr7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
+      ]
+    },
+    {
       "id": "3fb99a82-a352-48da-860f-d3a46fce6dc2",
       "title": "Mimie's Leaving Party",
       "date": "2026-07-03",
@@ -945,6 +971,84 @@
       "venue_id": "maggie-mays-beer-bar",
       "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a65f6c92-9202-4726-8b57-11d7783b2afd/MMBB-July-4th-Independence-Day.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": "https://maps.app.goo.gl/eWf5Fm2iUTp1gmDd6",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "eb159b6a-5dac-4c0d-9d10-3690b2308d75",
+      "title": "Fah, Nam & Nit's Birthday",
+      "date": "2026-07-08",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/b2c46520-1ffc-4b8d-8860-522c003d39ad/MMD-July-8th-Fah-Nam-Nit.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": "https://maps.app.goo.gl/NFo1vy6GNZz88NeC8",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "97eef133-eca1-4b7f-aea0-df82703cf94d",
+      "title": "Bow's Birthday Party",
+      "date": "2026-07-08",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0fd7271d-15d7-4371-89f5-76f634ef26fc/MMP-July-8th-Bow.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": "https://maps.app.goo.gl/4b2xcC7xzssmKenZ7",
+      "button_text": "Directions",
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
+      ]
+    },
+    {
+      "id": "033b973d-b6db-421f-8aa9-713e2576bb63",
+      "title": "Pla's Birthday Party",
+      "date": "2026-07-17",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/4abddad9-9e38-4bf5-98fe-982372638637/MMBB-July-17th-Pla.jpg",
       "description": "",
       "color": "rgb(14, 139, 37)",
       "button_link": "https://maps.app.goo.gl/eWf5Fm2iUTp1gmDd6",
