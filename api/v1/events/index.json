@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-02T23:03:31Z",
+    "generated_at": "2026-07-03T02:45:51Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 34
   },
   "event_types": [
     {
@@ -643,58 +643,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "38013961-3925-4b99-a290-b958b754c313",
-      "title": "Christmas in June Party",
-      "date": "2026-06-25",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": null,
-      "description": "",
-      "color": "rgb(87, 87, 87)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
-      ]
-    },
-    {
-      "id": "e7e70c22-24ed-4c4e-8e1a-7b497db57027",
-      "title": "Ninee & Sandy's Birthday",
-      "date": "2026-06-25",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": null,
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
       ]
     },
     {
