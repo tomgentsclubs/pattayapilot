@@ -12,6 +12,7 @@
 #
 # The Elfsight boot API is public and unauthenticated — it serves
 # the same data the calendar widget loads on the events page.
+# edit
 
 set -euo pipefail
 
