@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-03T12:08:28Z",
+    "generated_at": "2026-07-03T15:09:02Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 37
   },
   "event_types": [
     {
@@ -929,6 +929,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Pattaya"
+      ]
+    },
+    {
+      "id": "e2da82e8-55a0-416d-a365-9d74303f19e4",
+      "title": "Oil's Birthday Party",
+      "date": "2026-07-09",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/82029218-207e-4b97-887d-ac48d23d8b88/Camel-Toe-July-9th-Oil.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
+      ]
+    },
+    {
+      "id": "34d9710d-e0dd-459b-a56a-235e7966ca76",
+      "title": "Aom & Opal's Birthday Party",
+      "date": "2026-07-17",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a88374a7-baa5-4408-b9f3-dc89039819aa/Camel-Toe-July-17th-Aom-opal.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
       ]
     },
     {
