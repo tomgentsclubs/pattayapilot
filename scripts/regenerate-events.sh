@@ -136,7 +136,12 @@ def transform_event(event):
         "venue": loc.get("name", ""),
         "venue_id": loc.get("filterID", ""),
         "directions_url": loc.get("website") or extract_directions_url(description_html) or None,
-        "image_url": event.get("image", {}).get("url") if isinstance(event.get("image"), dict) else event.get("image") or None,
+        "image_url": (
+            (event.get("coverImage") or {}).get("url")
+            or (event.get("images")[0].get("url") if event.get("images") else None)
+            or (event.get("image", {}).get("url") if isinstance(event.get("image"), dict) else event.get("image"))
+            or None
+        ),
         "description": strip_html(description_html),
         "color": event.get("color") or None,
         "button_link": event["buttonLink"].get("value") or event["buttonLink"].get("rawValue") if isinstance(event.get("buttonLink"), dict) else event.get("buttonLink") or None,
