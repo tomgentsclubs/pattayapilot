@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-03T23:00:46Z",
+    "generated_at": "2026-07-04T02:41:54Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 35
   },
   "event_types": [
     {
@@ -640,58 +640,6 @@
       "recurring": true,
       "recurrence_rule": "weekly:monday",
       "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "0d4c7cce-b359-4d30-ab7d-fbee69dbfc8c",
-      "title": "May & Nita's Birthday Party",
-      "date": "2026-06-26",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/725071e1-3f7a-474a-a13e-5dc8a906174c/Catflaps-June-26th-May-Nita.jpg",
-      "description": "",
-      "color": "rgb(255, 255, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Catflaps"
-      ]
-    },
-    {
-      "id": "1133f9c7-d754-4173-b46a-3020b85cf783",
-      "title": "Hillbilly Party",
-      "date": "2026-06-26",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Darkside",
-      "venue_id": "maggie-mays-darkside",
-      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/536af74b-d18e-4db4-8af4-e3bcd3767cce/MMD-June-26th-Hillbilly.jpg",
-      "description": "",
-      "color": "rgb(151, 130, 65)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
