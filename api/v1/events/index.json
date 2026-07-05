@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-05T00:08:41Z",
+    "generated_at": "2026-07-05T04:54:43Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 33
   },
   "event_types": [
     {
@@ -461,32 +461,6 @@
       "repeat_ends_date": null,
       "tags": [
         "CatFlaps"
-      ]
-    },
-    {
-      "id": "1ae34090-64dc-4a7b-83af-0408a706310d",
-      "title": "Pulled Pork Poolside",
-      "date": "2025-10-15",
-      "start_time": "16:00",
-      "end_time": "18:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Food Special",
-      "event_type_id": "food-special",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/5d6d91f1-6c15-42cb-8aa8-df1b48eab080/Pulled-Pork-Poolside.jpg",
-      "description": "Join us at Maggie Mays Resort every Wednesday for a midweek treat. Buy any lady a lady drink and get a free pulled pork sandwich. Delicious, moist, tender and full of flavour! Every Wednesday from 4pm until they're gone at Maggie Mays Resort. Map Location: https://maps.app.goo.gl/AZYytRqAcHkvNocq8",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "weekly:wednesday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
       ]
     },
     {
