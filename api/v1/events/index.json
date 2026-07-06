@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-05T23:10:19Z",
+    "generated_at": "2026-07-06T03:19:38Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 31
   },
   "event_types": [
     {
@@ -614,58 +614,6 @@
       "recurring": true,
       "recurrence_rule": "weekly:monday",
       "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "3d32059d-4cb5-4e82-b801-68a4bd7a18f1",
-      "title": "Expansion Party",
-      "date": "2026-06-28",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a4eb5cc5-3d0a-4a8f-beb7-d9e38157ad74/MMJ-June-28th-Expansion.jpg",
-      "description": "",
-      "color": "rgb(163, 202, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "bd06b058-5baf-407f-9233-2d7e8dbaffe7",
-      "title": "Election Weekend BBQ & Beers",
-      "date": "2026-06-28",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Darkside",
-      "venue_id": "maggie-mays-darkside",
-      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cf4b4e57-b0e8-41db-9320-9e1cd315fe72/MMD-Election-Weekend.jpg",
-      "description": "",
-      "color": "rgb(151, 130, 65)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
