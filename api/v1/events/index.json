@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-07T08:21:07Z",
+    "generated_at": "2026-07-07T11:47:30Z",
     "source": "elfsight",
-    "total_events": 31
+    "total_events": 32
   },
   "event_types": [
     {
@@ -464,32 +464,6 @@
       ]
     },
     {
-      "id": "e3ea5fa6-099d-4765-b572-3db691d524ff",
-      "title": "Peri Peri BBQ",
-      "date": "2025-10-24",
-      "start_time": "16:00",
-      "end_time": "19:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Food Special",
-      "event_type_id": "food-special",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3e68415c-5515-408d-bfa7-d467e9a5f554/Chicken-BBQ-4x5.jpg",
-      "description": "Join us at Maggie Mays Resort & Gents Club for a tasty, spicy and juicy peri-peri chicken BBQ with garlic bread Served every Friday fresh off the BBQ from 4pm until it's gone so be sure to get in early Free for anyone that buys a lady drink Map Location: https://maps.app.goo.gl/tbnNv6xaNwshwK7b6",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "weekly:friday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
-      ]
-    },
-    {
       "id": "f2766acd-cd92-408b-b618-d967842046b4",
       "title": "Buzzin Darkside Bar Crawl",
       "date": "2025-10-29",
@@ -799,6 +773,58 @@
       "repeat_ends_date": null,
       "tags": [
         "The Camel Toe"
+      ]
+    },
+    {
+      "id": "8813762d-d071-4718-96f1-ab50c6ce1740",
+      "title": "Bikini Party",
+      "date": "2026-07-10",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0d390291-26dd-42d1-a23e-356bb6f504bf/Free-Willy-July-10th-Bikini.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
+      "id": "b5da7b95-915c-4427-8357-748c624cb2d9",
+      "title": "World Cup Party",
+      "date": "2026-07-10",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ebb075e2-be3f-49a4-9eae-be0e6bcee509/Club-Fate-July-10th-World-Cup-Party.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
