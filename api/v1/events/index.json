@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-09T22:20:13Z",
+    "generated_at": "2026-07-10T00:02:15Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 32
   },
   "event_types": [
     {
@@ -591,32 +591,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "74487b15-0d88-4ce4-b0d9-075f6de92bc6",
-      "title": "Nok, Dow & Mind's Birthday",
-      "date": "2026-07-02",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/72abb9b6-4e69-447a-b445-5b506b178d59/Fate-July-2nd-Nok-Dow-Mind.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
