@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-11T07:51:29Z",
+    "generated_at": "2026-07-11T09:26:22Z",
     "source": "elfsight",
-    "total_events": 31
+    "total_events": 33
   },
   "event_types": [
     {
@@ -776,6 +776,32 @@
       ]
     },
     {
+      "id": "fe3680a5-837e-4e83-b4e5-69016c18668c",
+      "title": "Crazy Cats Party",
+      "date": "2026-07-15",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e17e8082-be9d-49c9-8fe9-c76686f73f63/Free-Willy-July-15th-Crazy-Cats.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
       "id": "34d9710d-e0dd-459b-a56a-235e7966ca76",
       "title": "Aom & Opal's Birthday Party",
       "date": "2026-07-17",
@@ -867,6 +893,32 @@
       "venue_id": "maggie-mays-resort",
       "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/bdac4575-3a77-428c-b383-6c1d828f1630/MMR-July-18th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "b6d7daa1-8ea1-4548-a72d-da78cf63a578",
+      "title": "Nuchy & Pookie's Birthday",
+      "date": "2026-07-25",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/544ede64-1104-4539-b403-9ce132154232/MMR-July-25th-Nuchy-Pookie.jpg",
       "description": "",
       "color": "rgb(153, 229, 227)",
       "button_link": null,
