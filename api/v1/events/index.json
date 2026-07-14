@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-14T05:27:23Z",
+    "generated_at": "2026-07-14T07:59:35Z",
     "source": "elfsight",
-    "total_events": 31
+    "total_events": 33
   },
   "event_types": [
     {
@@ -750,6 +750,32 @@
       ]
     },
     {
+      "id": "678967a0-0b52-4792-b0e1-e73e304aeb40",
+      "title": "Dez's South African Braai",
+      "date": "2026-07-15",
+      "start_time": "16:00",
+      "end_time": "19:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Food Special",
+      "event_type_id": "food-special",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/17e51194-4d0d-4bbb-b185-a4f222753d5b/South-African-BBQ-Wednesdays.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
       "id": "34d9710d-e0dd-459b-a56a-235e7966ca76",
       "title": "Aom & Opal's Birthday Party",
       "date": "2026-07-17",
@@ -851,6 +877,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "a1cef870-7b4e-4425-9711-37b48f83debc",
+      "title": "Bradleys Grand Reopening",
+      "date": "2026-07-19",
+      "start_time": "15:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Bradleys",
+      "venue_id": "bradleys",
+      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ac15b714-ec23-4419-9c6c-adc8c8ce4931/Bradleys-July-19th-Reopening-Party.jpg",
+      "description": "",
+      "color": "rgb(17, 17, 17)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Bradleys"
       ]
     },
     {
