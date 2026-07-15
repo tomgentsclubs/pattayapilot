@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-15T05:28:31Z",
+    "generated_at": "2026-07-15T08:04:57Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 35
   },
   "event_types": [
     {
@@ -776,6 +776,32 @@
       ]
     },
     {
+      "id": "99c321e3-2d8e-47c9-8a7a-ea0042f92813",
+      "title": "England vs Argentina",
+      "date": "2026-07-16",
+      "start_time": "02:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ab999dee-53cf-40d2-8022-5d0c93084fe9/MMBB-Eng-Arg.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
+      ]
+    },
+    {
       "id": "34d9710d-e0dd-459b-a56a-235e7966ca76",
       "title": "Aom & Opal's Birthday Party",
       "date": "2026-07-17",
@@ -851,6 +877,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "6ede7a2a-d03f-4b64-afcc-7db0b53dc2b4",
+      "title": "Mint's Birthday Party",
+      "date": "2026-07-18",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6b8336cd-084a-4fa5-91d9-6fb1da09a829/MMJ-July-18th-Mint.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
