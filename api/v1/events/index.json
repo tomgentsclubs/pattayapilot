@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-15T23:00:27Z",
+    "generated_at": "2026-07-16T02:24:34Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 33
   },
   "event_types": [
     {
@@ -591,58 +591,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "eb159b6a-5dac-4c0d-9d10-3690b2308d75",
-      "title": "Fah, Nam & Nit's Birthday",
-      "date": "2026-07-08",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Darkside",
-      "venue_id": "maggie-mays-darkside",
-      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/b2c46520-1ffc-4b8d-8860-522c003d39ad/MMD-July-8th-Fah-Nam-Nit.jpg",
-      "description": "",
-      "color": "rgb(151, 130, 65)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "97eef133-eca1-4b7f-aea0-df82703cf94d",
-      "title": "Bow's Birthday Party",
-      "date": "2026-07-08",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0fd7271d-15d7-4371-89f5-76f634ef26fc/MMP-July-8th-Bow.jpg",
-      "description": "",
-      "color": "rgb(87, 87, 87)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
       ]
     },
     {
