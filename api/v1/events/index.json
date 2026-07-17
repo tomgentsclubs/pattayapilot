@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-17T05:40:31Z",
+    "generated_at": "2026-07-17T08:06:00Z",
     "source": "elfsight",
-    "total_events": 32
+    "total_events": 33
   },
   "event_types": [
     {
@@ -903,6 +903,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "79ed9b19-3af1-468f-b219-13ac230d4274",
+      "title": "Polly & Tukta's Birthday Party",
+      "date": "2026-07-28",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d06aafa8-4463-43c2-a090-b7d811ddc2d0/Free-Willy-July-28th-Polly-Tukta.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
