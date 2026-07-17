@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-16T23:57:05Z",
+    "generated_at": "2026-07-17T02:50:30Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 32
   },
   "event_types": [
     {
@@ -591,32 +591,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "e2da82e8-55a0-416d-a365-9d74303f19e4",
-      "title": "Oil's Birthday Party",
-      "date": "2026-07-09",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/82029218-207e-4b97-887d-ac48d23d8b88/Camel-Toe-July-9th-Oil.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
       ]
     },
     {
