@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-17T23:50:41Z",
+    "generated_at": "2026-07-18T02:12:22Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 31
   },
   "event_types": [
     {
@@ -591,58 +591,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "8813762d-d071-4718-96f1-ab50c6ce1740",
-      "title": "Bikini Party",
-      "date": "2026-07-10",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0d390291-26dd-42d1-a23e-356bb6f504bf/Free-Willy-July-10th-Bikini.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
-      ]
-    },
-    {
-      "id": "b5da7b95-915c-4427-8357-748c624cb2d9",
-      "title": "World Cup Party",
-      "date": "2026-07-10",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ebb075e2-be3f-49a4-9eae-be0e6bcee509/Club-Fate-July-10th-World-Cup-Party.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
