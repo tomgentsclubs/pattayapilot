@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-20T02:44:54Z",
+    "generated_at": "2026-07-20T06:15:40Z",
     "source": "elfsight",
-    "total_events": 31
+    "total_events": 30
   },
   "event_types": [
     {
@@ -334,32 +334,6 @@
       ]
     },
     {
-      "id": "51b67f27-0a52-4e10-ae89-73c36e1d6314",
-      "title": "Whipped Cream Wednesdays",
-      "date": "2025-08-20",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Weekly Event",
-      "event_type_id": "weekly-event",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0b229e2f-5956-4205-b249-a1b8acaaab49/whipped-cream-wednesdays-events.jpg",
-      "description": "Wednesdays are now a whole lot more fun at Maggie Mays in Jomtien. Buy a lady a rack of shots and get the whipped cream out. I'll leave the rest up to your imagination. Every Wednesday from 1pm to midnight at Maggie Mays in Jomtien. Map Location: https://maps.app.goo.gl/MfV3my3jCDYhH7638",
-      "color": "rgb(163, 202, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "weekly:wednesday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Jomtien"
-      ]
-    },
-    {
       "id": "5f73bfdb-51c9-49cc-ac81-f3e1ca894e4a",
       "title": "Taco Fridays",
       "date": "2025-08-22",
@@ -409,32 +383,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Cosy Beach"
-      ]
-    },
-    {
-      "id": "7559d85a-a1f9-412d-a75b-108b2043f4e9",
-      "title": "Panty Drop Fridays",
-      "date": "2025-08-29",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Weekly Event",
-      "event_type_id": "weekly-event",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a9817f5b-a8a8-4498-a33c-39b6aa7df31c/Panty-Drop-Fridays.jpg",
-      "description": "Every Friday at Maggie Mays Jomtien you get a chance to take home a naughty souvenir. Buy a rack of 6 lady drinks and she will take off her panties and let you keep them. It's that simple. Spice up your Friday night and collect some panties! Every Friday from 1pm to midnight at Maggie Mays Jomtien. Map location: https://maps.app.goo.gl/z4hSg2753mjCHJtc9",
-      "color": "rgb(163, 202, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "weekly:friday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Jomtien"
       ]
     },
     {
@@ -828,6 +776,32 @@
       ]
     },
     {
+      "id": "1e7ca7ff-2d2b-41d9-8c52-2dc372b10c67",
+      "title": "Flirty Feline's Party",
+      "date": "2026-07-22",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/40f86b2a-3c95-4b06-8ada-2612bcf5faa3/Free-Willy-July-22nd-Fliry-Felines.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
       "id": "b6d7daa1-8ea1-4548-a72d-da78cf63a578",
       "title": "Nuchy & Pookie's Birthday",
       "date": "2026-07-25",
@@ -866,7 +840,7 @@
       "venue": "Free Willy",
       "venue_id": "free-willy",
       "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d06aafa8-4463-43c2-a090-b7d811ddc2d0/Free-Willy-July-28th-Polly-Tukta.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cfe97f9c-2d8e-4a27-85f7-021ab08e30cb/Free-Willy-July-28th-Polly-Tukta.jpg",
       "description": "",
       "color": "rgb(17, 85, 178)",
       "button_link": null,
