@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-21T04:13:15Z",
+    "generated_at": "2026-07-21T07:30:47Z",
     "source": "elfsight",
-    "total_events": 30
+    "total_events": 31
   },
   "event_types": [
     {
@@ -799,6 +799,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "ce0588b6-0a32-407e-8a80-985b35665312",
+      "title": "Welcome to the Zoo Party",
+      "date": "2026-07-24",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7814396e-b588-414a-9cb0-8e2540338eaa/MMP-24th-July-Zoo.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     },
     {
