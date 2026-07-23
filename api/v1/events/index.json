@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-23T12:22:35Z",
+    "generated_at": "2026-07-23T15:06:55Z",
     "source": "elfsight",
-    "total_events": 32
+    "total_events": 33
   },
   "event_types": [
     {
@@ -901,6 +901,32 @@
       "repeat_ends_date": null,
       "tags": [
         "The Brass House"
+      ]
+    },
+    {
+      "id": "cf53c7bc-9c7b-4000-9d73-7ef7a16af318",
+      "title": "Gay & Aom's Birthday Party",
+      "date": "2026-08-04",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f2362a75-5ee7-45dd-ac66-dc7027f9b058/MMBB-August-14th-Gay-Aom.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
       ]
     },
     {
