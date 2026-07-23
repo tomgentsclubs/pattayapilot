@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-22T22:59:53Z",
+    "generated_at": "2026-07-23T00:08:52Z",
     "source": "elfsight",
-    "total_events": 31
+    "total_events": 29
   },
   "event_types": [
     {
@@ -539,58 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "fe3680a5-837e-4e83-b4e5-69016c18668c",
-      "title": "Crazy Cats Party",
-      "date": "2026-07-15",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e17e8082-be9d-49c9-8fe9-c76686f73f63/Free-Willy-July-15th-Crazy-Cats.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
-      ]
-    },
-    {
-      "id": "678967a0-0b52-4792-b0e1-e73e304aeb40",
-      "title": "Dez's South African Braai",
-      "date": "2026-07-15",
-      "start_time": "16:00",
-      "end_time": "19:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Food Special",
-      "event_type_id": "food-special",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/17e51194-4d0d-4bbb-b185-a4f222753d5b/South-African-BBQ-Wednesdays.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
       ]
     },
     {
