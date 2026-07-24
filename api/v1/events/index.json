@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-24T09:19:23Z",
+    "generated_at": "2026-07-24T11:39:42Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 38
   },
   "event_types": [
     {
@@ -890,7 +890,7 @@
       "venue": "Free Willy",
       "venue_id": "free-willy",
       "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0d8d5762-d111-4a9f-b09a-fafdaa428f90/Free-Willy-July-29th-Black-and-White.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0ff61b3a-92f3-4f3e-afc0-f1cf25412c7a/Free-Willy-July-29th-Black-and-White.jpg",
       "description": "",
       "color": "rgb(17, 85, 178)",
       "button_link": null,
@@ -930,6 +930,58 @@
       ]
     },
     {
+      "id": "197e88c4-4cdf-4d2c-bd66-4d05fd62bd30",
+      "title": "Neung's Birthday Party",
+      "date": "2026-08-01",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3c05f388-45d6-4c1c-9e07-ed2851ae31f4/MMJ-August-1st-Neung.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "cc67e36e-075b-4134-ba8d-d353ae44474d",
+      "title": "Poppy & Van's Birthday Party",
+      "date": "2026-08-04",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/41ce99bb-062f-4644-a00c-d100d966dd02/MMP-August-4th-Van-Poppy.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
+      ]
+    },
+    {
       "id": "cf53c7bc-9c7b-4000-9d73-7ef7a16af318",
       "title": "Gay & Aom's Birthday Party",
       "date": "2026-08-04",
@@ -953,6 +1005,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "25ec3e9d-c295-4eaa-a270-6e5eb9355871",
+      "title": "Pizza's Birthday Party",
+      "date": "2026-08-06",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/449900a1-8433-4c75-86bd-899b3dcfa72b/MMJ-August-6th-Pizza.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
