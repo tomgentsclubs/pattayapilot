@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-23T23:57:43Z",
+    "generated_at": "2026-07-24T03:14:51Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 32
   },
   "event_types": [
     {
@@ -539,32 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "99c321e3-2d8e-47c9-8a7a-ea0042f92813",
-      "title": "England vs Argentina",
-      "date": "2026-07-16",
-      "start_time": "02:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Beer Bar",
-      "venue_id": "maggie-mays-beer-bar",
-      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ab999dee-53cf-40d2-8022-5d0c93084fe9/MMBB-Eng-Arg.jpg",
-      "description": "",
-      "color": "rgb(14, 139, 37)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Beer Bar"
       ]
     },
     {
