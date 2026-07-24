@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-24T06:23:06Z",
+    "generated_at": "2026-07-24T09:19:23Z",
     "source": "elfsight",
-    "total_events": 32
+    "total_events": 35
   },
   "event_types": [
     {
@@ -826,6 +826,32 @@
       ]
     },
     {
+      "id": "25f208ce-54b2-4dea-b603-961872603e1e",
+      "title": "Thai Tuesday Party!",
+      "date": "2026-07-28",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/23020557-e153-47cc-98da-d6ce6e38032b/Camel-Toe-July-28th-Thai-Tuesday.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
+      ]
+    },
+    {
       "id": "79ed9b19-3af1-468f-b219-13ac230d4274",
       "title": "Polly & Tukta's Birthday Party",
       "date": "2026-07-28",
@@ -839,6 +865,32 @@
       "venue_id": "free-willy",
       "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cfe97f9c-2d8e-4a27-85f7-021ab08e30cb/Free-Willy-July-28th-Polly-Tukta.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
+      "id": "cc72fec5-c365-4d10-87cc-56bd355835da",
+      "title": "Black & White Party",
+      "date": "2026-07-29",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0d8d5762-d111-4a9f-b09a-fafdaa428f90/Free-Willy-July-29th-Black-and-White.jpg",
       "description": "",
       "color": "rgb(17, 85, 178)",
       "button_link": null,
@@ -901,6 +953,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "c5b968e9-3f38-403a-be9d-71ccb0ae24b6",
+      "title": "Marco's Birthday Party",
+      "date": "2026-08-07",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d4bfb026-80f0-46fa-ae05-14f7e8f13812/Camel-Toe-August-7th-Marco.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
       ]
     },
     {
