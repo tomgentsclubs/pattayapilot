@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-24T22:13:07Z",
+    "generated_at": "2026-07-25T00:01:53Z",
     "source": "elfsight",
-    "total_events": 38
+    "total_events": 35
   },
   "event_types": [
     {
@@ -539,84 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "34d9710d-e0dd-459b-a56a-235e7966ca76",
-      "title": "Aom & Opal's Birthday Party",
-      "date": "2026-07-17",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a88374a7-baa5-4408-b9f3-dc89039819aa/Camel-Toe-July-17th-Aom-opal.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
-      ]
-    },
-    {
-      "id": "f0e66b33-85dd-46f4-aab1-ab36d1142e93",
-      "title": "Timmy's Birthday Party",
-      "date": "2026-07-17",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/bb00d656-a676-4f19-abc9-e20f7e1d1398/Catflaps-July-17th-Timmy.jpg",
-      "description": "",
-      "color": "rgb(255, 255, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Catflaps"
-      ]
-    },
-    {
-      "id": "033b973d-b6db-421f-8aa9-713e2576bb63",
-      "title": "Pla's Birthday Party",
-      "date": "2026-07-17",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Beer Bar",
-      "venue_id": "maggie-mays-beer-bar",
-      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/4abddad9-9e38-4bf5-98fe-982372638637/MMBB-July-17th-Pla.jpg",
-      "description": "",
-      "color": "rgb(14, 139, 37)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Beer Bar"
       ]
     },
     {
