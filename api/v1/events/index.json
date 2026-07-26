@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-25T23:58:24Z",
+    "generated_at": "2026-07-26T03:36:50Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 33
   },
   "event_types": [
     {
@@ -539,58 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "6ede7a2a-d03f-4b64-afcc-7db0b53dc2b4",
-      "title": "Mint's Birthday Party",
-      "date": "2026-07-18",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6b8336cd-084a-4fa5-91d9-6fb1da09a829/MMJ-July-18th-Mint.jpg",
-      "description": "",
-      "color": "rgb(163, 202, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "5830a0ec-264b-4293-b50f-95427c5a93eb",
-      "title": "Pool Party",
-      "date": "2026-07-18",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Pool Party",
-      "event_type_id": "pool-party",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/bdac4575-3a77-428c-b383-6c1d828f1630/MMR-July-18th-Pool-Party.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
       ]
     },
     {
