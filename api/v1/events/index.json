@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-26T11:17:23Z",
+    "generated_at": "2026-07-26T13:15:58Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 34
   },
   "event_types": [
     {
@@ -745,6 +745,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "36278a67-c87e-491a-833d-7167fd838ff4",
+      "title": "Birthday Candle Show",
+      "date": "2026-07-28",
+      "start_time": "15:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Bradleys",
+      "venue_id": "bradleys",
+      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/715a3769-fad2-459a-b658-7ec2ab4aaf4f/Bradleys-July-28th-Candle-Birthday-2.jpg",
+      "description": "",
+      "color": "rgb(17, 17, 17)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Bradleys"
       ]
     },
     {
