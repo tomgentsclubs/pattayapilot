@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-29T02:40:53Z",
+    "generated_at": "2026-07-29T05:50:01Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 36
   },
   "event_types": [
     {
@@ -745,6 +745,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Bradleys"
+      ]
+    },
+    {
+      "id": "efdcae64-0000-4d62-8942-d5a3026b7908",
+      "title": "South African BBQ",
+      "date": "2026-07-29",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Food Special",
+      "event_type_id": "food-special",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/adf26513-7426-4173-8fa4-eb7a7028005a/South-African-BBQ-Wednesdays.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
