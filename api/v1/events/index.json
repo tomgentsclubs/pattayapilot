@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-30T05:38:07Z",
+    "generated_at": "2026-07-30T08:21:46Z",
     "source": "elfsight",
     "total_events": 35
   },
@@ -827,7 +827,7 @@
     },
     {
       "id": "197e88c4-4cdf-4d2c-bd66-4d05fd62bd30",
-      "title": "Neung's Birthday Party",
+      "title": "Pa's Birthday Party",
       "date": "2026-08-01",
       "start_time": "13:00",
       "end_time": "23:59",
@@ -838,7 +838,7 @@
       "venue": "Maggie Mays Jomtien",
       "venue_id": "maggie-mays-jomtien",
       "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3c05f388-45d6-4c1c-9e07-ed2851ae31f4/MMJ-August-1st-Neung.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ff00f646-52ab-4a8f-b4a6-97d36ee4f126/MMJ-August-1st-Pa.jpg",
       "description": "",
       "color": "rgb(163, 202, 255)",
       "button_link": null,
