@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-31T09:42:05Z",
+    "generated_at": "2026-07-31T11:57:16Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 35
   },
   "event_types": [
     {
@@ -825,6 +825,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "ac360499-d550-4c5d-aa2a-20744a81f666",
+      "title": "Flirty Felines Party",
+      "date": "2026-08-03",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6562c190-ed60-4572-80a9-14ebee769516/Free-Willy-August-3rd-Felines.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
