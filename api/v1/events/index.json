@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-30T23:03:37Z",
+    "generated_at": "2026-07-31T02:36:08Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 34
   },
   "event_types": [
     {
@@ -540,30 +540,6 @@
       "tags": [
         "Maggie Mays Darkside"
       ]
-    },
-    {
-      "id": "74c56603-7af5-4577-b47e-749c540ef0e9",
-      "title": "",
-      "date": "2026-07-23",
-      "start_time": "13:56",
-      "end_time": "14:56",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "",
-      "event_type_id": "",
-      "venue": "",
-      "venue_id": "",
-      "directions_url": null,
-      "image_url": null,
-      "description": "",
-      "color": "transparent",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": []
     },
     {
       "id": "63b638ba-5e4c-4d6c-84dc-7e752d94d3ca",
