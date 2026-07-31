@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-07-31T11:57:16Z",
+    "generated_at": "2026-07-31T14:14:43Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 37
   },
   "event_types": [
     {
@@ -906,6 +906,32 @@
       ]
     },
     {
+      "id": "22030931-7393-4db1-a528-8eb6707416e3",
+      "title": "Micky, Fon, Lily & Patty's Birthday",
+      "date": "2026-08-05",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/74cbcfac-a76c-4e05-8f5d-57362d3bd3d6/MMD-August-5th-Quintet.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
       "id": "25ec3e9d-c295-4eaa-a270-6e5eb9355871",
       "title": "Pizza's Birthday Party",
       "date": "2026-08-06",
@@ -945,6 +971,32 @@
       "venue_id": "the-camel-toe",
       "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d4bfb026-80f0-46fa-ae05-14f7e8f13812/Camel-Toe-August-7th-Marco.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
+      ]
+    },
+    {
+      "id": "c57c4a4d-d216-4d6f-a560-79c530208438",
+      "title": "Alis & Nui's Birthday Party",
+      "date": "2026-08-14",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/918b5689-ab3b-46ee-a43c-80f73249b811/Camel-Toe-August-14th-Alis-Nui.jpg",
       "description": "",
       "color": "rgb(255, 235, 0)",
       "button_link": null,
