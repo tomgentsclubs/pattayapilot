@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-01T14:58:00Z",
+    "generated_at": "2026-08-01T16:04:10Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 36
   },
   "event_types": [
     {
@@ -981,6 +981,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "bc5582ff-c13f-45c5-bff8-a2d4ec7629c7",
+      "title": "Pool Party",
+      "date": "2026-08-15",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/00295202-490f-42a9-a2e1-bbec9b8b68c8/MMR-August-15th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
