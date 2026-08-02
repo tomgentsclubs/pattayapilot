@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-01T23:55:07Z",
+    "generated_at": "2026-08-02T02:33:28Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 35
   },
   "event_types": [
     {
@@ -539,32 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "b6d7daa1-8ea1-4548-a72d-da78cf63a578",
-      "title": "Nuchy's Birthday Party",
-      "date": "2026-07-25",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/aa50385e-c650-4865-9f50-d7e385fe0872/MMR-July-25th-Nuchy.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
       ]
     },
     {
