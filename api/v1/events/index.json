@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-04T23:00:40Z",
+    "generated_at": "2026-08-05T02:14:39Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 33
   },
   "event_types": [
     {
@@ -539,84 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "25f208ce-54b2-4dea-b603-961872603e1e",
-      "title": "Thai Tuesday Party!",
-      "date": "2026-07-28",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/23020557-e153-47cc-98da-d6ce6e38032b/Camel-Toe-July-28th-Thai-Tuesday.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
-      ]
-    },
-    {
-      "id": "79ed9b19-3af1-468f-b219-13ac230d4274",
-      "title": "Polly & Tukta's Birthday Party",
-      "date": "2026-07-28",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cfe97f9c-2d8e-4a27-85f7-021ab08e30cb/Free-Willy-July-28th-Polly-Tukta.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
-      ]
-    },
-    {
-      "id": "36278a67-c87e-491a-833d-7167fd838ff4",
-      "title": "Birthday Candle Show",
-      "date": "2026-07-28",
-      "start_time": "15:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Bradleys",
-      "venue_id": "bradleys",
-      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/715a3769-fad2-459a-b658-7ec2ab4aaf4f/Bradleys-July-28th-Candle-Birthday-2.jpg",
-      "description": "",
-      "color": "rgb(17, 17, 17)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Bradleys"
       ]
     },
     {
