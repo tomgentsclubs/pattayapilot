@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-05T23:57:55Z",
+    "generated_at": "2026-08-06T03:11:55Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 31
   },
   "event_types": [
     {
@@ -539,58 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "efdcae64-0000-4d62-8942-d5a3026b7908",
-      "title": "South African BBQ",
-      "date": "2026-07-29",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Food Special",
-      "event_type_id": "food-special",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/adf26513-7426-4173-8fa4-eb7a7028005a/South-African-BBQ-Wednesdays.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
-      ]
-    },
-    {
-      "id": "cc72fec5-c365-4d10-87cc-56bd355835da",
-      "title": "Black & White Party",
-      "date": "2026-07-29",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0ff61b3a-92f3-4f3e-afc0-f1cf25412c7a/Free-Willy-July-29th-Black-and-White.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
       ]
     },
     {
