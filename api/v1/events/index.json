@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-07T04:51:41Z",
+    "generated_at": "2026-08-07T06:07:10Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 34
   },
   "event_types": [
     {
@@ -929,6 +929,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "647e09ff-8675-4ebf-b17c-43953a7b2286",
+      "title": "Toon's Birthday Party",
+      "date": "2026-08-17",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/585baa44-0092-4740-8bf2-c1359a47e617/MMJ-August-17th-Toon.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
