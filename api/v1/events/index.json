@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-07T06:07:10Z",
+    "generated_at": "2026-08-07T08:10:48Z",
     "source": "elfsight",
     "total_events": 34
   },
@@ -933,7 +933,7 @@
     },
     {
       "id": "647e09ff-8675-4ebf-b17c-43953a7b2286",
-      "title": "Toon's Birthday Party",
+      "title": "Toon's & Rita's Birthday Party",
       "date": "2026-08-17",
       "start_time": "13:00",
       "end_time": "23:59",
@@ -944,7 +944,7 @@
       "venue": "Maggie Mays Jomtien",
       "venue_id": "maggie-mays-jomtien",
       "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/585baa44-0092-4740-8bf2-c1359a47e617/MMJ-August-17th-Toon.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/13b6166f-a66f-4571-9def-7e8c01aff718/MMJ-August-17th-Toon.jpg",
       "description": "",
       "color": "rgb(163, 202, 255)",
       "button_link": null,
