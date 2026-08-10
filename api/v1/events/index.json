@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-10T13:01:16Z",
+    "generated_at": "2026-08-10T14:55:09Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 35
   },
   "event_types": [
     {
@@ -903,6 +903,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "bc22651d-06f2-451b-bcb1-2827b37fea89",
+      "title": "Swimsuit Sunday",
+      "date": "2026-08-16",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/87241ce8-9cb8-4a54-b733-4a61c47f357c/Swimsuit-Sunday.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "weekly:sunday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "5aa7a8d4-7203-46f3-8cc1-048ceef36689",
+      "title": "No Undie Monday",
+      "date": "2026-08-17",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ce167231-05e7-4e05-8395-17d4e4acdc22/No-Undie-Monday.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "weekly:monday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
