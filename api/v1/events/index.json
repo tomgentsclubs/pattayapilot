@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-11T23:36:20Z",
+    "generated_at": "2026-08-12T01:43:56Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 33
   },
   "event_types": [
     {
@@ -539,32 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "cc67e36e-075b-4134-ba8d-d353ae44474d",
-      "title": "Poppy & Van's Birthday Party",
-      "date": "2026-08-04",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/41ce99bb-062f-4644-a00c-d100d966dd02/MMP-August-4th-Van-Poppy.jpg",
-      "description": "",
-      "color": "rgb(87, 87, 87)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
       ]
     },
     {
