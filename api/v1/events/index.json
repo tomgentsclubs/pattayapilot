@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-14T16:48:25Z",
+    "generated_at": "2026-08-14T17:50:04Z",
     "source": "elfsight",
-    "total_events": 30
+    "total_events": 32
   },
   "event_types": [
     {
@@ -851,6 +851,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "8435ca82-39db-4700-a7d5-e5ec3fdae984",
+      "title": "Playful Pussies Party",
+      "date": "2026-08-17",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/88f2420d-6d57-4d73-a4a3-420778e944c9/Free-Willy-August-17th-Pussies.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
+      "id": "bd63202e-2bd2-451e-a164-9c9fdbeec26b",
+      "title": "Annabell & Ple's Party",
+      "date": "2026-08-25",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/26c2a916-0706-4b39-bddf-ce3b2a681c14/Free-Willy-August-25th-Annabell-Ple.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
