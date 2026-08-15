@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-14T23:18:39Z",
+    "generated_at": "2026-08-15T01:04:50Z",
     "source": "elfsight",
-    "total_events": 32
+    "total_events": 29
   },
   "event_types": [
     {
@@ -539,84 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "9f376101-c6d4-4494-b556-71a13a37d1e9",
-      "title": "Noo & Koy's Birthday Party",
-      "date": "2026-08-07",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/40821222-7825-4dd1-81f4-e3f77d838a38/Catflaps-August-7th-Noo-Koy.jpg",
-      "description": "",
-      "color": "transparent",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Catflaps"
-      ]
-    },
-    {
-      "id": "c5b968e9-3f38-403a-be9d-71ccb0ae24b6",
-      "title": "Marco's Birthday Party",
-      "date": "2026-08-07",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d4bfb026-80f0-46fa-ae05-14f7e8f13812/Camel-Toe-August-7th-Marco.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
-      ]
-    },
-    {
-      "id": "5013a35c-65fb-4e32-a92c-e11e19081d3f",
-      "title": "Pyjama Party",
-      "date": "2026-08-07",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ca257b4f-5bdb-40bf-b672-2edfe59ee0ed/Club-Fate-August-7th-Pyjama.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
