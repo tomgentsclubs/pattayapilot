@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-21T06:40:44Z",
+    "generated_at": "2026-08-21T07:39:28Z",
     "source": "elfsight",
-    "total_events": 30
+    "total_events": 31
   },
   "event_types": [
     {
@@ -789,6 +789,32 @@
       "venue_id": "free-willy",
       "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/26c2a916-0706-4b39-bddf-ce3b2a681c14/Free-Willy-August-25th-Annabell-Ple.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
+      "id": "efb30017-c955-437f-a244-242be8609349",
+      "title": "Bikini Party",
+      "date": "2026-08-27",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/2c5a64a2-c384-4679-9871-20a3247cb007/Free-Willy-August-27th-Bikini.jpg",
       "description": "",
       "color": "rgb(17, 85, 178)",
       "button_link": null,
