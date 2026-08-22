@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-21T23:20:01Z",
+    "generated_at": "2026-08-22T01:04:32Z",
     "source": "elfsight",
-    "total_events": 32
+    "total_events": 30
   },
   "event_types": [
     {
@@ -539,58 +539,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "c57c4a4d-d216-4d6f-a560-79c530208438",
-      "title": "Alis & Nui's Birthday Party",
-      "date": "2026-08-14",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/918b5689-ab3b-46ee-a43c-80f73249b811/Camel-Toe-August-14th-Alis-Nui.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
-      ]
-    },
-    {
-      "id": "0864fa40-f993-4d42-b6c1-f78b1adfeb71",
-      "title": "Gay & Aom's Birthday Party",
-      "date": "2026-08-14",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Beer Bar",
-      "venue_id": "maggie-mays-beer-bar",
-      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f3d50fa4-761d-4e51-a4f6-9ccc7aa91635/MMBB-August-14th-Gay-Aom.jpg",
-      "description": "",
-      "color": "rgb(14, 139, 37)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Beer Bar"
       ]
     },
     {
