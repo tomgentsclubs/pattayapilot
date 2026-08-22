@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-22T10:19:41Z",
+    "generated_at": "2026-08-22T11:18:10Z",
     "source": "elfsight",
-    "total_events": 30
+    "total_events": 31
   },
   "event_types": [
     {
@@ -825,6 +825,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "1a21703b-2eaf-435a-a86d-592cfdee4b71",
+      "title": "Goth Party",
+      "date": "2026-09-04",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c108b437-8f64-43b9-965d-599ed24e2099/MMP-September-4th-Goth.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     },
     {
