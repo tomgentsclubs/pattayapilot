@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-26T05:31:28Z",
+    "generated_at": "2026-08-26T06:42:59Z",
     "source": "elfsight",
-    "total_events": 31
+    "total_events": 32
   },
   "event_types": [
     {
@@ -877,6 +877,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "bd3f0733-9991-415a-bd04-f70607ab42a6",
+      "title": "Sophia's Birthday Party",
+      "date": "2026-09-25",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/85653740-f534-4f8c-8b25-532f9c1d03e7/MMBB-September-25th-Sophia.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
       ]
     },
     {
