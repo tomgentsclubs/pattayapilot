@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-28T21:04:32Z",
+    "generated_at": "2026-08-29T03:28:47Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 32
   },
   "event_types": [
     {
@@ -591,32 +591,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "b515c1d8-0e4d-4f97-a702-41b8e6252513",
-      "title": "Pirate Party",
-      "date": "2026-08-21",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9d810f22-7d2f-4bcc-adc6-8a25f5ad237e/MMP-August-21st-Pirate.jpg",
-      "description": "",
-      "color": "rgb(87, 87, 87)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
       ]
     },
     {
