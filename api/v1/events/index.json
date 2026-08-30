@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-29T22:19:49Z",
+    "generated_at": "2026-08-30T01:01:44Z",
     "source": "elfsight",
-    "total_events": 32
+    "total_events": 31
   },
   "event_types": [
     {
@@ -591,32 +591,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "4c88c38d-cfbf-40f2-a511-22e652214e10",
-      "title": "Addicted to Love Party",
-      "date": "2026-08-22",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/85ee922f-2921-43b3-a96c-08476e6380bd/Club-Fate-August-22nd-Addicted-to-Love.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
