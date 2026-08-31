@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-08-31T03:36:37Z",
+    "generated_at": "2026-08-31T10:30:37Z",
     "source": "elfsight",
-    "total_events": 32
+    "total_events": 34
   },
   "event_types": [
     {
@@ -877,6 +877,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "de88fb1f-defc-4739-823f-7f4707a09cd3",
+      "title": "Anna's Birthday Party",
+      "date": "2026-09-16",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8573bbd3-0f12-4ffa-b9b0-d0288b0f9212/MMJ-September-16th-Anna.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "d35abfab-4259-46de-933f-e92d35a047cb",
+      "title": "Beebee's Birthday Party",
+      "date": "2026-09-25",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/429609c5-7143-4885-8d02-d3f58ac9c0fc/MMJ-September-25th-Beebee.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
