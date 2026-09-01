@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-01T13:04:13Z",
+    "generated_at": "2026-09-01T17:35:08Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 40
   },
   "event_types": [
     {
@@ -854,6 +854,32 @@
       ]
     },
     {
+      "id": "2aed649b-bb83-49bb-b435-f3df2f3d3522",
+      "title": "Bikini Party",
+      "date": "2026-09-04",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c3bd2d71-a24a-4576-890f-42d5427278f6/Free-Willy-September-4th-Bikini.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
       "id": "fbad04ef-87c9-4c3b-8080-7133ecb215b3",
       "title": "Steven's Birthday Party",
       "date": "2026-09-05",
@@ -880,6 +906,110 @@
       ]
     },
     {
+      "id": "57516acc-6a57-4948-8409-10b9db347b1b",
+      "title": "Aon & Emma's Birthday Party",
+      "date": "2026-09-09",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/276c2dc0-c7e5-43c5-a89d-0a83080e7668/MMJ-September-9th-Aon-Emma.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "2e61fc3a-89c4-4045-82b8-a4c5bbefb1e0",
+      "title": "Nigel & Na's Birthday Party",
+      "date": "2026-09-11",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9739b482-f5ad-4de6-86c9-4b1ba3bd4df5/Catflaps-September-11th-Nigel-Na.jpg",
+      "description": "",
+      "color": "transparent",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
+      ]
+    },
+    {
+      "id": "a213be1b-78cd-4a36-9c7c-6f0f360719c1",
+      "title": "Kunny's Birthday Party",
+      "date": "2026-09-11",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6368382f-f5a2-4b68-a9d7-37487d62d097/Camel-Toe-September-11th-Kunny.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
+      ]
+    },
+    {
+      "id": "c1f787e0-0416-4a38-b09d-ce548c47fb26",
+      "title": "Noo & Nong's Birthday Party",
+      "date": "2026-09-11",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/61e287c0-9ce9-4f0b-94f7-77065beb6892/MMB-September-11th-Noo-Nong.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
+      ]
+    },
+    {
       "id": "de88fb1f-defc-4739-823f-7f4707a09cd3",
       "title": "Anna's Birthday Party",
       "date": "2026-09-16",
@@ -903,6 +1033,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "723a0986-7cfb-48d7-bc3c-65c72468313b",
+      "title": "Glow Party",
+      "date": "2026-09-18",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e6c1333c-c4fa-455d-9c53-496c7c095886/MMP-September-18th-Glow-Party.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     },
     {
