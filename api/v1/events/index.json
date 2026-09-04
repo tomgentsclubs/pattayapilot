@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-04T10:34:52Z",
+    "generated_at": "2026-09-04T14:46:18Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 39
   },
   "event_types": [
     {
@@ -828,6 +828,32 @@
       ]
     },
     {
+      "id": "b87eab32-d758-46d5-924e-c451cefb3679",
+      "title": "Black & White Party",
+      "date": "2026-09-07",
+      "start_time": "14:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/427fb788-88c1-4046-aa42-314b64cdb65a/Free-Willy-September-7th-BW.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
       "id": "57516acc-6a57-4948-8409-10b9db347b1b",
       "title": "Aon & Emma's Birthday Party",
       "date": "2026-09-09",
@@ -851,6 +877,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "35432c5b-5daa-47a0-9a7a-fdc518c68549",
+      "title": "Aom & Fern's Birthday Party",
+      "date": "2026-09-10",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/4fbffe28-da60-4a6f-8ed5-31907fd37d5f/Club-Fate-September-10th-Aom-Fern.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
