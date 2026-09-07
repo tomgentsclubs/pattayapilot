@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-06T22:40:37Z",
+    "generated_at": "2026-09-07T00:40:42Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 34
   },
   "event_types": [
     {
@@ -591,32 +591,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "dab217ab-1d5a-49e4-8b5b-4e8ff6c6947b",
-      "title": "Thai Party",
-      "date": "2026-08-30",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a9614bce-4850-4e53-8133-518e9e18c977/Camel-Toe-August-30th-Thai-Party.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
       ]
     },
     {
