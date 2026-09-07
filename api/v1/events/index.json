@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-07T05:40:24Z",
+    "generated_at": "2026-09-07T11:34:30Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 35
   },
   "event_types": [
     {
@@ -464,32 +464,6 @@
       ]
     },
     {
-      "id": "72932ade-11e1-45ea-9171-cfd513ae1251",
-      "title": "Pool Party",
-      "date": "2026-02-14",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Pool Party",
-      "event_type_id": "pool-party",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a8b6c63c-5a6a-4d90-8fec-27f10978e9cc/Pool-Party-Fortnightly.png",
-      "description": "Epic Pool Parties at Maggie Mays Resort every fortnight. Free Entry, Free BBQ, Wet T-Shirt, Limbo and Twerk Contests plus more naughty pool games. From 1pm until midnight. Contests and games start from 3pm so be sure to get in early and get the best seats! BBQ served up by 4pm. Map Location: https://maps.app.goo.gl/DTD2vsH9QLcRH5Ff6",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "custom:weekly:2",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
-      ]
-    },
-    {
       "id": "dd53ad57-07d4-4ca2-9ce9-825f6e73e472",
       "title": "Killer Pool Mondays",
       "date": "2026-02-23",
@@ -854,6 +828,32 @@
       ]
     },
     {
+      "id": "ec46305f-9d73-4708-af5e-6c6d5aef1e4c",
+      "title": "Pool Party",
+      "date": "2026-09-12",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/b5075e62-e20c-4866-b3bb-f522e76a892b/pool-party.png",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
       "id": "de88fb1f-defc-4739-823f-7f4707a09cd3",
       "title": "Anna's Birthday Party",
       "date": "2026-09-16",
@@ -903,6 +903,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Pattaya"
+      ]
+    },
+    {
+      "id": "bf301468-0ffe-4962-87c5-9392680df3d1",
+      "title": "Pool Party",
+      "date": "2026-09-19",
+      "start_time": "13:00",
+      "end_time": "13:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/08fb784f-3a72-4ad0-ae53-27b894a2cffa/MMR-Pool-Party-Weekly.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "weekly:saturday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
