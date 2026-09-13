@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-13T03:08:23Z",
+    "generated_at": "2026-09-13T13:38:56Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 37
   },
   "event_types": [
     {
@@ -863,6 +863,32 @@
       ]
     },
     {
+      "id": "8ce149c5-f435-4069-8082-cd9afff02023",
+      "title": "Girls Just Want To Have Fun",
+      "date": "2026-09-16",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e101e576-edf0-4234-9b24-6a3e805cf36f/Club-Fate-September-16th-Fun-Fun-Fun.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
+      ]
+    },
+    {
       "id": "723a0986-7cfb-48d7-bc3c-65c72468313b",
       "title": "Glow Party",
       "date": "2026-09-18",
@@ -912,6 +938,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "d1d830e2-70ec-4a39-bc0a-3a382048d8af",
+      "title": "Hawaiian Party",
+      "date": "2026-09-19",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/36c9d18e-3697-43c9-88e3-a5d86b455143/MMBB-September-19th-Hawaiian.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
       ]
     },
     {
