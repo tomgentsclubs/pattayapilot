@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-14T00:42:29Z",
+    "generated_at": "2026-09-14T05:46:29Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 38
   },
   "event_types": [
     {
@@ -476,7 +476,7 @@
       "id": "dd53ad57-07d4-4ca2-9ce9-825f6e73e472",
       "title": "Killer Pool Mondays",
       "date": "2026-02-23",
-      "start_time": "22:00",
+      "start_time": "23:00",
       "end_time": "23:59",
       "is_all_day": false,
       "timezone": "Asia/Bangkok",
@@ -485,7 +485,7 @@
       "venue": "Maggie Mays Beer Bar",
       "venue_id": "maggie-mays-beer-bar",
       "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ae6b74ae-9d44-4f52-83a7-0309c5c7cd9a/Killer-Pool-Monday.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/abc4dadb-9fbd-4884-9044-1a1e88611f3d/Killer-Pool-Monday-11pm.jpg",
       "description": "",
       "color": "rgb(14, 139, 37)",
       "button_link": null,
@@ -886,6 +886,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Club Fate"
+      ]
+    },
+    {
+      "id": "6eee9318-1e43-4dac-9766-9f6595eaf59c",
+      "title": "Sexy Cowgirls Party",
+      "date": "2026-09-18",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f46facec-6673-48c9-97da-8023695f2cee/Free-Willy-September-18th-Sexy-Cowgirls.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
