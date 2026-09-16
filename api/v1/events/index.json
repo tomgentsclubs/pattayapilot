@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-16T01:04:44Z",
+    "generated_at": "2026-09-16T07:12:27Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 38
   },
   "event_types": [
     {
@@ -990,6 +990,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
+      ]
+    },
+    {
+      "id": "63d88d47-9c98-43e9-8e9f-548915dfbed8",
+      "title": "Jinny's Birthday Party",
+      "date": "2026-09-25",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/be44cd07-a459-4c76-8086-5b549527fbb2/Catflaps-September-25th-Jinny.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
       ]
     },
     {
