@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-16T21:01:42Z",
+    "generated_at": "2026-09-17T00:03:55Z",
     "source": "elfsight",
-    "total_events": 40
+    "total_events": 39
   },
   "event_types": [
     {
@@ -571,32 +571,6 @@
       "recurring": true,
       "recurrence_rule": "weekly:monday",
       "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "57516acc-6a57-4948-8409-10b9db347b1b",
-      "title": "Aon & Emma's Birthday Party",
-      "date": "2026-09-09",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/276c2dc0-c7e5-43c5-a89d-0a83080e7668/MMJ-September-9th-Aon-Emma.jpg",
-      "description": "",
-      "color": "rgb(163, 202, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
