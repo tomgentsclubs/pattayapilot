@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-18T22:16:19Z",
+    "generated_at": "2026-09-19T00:56:50Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 34
   },
   "event_types": [
     {
@@ -574,84 +574,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "2e61fc3a-89c4-4045-82b8-a4c5bbefb1e0",
-      "title": "Nigel & Na's Birthday Party",
-      "date": "2026-09-11",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9739b482-f5ad-4de6-86c9-4b1ba3bd4df5/Catflaps-September-11th-Nigel-Na.jpg",
-      "description": "",
-      "color": "transparent",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Catflaps"
-      ]
-    },
-    {
-      "id": "a213be1b-78cd-4a36-9c7c-6f0f360719c1",
-      "title": "Kunny's Birthday Party",
-      "date": "2026-09-11",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6368382f-f5a2-4b68-a9d7-37487d62d097/Camel-Toe-September-11th-Kunny.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
-      ]
-    },
-    {
-      "id": "c1f787e0-0416-4a38-b09d-ce548c47fb26",
-      "title": "Noo & Nong's Birthday Party",
-      "date": "2026-09-11",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Beer Bar",
-      "venue_id": "maggie-mays-beer-bar",
-      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/61e287c0-9ce9-4f0b-94f7-77065beb6892/MMB-September-11th-Noo-Nong.jpg",
-      "description": "",
-      "color": "rgb(14, 139, 37)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Beer Bar"
       ]
     },
     {
