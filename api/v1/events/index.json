@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-19T10:17:43Z",
+    "generated_at": "2026-09-19T14:09:30Z",
     "source": "elfsight",
-    "total_events": 34
+    "total_events": 36
   },
   "event_types": [
     {
@@ -889,6 +889,32 @@
       ]
     },
     {
+      "id": "11cf0550-ba22-4d57-bc2b-00adbcefdce7",
+      "title": "Tropical Party",
+      "date": "2026-09-21",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/270102cc-3cb2-431b-ba3e-30faa61ab9f6/Free-Willy-September-21st-Tropical-Party.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
       "id": "63d88d47-9c98-43e9-8e9f-548915dfbed8",
       "title": "Jinny's Birthday Party",
       "date": "2026-09-25",
@@ -964,6 +990,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "1415269d-c0ee-49a9-b933-c161b6beeed3",
+      "title": "Ban Chang Trip",
+      "date": "2026-10-04",
+      "start_time": "11:00",
+      "end_time": "21:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Excursion",
+      "event_type_id": "excursion",
+      "venue": "Maggie Mays Ban Chang",
+      "venue_id": "maggie-mays-ban-chang",
+      "directions_url": null,
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f48f960b-9698-48b1-a2ac-3fbbb0e11661/Ban-Chang-Generic-Poster.jpg",
+      "description": "",
+      "color": "rgb(255, 120, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "custom:weekly:2",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Ban Chang"
       ]
     },
     {
