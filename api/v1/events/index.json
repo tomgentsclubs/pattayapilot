@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-20T05:41:51Z",
+    "generated_at": "2026-09-20T10:36:54Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 37
   },
   "event_types": [
     {
@@ -448,7 +448,7 @@
     },
     {
       "id": "0eddd5cb-0c1f-440b-aae3-c992dc19f250",
-      "title": "Buzzin Pattaya Ban Chang Trip",
+      "title": "Buzzin Ban Chang Trip",
       "date": "2025-11-05",
       "start_time": "14:00",
       "end_time": "20:00",
@@ -876,6 +876,32 @@
       "venue_id": "free-willy",
       "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/270102cc-3cb2-431b-ba3e-30faa61ab9f6/Free-Willy-September-21st-Tropical-Party.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
+      "id": "bc3721af-4187-41f3-b4b7-ab687a774622",
+      "title": "Sexy Bunny Party",
+      "date": "2026-09-23",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f0a8dec5-e0ab-4a53-86b1-fd78465738e7/Free-Willy-September-23rd-Playboy.jpg",
       "description": "",
       "color": "rgb(17, 85, 178)",
       "button_link": null,
