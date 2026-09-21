@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-21T05:57:07Z",
+    "generated_at": "2026-09-21T12:19:57Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 37
   },
   "event_types": [
     {
@@ -889,6 +889,32 @@
       ]
     },
     {
+      "id": "3d7075a5-e144-4724-a6ad-1cfb8968863a",
+      "title": "Pyjama Party",
+      "date": "2026-09-23",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3b758ebc-3f91-4b49-84a6-c854ff789e64/Club-Fate-September-23rd-Pyjama.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
+      ]
+    },
+    {
       "id": "63d88d47-9c98-43e9-8e9f-548915dfbed8",
       "title": "Jinny's Birthday Party",
       "date": "2026-09-25",
@@ -990,6 +1016,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "bc75210c-8601-4d16-8b37-26b10f20df7e",
+      "title": "Thai Party",
+      "date": "2026-09-28",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/eab7e040-a2d1-4d69-9c85-10bcbd310b0a/Camel-Toe-September-28th-Thai-Party.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
       ]
     },
     {
