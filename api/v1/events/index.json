@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-22T07:17:20Z",
+    "generated_at": "2026-09-22T13:04:41Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 38
   },
   "event_types": [
     {
@@ -421,58 +421,6 @@
       ]
     },
     {
-      "id": "f2766acd-cd92-408b-b618-d967842046b4",
-      "title": "Buzzin Darkside Bar Crawl",
-      "date": "2025-10-29",
-      "start_time": "13:30",
-      "end_time": "19:30",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Bar Crawl",
-      "event_type_id": "bar-crawl",
-      "venue": "Buzzin Lounge",
-      "venue_id": "buzzin-lounge",
-      "directions_url": "https://maps.app.goo.gl/gUt1piYFnUW3eWk88",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8b7751f6-bcbe-40b4-bb7c-da928c8f2760/buzzin-ban-chang.jpg",
-      "description": "Buzzin Darkside Bar Crawls on the 2nd Wednesday of every month. Limited to 12 people so get your tickets early. 400 baht per ticket. Find out more on the Buzzin Discord: https://discord.gg/AeMZRyrtAk",
-      "color": "rgb(255, 56, 56)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "custom:weekly:2",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Buzzin Lounge"
-      ]
-    },
-    {
-      "id": "0eddd5cb-0c1f-440b-aae3-c992dc19f250",
-      "title": "Buzzin Ban Chang Trip",
-      "date": "2025-11-05",
-      "start_time": "14:00",
-      "end_time": "20:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Bar Crawl",
-      "event_type_id": "bar-crawl",
-      "venue": "Buzzin Lounge",
-      "venue_id": "buzzin-lounge",
-      "directions_url": "https://maps.app.goo.gl/gUt1piYFnUW3eWk88",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a153c28f-3f82-4651-a72f-ef0edc4a52fd/buzzin-darkside.jpg",
-      "description": "Have you been to Banchang before? If you haven't come and join us as we head out of the city to a fun packed area that is always a great afternoon/evening. This area has a strip of bars with very welcoming girls. It's only a short 40 minute minibus ride away. Once we get there we visit around 10+ bars unless of course you have a reason to stay in the bar you are in. If you have never been you should make is a \"to-do\" event as you won't regret it. Air-conditioned minibus picks us up from Buzzin lounge at 2pm and returns at 8:30pm. Tickets cost 400B to cover the cost of the transport. LIMITED to 10 TICKETS ONLY, to get your ticket come to the Buzzin Lounge before Wednesday. Map Location: https://maps.app.goo.gl/i2hyBqreGYbVX6Mw8",
-      "color": "rgb(255, 56, 56)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "custom:weekly:2",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Buzzin Lounge"
-      ]
-    },
-    {
       "id": "dd53ad57-07d4-4ca2-9ce9-825f6e73e472",
       "title": "Killer Pool Mondays",
       "date": "2026-02-23",
@@ -544,32 +492,6 @@
       "button_text": null,
       "recurring": true,
       "recurrence_rule": "weekly:sunday",
-      "repeat_ends": "never",
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "5aa7a8d4-7203-46f3-8cc1-048ceef36689",
-      "title": "No Undie Monday",
-      "date": "2026-08-17",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Jomtien",
-      "venue_id": "maggie-mays-jomtien",
-      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ce167231-05e7-4e05-8395-17d4e4acdc22/No-Undie-Monday.jpg",
-      "description": "",
-      "color": "rgb(163, 202, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": true,
-      "recurrence_rule": "weekly:monday",
       "repeat_ends": "never",
       "repeat_ends_date": null,
       "tags": [
@@ -863,6 +785,32 @@
       ]
     },
     {
+      "id": "f2766acd-cd92-408b-b618-d967842046b4",
+      "title": "Buzzin Darkside Bar Crawl",
+      "date": "2026-09-23",
+      "start_time": "13:30",
+      "end_time": "19:30",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Bar Crawl",
+      "event_type_id": "bar-crawl",
+      "venue": "Buzzin Lounge",
+      "venue_id": "buzzin-lounge",
+      "directions_url": "https://maps.app.goo.gl/gUt1piYFnUW3eWk88",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8b7751f6-bcbe-40b4-bb7c-da928c8f2760/buzzin-ban-chang.jpg",
+      "description": "Buzzin Darkside Bar Crawls on the 2nd Wednesday of every month. Limited to 12 people so get your tickets early. 400 baht per ticket. Find out more on the Buzzin Discord: https://discord.gg/AeMZRyrtAk",
+      "color": "rgb(255, 56, 56)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "custom:weekly:2",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Buzzin Lounge"
+      ]
+    },
+    {
       "id": "bc3721af-4187-41f3-b4b7-ab687a774622",
       "title": "Sexy Bunny Party",
       "date": "2026-09-23",
@@ -1045,6 +993,58 @@
       ]
     },
     {
+      "id": "0eddd5cb-0c1f-440b-aae3-c992dc19f250",
+      "title": "Buzzin Ban Chang Trip",
+      "date": "2026-09-30",
+      "start_time": "14:00",
+      "end_time": "21:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Bar Crawl",
+      "event_type_id": "bar-crawl",
+      "venue": "Buzzin Lounge",
+      "venue_id": "buzzin-lounge",
+      "directions_url": "https://maps.app.goo.gl/gUt1piYFnUW3eWk88",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a153c28f-3f82-4651-a72f-ef0edc4a52fd/buzzin-darkside.jpg",
+      "description": "Have you been to Banchang before? If you haven't come and join us as we head out of the city to a fun packed area that is always a great afternoon/evening. This area has a strip of bars with very welcoming girls. It's only a short 40 minute minibus ride away. Once we get there we visit around 10+ bars unless of course you have a reason to stay in the bar you are in. If you have never been you should make is a \"to-do\" event as you won't regret it. Air-conditioned minibus picks us up from Buzzin lounge at 2pm and returns at 8:30pm. Tickets cost 400B to cover the cost of the transport. LIMITED to 10 TICKETS ONLY, to get your ticket come to the Buzzin Lounge before Wednesday. Map Location: https://maps.app.goo.gl/i2hyBqreGYbVX6Mw8",
+      "color": "rgb(255, 56, 56)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "custom:weekly:2",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Buzzin Lounge"
+      ]
+    },
+    {
+      "id": "1415269d-c0ee-49a9-b933-c161b6beeed3",
+      "title": "Ban Chang Trip",
+      "date": "2026-10-05",
+      "start_time": "12:00",
+      "end_time": "21:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Excursion",
+      "event_type_id": "excursion",
+      "venue": "Maggie Mays Ban Chang",
+      "venue_id": "maggie-mays-ban-chang",
+      "directions_url": null,
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3ddafd05-18c9-4ae7-931b-703e32207d4b/Ban-Chang-Monday.jpg",
+      "description": "",
+      "color": "rgb(255, 120, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "custom:weekly:2",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Ban Chang"
+      ]
+    },
+    {
       "id": "7d053b0f-abb2-4b13-b914-57b40b3d88be",
       "title": "Discord Bar Crawl",
       "date": "2026-10-30",
@@ -1068,6 +1068,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "b98d9566-1860-4820-a9b7-5a26d07e6f54",
+      "title": "Pusher's Birthday Party",
+      "date": "2026-11-26",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/5b212c04-9af0-42d1-9ae4-ae0f78fd3cee/Free-Willy-November-26th-Pusher.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     }
   ]
