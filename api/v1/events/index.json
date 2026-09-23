@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-23T03:18:41Z",
+    "generated_at": "2026-09-23T09:03:53Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 38
   },
   "event_types": [
     {
@@ -964,6 +964,32 @@
       "repeat_ends_date": null,
       "tags": [
         "The Camel Toe"
+      ]
+    },
+    {
+      "id": "ca71ac2b-39f6-4eca-9137-75534a2bbd26",
+      "title": "Crazy Cats Party",
+      "date": "2026-09-29",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/07a5218c-e323-4a1c-88a9-57ec07424c07/Free-Willy-September-29th-Crazy-Cats.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
