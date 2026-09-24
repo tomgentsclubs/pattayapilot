@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-24T01:03:21Z",
+    "generated_at": "2026-09-24T07:10:22Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 38
   },
   "event_types": [
     {
@@ -967,6 +967,32 @@
       ]
     },
     {
+      "id": "3e6d955d-8e8d-49cb-ad6e-0077a476c8e5",
+      "title": "Rob's Going Away Party",
+      "date": "2026-09-30",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/14798f3a-dfae-4b89-9116-b393daf1088c/MMBB-September-30th-Rob.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
+      ]
+    },
+    {
       "id": "1415269d-c0ee-49a9-b933-c161b6beeed3",
       "title": "Ban Chang Trip",
       "date": "2026-10-05",
@@ -990,6 +1016,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
+      ]
+    },
+    {
+      "id": "1446389a-623f-4b63-83fa-a9431dca2f76",
+      "title": "Kob's Birthday Party",
+      "date": "2026-10-14",
+      "start_time": "14:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Brass House",
+      "venue_id": "the-brass-house",
+      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c303512e-5da5-4165-bd0e-388968a4cf6b/Brass-House-October-14th-Kob-3.jpg",
+      "description": "",
+      "color": "rgb(112, 32, 32)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Brass House"
       ]
     },
     {
