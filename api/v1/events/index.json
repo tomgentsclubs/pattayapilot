@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-25T05:47:34Z",
+    "generated_at": "2026-09-25T11:07:50Z",
     "source": "elfsight",
-    "total_events": 39
+    "total_events": 40
   },
   "event_types": [
     {
@@ -1016,6 +1016,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "cf1dade2-3d76-49ab-b577-20f91514de36",
+      "title": "Towel Thursday",
+      "date": "2026-10-01",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/13e4408b-bfbb-4438-890a-6a81bfc9d786/Towel-Thursdays.jpg",
+      "description": "",
+      "color": "transparent",
+      "button_link": null,
+      "button_text": null,
+      "recurring": true,
+      "recurrence_rule": "weekly:thursday",
+      "repeat_ends": "never",
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
