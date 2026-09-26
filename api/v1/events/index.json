@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-25T23:48:09Z",
+    "generated_at": "2026-09-26T03:30:37Z",
     "source": "elfsight",
-    "total_events": 40
+    "total_events": 37
   },
   "event_types": [
     {
@@ -496,84 +496,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "723a0986-7cfb-48d7-bc3c-65c72468313b",
-      "title": "Glow Party",
-      "date": "2026-09-18",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e6c1333c-c4fa-455d-9c53-496c7c095886/MMP-September-18th-Glow-Party.jpg",
-      "description": "",
-      "color": "rgb(87, 87, 87)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
-      ]
-    },
-    {
-      "id": "6eee9318-1e43-4dac-9766-9f6595eaf59c",
-      "title": "Sexy Cowgirls Party",
-      "date": "2026-09-18",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f46facec-6673-48c9-97da-8023695f2cee/Free-Willy-September-18th-Sexy-Cowgirls.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
-      ]
-    },
-    {
-      "id": "c4f587a6-8424-4cda-8dcf-edcba7f93e2c",
-      "title": "Elsa & Nam's Birthday",
-      "date": "2026-09-18",
-      "start_time": "15:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Bradleys",
-      "venue_id": "bradleys",
-      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/bca7942a-fe79-413f-a449-ea05a5ad06f6/Bradleys-September-18th-Elsa-Nam.jpg",
-      "description": "",
-      "color": "rgb(17, 17, 17)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Bradleys"
       ]
     },
     {
