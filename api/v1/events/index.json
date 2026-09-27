@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-26T21:48:50Z",
+    "generated_at": "2026-09-27T00:13:12Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 35
   },
   "event_types": [
     {
@@ -522,58 +522,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
-      ]
-    },
-    {
-      "id": "8cb00067-085b-4cf8-b251-282015b79d7e",
-      "title": "Pool Party",
-      "date": "2026-09-19",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Pool Party",
-      "event_type_id": "pool-party",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e9242f3a-f92d-4108-bbd8-065a6d3ea273/MMR-September-19th-Pool-Party.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
-      ]
-    },
-    {
-      "id": "d1d830e2-70ec-4a39-bc0a-3a382048d8af",
-      "title": "Hawaiian Party",
-      "date": "2026-09-19",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Beer Bar",
-      "venue_id": "maggie-mays-beer-bar",
-      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/36c9d18e-3697-43c9-88e3-a5d86b455143/MMBB-September-19th-Hawaiian.jpg",
-      "description": "",
-      "color": "rgb(14, 139, 37)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Beer Bar"
       ]
     },
     {
