@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-27T23:38:06Z",
+    "generated_at": "2026-09-28T03:37:57Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 34
   },
   "event_types": [
     {
@@ -522,32 +522,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
-      ]
-    },
-    {
-      "id": "35f32a29-5f80-47ea-8251-7cb1fb30958d",
-      "title": "Ban Chang Trip",
-      "date": "2026-09-20",
-      "start_time": "11:00",
-      "end_time": "21:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Excursion",
-      "event_type_id": "excursion",
-      "venue": "Maggie Mays Ban Chang",
-      "venue_id": "maggie-mays-ban-chang",
-      "directions_url": null,
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/fe8cab89-57eb-404e-b11a-81c94040930b/Ban-Chang-Poster.jpg",
-      "description": "",
-      "color": "rgb(255, 120, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Ban Chang"
       ]
     },
     {
