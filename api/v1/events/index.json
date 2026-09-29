@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-28T23:41:18Z",
+    "generated_at": "2026-09-29T04:13:17Z",
     "source": "elfsight",
     "total_events": 36
   },
@@ -525,32 +525,6 @@
       ]
     },
     {
-      "id": "11cf0550-ba22-4d57-bc2b-00adbcefdce7",
-      "title": "Tropical Party",
-      "date": "2026-09-21",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/270102cc-3cb2-431b-ba3e-30faa61ab9f6/Free-Willy-September-21st-Tropical-Party.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
-      ]
-    },
-    {
       "id": "f2766acd-cd92-408b-b618-d967842046b4",
       "title": "Buzzin Darkside Bar Crawl",
       "date": "2026-09-23",
@@ -863,6 +837,32 @@
       ]
     },
     {
+      "id": "7d26d7e7-624a-46eb-93c1-18d283af9771",
+      "title": "Welcome Back Bob",
+      "date": "2026-10-01",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/5cf31910-407a-4304-84a0-2e16b4d1f236/MMD-October-1st-Bob.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
       "id": "cf1dade2-3d76-49ab-b577-20f91514de36",
       "title": "Towel Thursday",
       "date": "2026-10-01",
@@ -870,8 +870,8 @@
       "end_time": "23:59",
       "is_all_day": false,
       "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
+      "event_type": "Weekly Event",
+      "event_type_id": "weekly-event",
       "venue": "Maggie Mays Jomtien",
       "venue_id": "maggie-mays-jomtien",
       "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
@@ -943,7 +943,7 @@
     {
       "id": "1415269d-c0ee-49a9-b933-c161b6beeed3",
       "title": "Ban Chang Trip",
-      "date": "2026-10-05",
+      "date": "2026-10-13",
       "start_time": "12:00",
       "end_time": "21:00",
       "is_all_day": false,
@@ -953,7 +953,7 @@
       "venue": "Maggie Mays Ban Chang",
       "venue_id": "maggie-mays-ban-chang",
       "directions_url": null,
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3ddafd05-18c9-4ae7-931b-703e32207d4b/Ban-Chang-Monday.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/30e9deca-0612-43cc-bcdf-dc8e9d1d53cd/Ban-Chang-Tuesday.png",
       "description": "",
       "color": "rgb(255, 120, 0)",
       "button_link": null,
