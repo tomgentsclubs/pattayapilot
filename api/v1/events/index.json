@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-09-29T04:13:17Z",
+    "generated_at": "2026-09-29T11:05:06Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 37
   },
   "event_types": [
     {
@@ -808,6 +808,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Buzzin Lounge"
+      ]
+    },
+    {
+      "id": "9517169d-e13c-429e-8d8c-81518d9ed547",
+      "title": "End of Month Party",
+      "date": "2026-09-30",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6e49a084-ea6d-45b3-bc50-ff517a2e0b7e/Club-Fate-September-30th-Dez.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
