@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-01T11:21:01Z",
+    "generated_at": "2026-10-01T18:00:13Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 40
   },
   "event_types": [
     {
@@ -941,6 +941,32 @@
       ]
     },
     {
+      "id": "5bbc523e-8000-4e5a-9dc1-77c88e5301a5",
+      "title": "Sexy Cowgirl Party",
+      "date": "2026-10-05",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/34431a9d-30ac-4817-94f4-167e58ea012e/Free-Willy-October-5th-Cowgirl.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
       "id": "9482ef83-a2d3-4ba5-aaf7-3a9a151005b6",
       "title": "Garden Party",
       "date": "2026-10-09",
@@ -953,7 +979,7 @@
       "venue": "Maggie Mays Darkside",
       "venue_id": "maggie-mays-darkside",
       "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/4bfef442-c4c9-4184-8a12-b52ac86dbd84/MMD-October-9th-Garden-Party.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6b908fdf-dd3f-4972-b008-afcae5b47f1d/MMD-October-9th-Garden-2.jpg",
       "description": "",
       "color": "rgb(151, 130, 65)",
       "button_link": null,
@@ -1016,6 +1042,58 @@
       "repeat_ends_date": null,
       "tags": [
         "The Brass House"
+      ]
+    },
+    {
+      "id": "f0baa91d-2a29-440d-a098-25726546264a",
+      "title": "Patty's Birthday Party",
+      "date": "2026-10-16",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/5d1b88d4-6456-41a1-bb6c-518afd223ac9/Catflaps-October-16th-Patty.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
+      ]
+    },
+    {
+      "id": "acbcdc35-bf04-4c8e-be34-2909adb61981",
+      "title": "Lookpad's Birthday Party",
+      "date": "2026-10-20",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/26ac6a88-b748-4d64-9859-c0edf181c906/MMJ-October-20th-Lookpad.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
