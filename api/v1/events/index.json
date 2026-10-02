@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-02T02:06:26Z",
+    "generated_at": "2026-10-02T09:20:16Z",
     "source": "elfsight",
-    "total_events": 40
+    "total_events": 41
   },
   "event_types": [
     {
@@ -938,6 +938,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "435df97c-325d-4154-9d60-625f2da30b38",
+      "title": "See Through Party",
+      "date": "2026-10-04",
+      "start_time": "15:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Bradleys",
+      "venue_id": "bradleys",
+      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8756bd7e-5720-42c6-be7a-086a3e1fedab/Bradleys-October-4th-See-Through.jpg",
+      "description": "",
+      "color": "rgb(17, 17, 17)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Bradleys"
       ]
     },
     {
