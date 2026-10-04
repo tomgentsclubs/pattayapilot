@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-04T09:20:04Z",
+    "generated_at": "2026-10-04T15:07:59Z",
     "source": "elfsight",
     "total_events": 38
   },
@@ -864,7 +864,7 @@
     },
     {
       "id": "7d3ddebb-5597-4074-9e0e-3a7eb4909547",
-      "title": "Tina's Birthday Party",
+      "title": "Tina & Aoy's Birthday Party",
       "date": "2026-10-08",
       "start_time": "18:00",
       "end_time": "04:00",
@@ -875,7 +875,7 @@
       "venue": "Club Fate",
       "venue_id": "club-fate",
       "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/81ec916b-1308-481b-a45f-99fe1b9224f8/Club-Fate-October-8th-Tina.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a1d931ca-b296-458b-bd97-0e6d80f93771/Club-Fate-October-8th-Tina-Aoy.jpg",
       "description": "",
       "color": "rgb(103, 44, 184)",
       "button_link": null,
