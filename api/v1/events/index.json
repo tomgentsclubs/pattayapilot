@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-05T08:18:49Z",
+    "generated_at": "2026-10-05T12:24:10Z",
     "source": "elfsight",
-    "total_events": 38
+    "total_events": 42
   },
   "event_types": [
     {
@@ -863,6 +863,32 @@
       ]
     },
     {
+      "id": "dc595a7f-9314-44d5-9a6a-2eb36626239a",
+      "title": "Bikini Party",
+      "date": "2026-10-07",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/20841f67-4304-46d0-821e-97c60b942ba5/Free-Willy-October-7th-Bikini.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
       "id": "7d3ddebb-5597-4074-9e0e-3a7eb4909547",
       "title": "Tina & Aoy's Birthday Party",
       "date": "2026-10-08",
@@ -912,6 +938,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "e73ee4a3-2741-42e2-b5e2-737b04f186d5",
+      "title": "Oktoberfest Pool Party",
+      "date": "2026-10-10",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/63462d25-46d3-4986-92fe-38942cc5c755/MMR-October-10th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
@@ -1019,6 +1071,32 @@
       ]
     },
     {
+      "id": "0365e369-8269-464f-b7ab-e3568814771a",
+      "title": "Tom & Matty's Birthday Pool Party",
+      "date": "2026-10-17",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ad1eb22b-060e-4473-9f21-6f1602d1fea4/MMR-October-17th-Tom-Matty.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
       "id": "acbcdc35-bf04-4c8e-be34-2909adb61981",
       "title": "Lookpad's Birthday Party",
       "date": "2026-10-20",
@@ -1042,6 +1120,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "ec2982cc-bfd6-461d-bb09-c285d4176d80",
+      "title": "Halloween Party",
+      "date": "2026-10-30",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/06f7e914-0029-4039-aba7-0f8e96b20c71/Catflaps-October-30th-Halloween.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
       ]
     },
     {
