@@ -3,10 +3,14 @@ name: Regenerate Events
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '4,19,34,49 * * * *'
 
 permissions:
   contents: write
+
+concurrency:
+  group: regenerate-events
+  cancel-in-progress: false
 
 jobs:
   generate:
