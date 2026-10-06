@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-06T01:28:45Z",
+    "generated_at": "2026-10-06T07:47:28Z",
     "source": "elfsight",
-    "total_events": 41
+    "total_events": 43
   },
   "event_types": [
     {
@@ -1097,6 +1097,32 @@
       ]
     },
     {
+      "id": "6db6eb45-49bc-4b05-acc4-6764e2f16240",
+      "title": "Halloween Party",
+      "date": "2026-10-30",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cc8de91f-dd2c-4751-99d4-5377c50f31dd/MMJ-October-30th-Halloween.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
+      ]
+    },
+    {
       "id": "ec2982cc-bfd6-461d-bb09-c285d4176d80",
       "title": "Halloween Party",
       "date": "2026-10-30",
@@ -1146,6 +1172,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "ed5de709-1043-4503-b714-ed3694434506",
+      "title": "Halloween Party",
+      "date": "2026-10-30",
+      "start_time": "15:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Bradleys",
+      "venue_id": "bradleys",
+      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/67cb235f-cb10-4f8e-858f-ac255c917633/Bradleys-October-30th-Halloween.jpg",
+      "description": "",
+      "color": "rgb(17, 17, 17)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Bradleys"
       ]
     },
     {
