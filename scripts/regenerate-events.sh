@@ -10,7 +10,7 @@
 #   - curl
 #   - python3 (ships with macOS / most Linux distros)
 #
-# The Elfsight boot API is public and unauthenticated — it serves
+# The Elfsight boot API is public and unauthenticated - it serves
 # the same data the calendar widget loads on the events page.
 # edit
 
@@ -24,7 +24,7 @@ WIDGET_ID="a420d7b3-7429-492e-b394-3f772b3d23b3"
 BOOT_URL="https://core.service.elfsight.com/p/boot/?page=https%3A%2F%2Fpattayapilot.com%2Fevents%2F&w=${WIDGET_ID}"
 
 echo "Fetching events from Elfsight API..."
-RAW_JSON=$(curl -s "$BOOT_URL")
+RAW_JSON=$(curl -s --max-time 30 --retry 2 "$BOOT_URL")
 
 echo "Transforming data..."
 mkdir -p "$(dirname "$OUTPUT_FILE")"
@@ -210,6 +210,19 @@ output = {
     "venues": locations_list,
     "events": transformed,
 }
+
+# Keep the previous generated_at when nothing else changed, so the file
+# only differs (and the workflow only commits) when the events really change.
+try:
+    with open(output_path) as f:
+        previous = json.load(f)
+    old_stamp = previous.get("meta", {}).get("generated_at")
+    if old_stamp:
+        previous["meta"]["generated_at"] = output["meta"]["generated_at"]
+        if previous == output:
+            output["meta"]["generated_at"] = old_stamp
+except (FileNotFoundError, json.JSONDecodeError, AttributeError, KeyError):
+    pass
 
 with open(output_path, "w") as f:
     json.dump(output, f, indent=2, ensure_ascii=False)
