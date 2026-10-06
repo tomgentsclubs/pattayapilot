@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-06T07:47:28Z",
+    "generated_at": "2026-10-06T10:00:56Z",
     "source": "elfsight",
-    "total_events": 43
+    "total_events": 44
   },
   "event_types": [
     {
@@ -834,6 +834,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "be494638-b37a-42a7-903b-80082d77d54d",
+      "title": "Tom's Birthday Party",
+      "date": "2026-10-07",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/93e55aed-8b99-4536-afc1-068b4c82d646/MMR-October-7th-Tom.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
