@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-07T07:31:07Z",
+    "generated_at": "2026-10-07T09:01:08Z",
     "source": "elfsight",
-    "total_events": 46
+    "total_events": 48
   },
   "event_types": [
     {
@@ -1276,6 +1276,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Club Fate"
+      ]
+    },
+    {
+      "id": "e8c3ab75-7f4e-4497-9810-5dfd8b1aae27",
+      "title": "Halloween Pool Party",
+      "date": "2026-10-31",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/86c214fb-56c9-478a-9109-b66668a3fcf8/MMR-October-31st-Halloween.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "8a319a45-46ab-4e08-bede-72521f5819f7",
+      "title": "Halloween Party",
+      "date": "2026-10-31",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/393902f6-4724-46ad-b691-80c21f092e3f/Camel-Toe-October-31st-Halloween.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
       ]
     },
     {
