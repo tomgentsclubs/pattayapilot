@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-07T00:01:13Z",
+    "generated_at": "2026-10-07T07:31:07Z",
     "source": "elfsight",
-    "total_events": 44
+    "total_events": 46
   },
   "event_types": [
     {
@@ -1201,6 +1201,32 @@
       ]
     },
     {
+      "id": "8937d418-537b-43f0-855c-506c486ee2f9",
+      "title": "Halloween Party",
+      "date": "2026-10-30",
+      "start_time": "14:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "The Brass House",
+      "venue_id": "the-brass-house",
+      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e062672d-fe37-4420-a5c6-ef25a1b6e46f/Brass-House-October-30th-Halloween.jpg",
+      "description": "",
+      "color": "rgb(112, 32, 32)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Brass House"
+      ]
+    },
+    {
       "id": "ed5de709-1043-4503-b714-ed3694434506",
       "title": "Halloween Party",
       "date": "2026-10-30",
@@ -1224,6 +1250,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Bradleys"
+      ]
+    },
+    {
+      "id": "ae92435c-ca92-43ed-ac1b-c1c817a6232c",
+      "title": "Halloween Party",
+      "date": "2026-10-30",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/35d31250-572f-4fd0-b851-61078c12745a/Club-Fate-October-30th-Halloween.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
