@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-08T00:01:01Z",
+    "generated_at": "2026-10-08T10:00:52Z",
     "source": "elfsight",
-    "total_events": 46
+    "total_events": 48
   },
   "event_types": [
     {
@@ -1227,6 +1227,32 @@
       ]
     },
     {
+      "id": "f75d312b-c7db-4a30-8214-1a5e31210a50",
+      "title": "Halloween Party",
+      "date": "2026-10-31",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/de43ee0a-722c-48b2-902d-87b13beda169/MMD-October-31st-Halloween.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
+      ]
+    },
+    {
       "id": "e8c3ab75-7f4e-4497-9810-5dfd8b1aae27",
       "title": "Halloween Pool Party",
       "date": "2026-10-31",
@@ -1276,6 +1302,32 @@
       "repeat_ends_date": null,
       "tags": [
         "The Camel Toe"
+      ]
+    },
+    {
+      "id": "1e008cfd-93ad-4002-9a10-bceaee82d6fa",
+      "title": "Halloween Party",
+      "date": "2026-10-31",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/cfffae29-5393-420c-b342-e393dc4a80ec/Free-Willy-October-31st-Halloween.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     },
     {
