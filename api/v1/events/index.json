@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-09T00:01:24Z",
+    "generated_at": "2026-10-10T00:01:18Z",
     "source": "elfsight",
-    "total_events": 47
+    "total_events": 45
   },
   "event_types": [
     {
@@ -600,58 +600,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "09251922-049e-4d69-91e0-29f1584d89fc",
-      "title": "Kwang's Birthday Party",
-      "date": "2026-10-02",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3a9a52bc-95ad-46d8-b28a-abf9c0d441a9/4818.jpg",
-      "description": "",
-      "color": "rgb(87, 87, 87)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
-      ]
-    },
-    {
-      "id": "592611e6-575e-485f-a756-b9db2bb35ee2",
-      "title": "Yu's Birthday Party",
-      "date": "2026-10-02",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Camel Toe",
-      "venue_id": "the-camel-toe",
-      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ee987000-1795-40c5-b38b-1912b4b87b6c/4813.jpg",
-      "description": "",
-      "color": "rgb(255, 235, 0)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Camel Toe"
       ]
     },
     {
