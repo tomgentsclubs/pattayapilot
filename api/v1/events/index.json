@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-11T10:30:53Z",
+    "generated_at": "2026-10-11T11:00:55Z",
     "source": "elfsight",
-    "total_events": 46
+    "total_events": 47
   },
   "event_types": [
     {
@@ -990,6 +990,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "dd94c190-10b4-43c3-8444-33784950ac86",
+      "title": "Susy's Birthday Party",
+      "date": "2026-10-17",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Club Fate",
+      "venue_id": "club-fate",
+      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6d1fc6b8-f248-4ae5-945d-cce35ea39364/Club-Fate-October-17th-Susy-2.jpg",
+      "description": "",
+      "color": "rgb(103, 44, 184)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Club Fate"
       ]
     },
     {
