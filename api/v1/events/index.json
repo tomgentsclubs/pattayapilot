@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-11T00:01:11Z",
+    "generated_at": "2026-10-11T05:00:51Z",
     "source": "elfsight",
-    "total_events": 44
+    "total_events": 45
   },
   "event_types": [
     {
@@ -834,6 +834,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "40236220-4acb-4f97-803e-5e13c13366c8",
+      "title": "Pond's Birthday Party",
+      "date": "2026-10-14",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8983445b-a3c5-4dc3-b462-5e71831a9f5e/MMP-October-14th-Pond.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     },
     {
