@@ -525,6 +525,34 @@
             color: var(--accent);
         }
 
+        .route-stop-raffle {
+            flex-shrink: 0;
+            width: 34px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            border-radius: 50%;
+            background: rgba(255, 215, 0, 0.15);
+            border: 1px solid var(--accent);
+            cursor: help;
+        }
+
+        .route-stop-pool {
+            flex-shrink: 0;
+            width: 34px;
+            height: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            border-radius: 50%;
+            background: rgba(0, 217, 255, 0.15);
+            border: 1px solid var(--secondary);
+            cursor: help;
+        }
+
         .perks {
             background: linear-gradient(135deg, #2a2a2a 0%, #1f1f1f 100%);
             padding: 15px 18px;
@@ -588,6 +616,15 @@
             background: #00A843;
             transform: translateY(-2px);
             box-shadow: 0 6px 15px rgba(0, 200, 83, 0.4);
+        }
+
+        .calendar-button.discord {
+            background: #5865F2;
+        }
+
+        .calendar-button.discord:hover {
+            background: #4752C4;
+            box-shadow: 0 6px 15px rgba(88, 101, 242, 0.4);
         }
 
         .social-proof {
@@ -995,7 +1032,7 @@
                         </ul>
                     </div>
 
-                    <button class="calendar-button" onclick="addToCalendar('monday')">📅 Add to Calendar</button>
+                    <a href="https://discord.gg/HWQrMqawGY" class="calendar-button discord" target="_blank" rel="noopener noreferrer">💬 Find Out More</a>
                 </div>
             </div>
 
@@ -1047,38 +1084,11 @@
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/jco1gch7vrvgoo7upf2k7/Maggie-Mays-Jomtien-Logo-V2-Transparent.png?rlkey=ay3kgbszx79xsuwv8rvlav5uz&raw=1" alt="Maggie Mays Jomtien">
-                                </div>
-                                <div class="route-stop-info">
-                                    <div class="route-stop-name">Maggie Mays Jomtien</div>
-                                    <div class="route-stop-time">2:10 PM - 3:10 PM</div>
-                                </div>
-                            </div>
-                            <div class="route-stop">
-                                <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/lp2yyde993lu79gbj2v9n/Camel-Toe-Logo.png?rlkey=af0s7gr1cl0eg8m2kk06lhffw&raw=1" alt="Camel Toe">
-                                </div>
-                                <div class="route-stop-info">
-                                    <div class="route-stop-name">Camel Toe</div>
-                                    <div class="route-stop-time">3:30 PM - 4:30 PM</div>
-                                </div>
-                            </div>
-                            <div class="route-stop">
-                                <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/ow7bps3if9vs029qmssnj/Free-Willy-Transparent-Logo.png?rlkey=6vsba6348wnkc3l64ero4i30i&raw=1" alt="Free Willy">
-                                </div>
-                                <div class="route-stop-info">
-                                    <div class="route-stop-name">Free Willy</div>
-                                    <div class="route-stop-time">4:40 PM - 5:40 PM</div>
-                                </div>
-                            </div>
-                            <div class="route-stop">
-                                <div class="route-stop-logo">
                                     <img src="https://www.dropbox.com/scl/fi/k4w17xvovq29iwbfq1syh/Buzzin-Logo-Transparent.png?rlkey=5v740k0hufu3fqofxlfyb4mre&raw=1" alt="Buzzin Lounge">
                                 </div>
                                 <div class="route-stop-info">
                                     <div class="route-stop-name">Buzzin Lounge</div>
-                                    <div class="route-stop-time">6:00 PM - 7:00 PM</div>
+                                    <div class="route-stop-time">2:20 PM - 3:20 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
@@ -1087,6 +1097,33 @@
                                 </div>
                                 <div class="route-stop-info">
                                     <div class="route-stop-name">Maggie Mays Pattaya</div>
+                                    <div class="route-stop-time">3:20 PM - 4:20 PM</div>
+                                </div>
+                            </div>
+                            <div class="route-stop">
+                                <div class="route-stop-logo">
+                                    <img src="https://www.dropbox.com/scl/fi/ow7bps3if9vs029qmssnj/Free-Willy-Transparent-Logo.png?rlkey=6vsba6348wnkc3l64ero4i30i&raw=1" alt="Free Willy">
+                                </div>
+                                <div class="route-stop-info">
+                                    <div class="route-stop-name">Free Willy</div>
+                                    <div class="route-stop-time">4:35 PM - 5:35 PM</div>
+                                </div>
+                            </div>
+                            <div class="route-stop">
+                                <div class="route-stop-logo">
+                                    <img src="https://www.dropbox.com/scl/fi/lp2yyde993lu79gbj2v9n/Camel-Toe-Logo.png?rlkey=af0s7gr1cl0eg8m2kk06lhffw&raw=1" alt="Camel Toe">
+                                </div>
+                                <div class="route-stop-info">
+                                    <div class="route-stop-name">Camel Toe</div>
+                                    <div class="route-stop-time">5:40 PM - 6:40 PM</div>
+                                </div>
+                            </div>
+                            <div class="route-stop">
+                                <div class="route-stop-logo">
+                                    <img src="https://www.dropbox.com/scl/fi/jco1gch7vrvgoo7upf2k7/Maggie-Mays-Jomtien-Logo-V2-Transparent.png?rlkey=ay3kgbszx79xsuwv8rvlav5uz&raw=1" alt="Maggie Mays Jomtien">
+                                </div>
+                                <div class="route-stop-info">
+                                    <div class="route-stop-name">Maggie Mays Jomtien</div>
                                     <div class="route-stop-time">7:00 PM - 8:00 PM</div>
                                 </div>
                             </div>
@@ -1095,9 +1132,10 @@
                                     <img src="https://www.dropbox.com/scl/fi/4sxg850xu7s3n5tdm16m2/Club-Fate-Transparent.png?rlkey=xc4x2v898tj4vwc5vi61uojcl&raw=1" alt="Club Fate">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">Club Fate - Raffle! 🎟️</div>
-                                    <div class="route-stop-time">8:00 PM - End</div>
+                                    <div class="route-stop-name">Club Fate</div>
+                                    <div class="route-stop-time">8:20 PM - End</div>
                                 </div>
+                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
                             </div>
                         </div>
                     </div>
@@ -1169,20 +1207,29 @@
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/nymjgfkjtaa4qbnhg70vx/Cat-Flaps-Logo-New.png?rlkey=z6363zz7jjx7do6393coeiw0v&raw=1" alt="CatFlaps">
+                                    <img src="https://www.dropbox.com/scl/fi/18vsvfu8nkdtk2i5eeqeb/Brass-House.png?rlkey=ti1gys82ghdsrcb5yl764njp4&raw=1" alt="The Brass House">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">CatFlaps</div>
-                                    <div class="route-stop-time">2:15 PM - 3:15 PM</div>
+                                    <div class="route-stop-name">The Brass House</div>
+                                    <div class="route-stop-time">2:10 PM - 3:10 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/ow7bps3if9vs029qmssnj/Free-Willy-Transparent-Logo.png?rlkey=6vsba6348wnkc3l64ero4i30i&raw=1" alt="Free Willy">
+                                    <img src="https://www.dropbox.com/scl/fi/zzyllx8loh5mtrfvpkbu9/Maggie-Mays-Resort-2.png?rlkey=v68qkjwabubb56djb7uj11unw&raw=1" alt="Maggie Mays Resort">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">Free Willy</div>
-                                    <div class="route-stop-time">3:35 PM - 4:35 PM</div>
+                                    <div class="route-stop-name">Maggie Mays Resort</div>
+                                    <div class="route-stop-time">3:15 PM - 4:15 PM</div>
+                                </div>
+                            </div>
+                            <div class="route-stop">
+                                <div class="route-stop-logo">
+                                    <img src="https://www.dropbox.com/scl/fi/4mcjbtxfk6gd9yf06e7ey/Maggie-Mays-Darkside-Logo-V2-Transparent.png?rlkey=2qcbhkkwxjdhk8f47dz5pkuhd&raw=1" alt="Maggie Mays Darkside">
+                                </div>
+                                <div class="route-stop-info">
+                                    <div class="route-stop-name">Maggie Mays Darkside</div>
+                                    <div class="route-stop-time">4:45 PM - 5:45 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
@@ -1191,35 +1238,27 @@
                                 </div>
                                 <div class="route-stop-info">
                                     <div class="route-stop-name">Camel Toe</div>
-                                    <div class="route-stop-time">4:40 PM - 5:40 PM</div>
+                                    <div class="route-stop-time">6:10 PM - 7:10 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/jco1gch7vrvgoo7upf2k7/Maggie-Mays-Jomtien-Logo-V2-Transparent.png?rlkey=ay3kgbszx79xsuwv8rvlav5uz&raw=1" alt="Maggie Mays Darkside">
+                                    <img src="https://www.dropbox.com/scl/fi/ow7bps3if9vs029qmssnj/Free-Willy-Transparent-Logo.png?rlkey=6vsba6348wnkc3l64ero4i30i&raw=1" alt="Free Willy">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">Maggie Mays Darkside</div>
-                                    <div class="route-stop-time">6:00 PM - 7:00 PM</div>
-                                </div>
-                            </div>
-                            <div class="route-stop">
-                                <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/18vsvfu8nkdtk2i5eeqeb/Brass-House.png?rlkey=ti1gys82ghdsrcb5yl764njp4&raw=1" alt="The Brass House">
-                                </div>
-                                <div class="route-stop-info">
-                                    <div class="route-stop-name">The Brass House</div>
+                                    <div class="route-stop-name">Free Willy</div>
                                     <div class="route-stop-time">7:15 PM - 8:15 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/jco1gch7vrvgoo7upf2k7/Maggie-Mays-Jomtien-Logo-V2-Transparent.png?rlkey=ay3kgbszx79xsuwv8rvlav5uz&raw=1" alt="Maggie Mays Resort">
+                                    <img src="https://www.dropbox.com/scl/fi/nymjgfkjtaa4qbnhg70vx/Cat-Flaps-Logo-New.png?rlkey=z6363zz7jjx7do6393coeiw0v&raw=1" alt="CatFlaps">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">Maggie Mays Resort - Raffle! 🎟️</div>
-                                    <div class="route-stop-time">8:20 PM - End</div>
+                                    <div class="route-stop-name">CatFlaps</div>
+                                    <div class="route-stop-time">8:30 PM - End</div>
                                 </div>
+                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
                             </div>
                         </div>
                     </div>
@@ -1339,9 +1378,10 @@
                                     <img src="https://www.dropbox.com/scl/fi/4sxg850xu7s3n5tdm16m2/Club-Fate-Transparent.png?rlkey=xc4x2v898tj4vwc5vi61uojcl&raw=1" alt="Club Fate">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">Club Fate - Raffle! 🎟️</div>
+                                    <div class="route-stop-name">Club Fate</div>
                                     <div class="route-stop-time">8:00 PM - End</div>
                                 </div>
+                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
                             </div>
                         </div>
                     </div>
@@ -1420,7 +1460,7 @@
                         </ul>
                     </div>
 
-                    <button class="calendar-button" onclick="addToCalendar('friday')">📅 Add to Calendar</button>
+                    <a href="https://discord.gg/HWQrMqawGY" class="calendar-button discord" target="_blank" rel="noopener noreferrer">💬 Find Out More</a>
                 </div>
             </div>
 
@@ -1472,11 +1512,30 @@
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/ow7bps3if9vs029qmssnj/Free-Willy-Transparent-Logo.png?rlkey=6vsba6348wnkc3l64ero4i30i&raw=1" alt="Free Willy">
+                                    <img src="https://www.dropbox.com/scl/fi/18vsvfu8nkdtk2i5eeqeb/Brass-House.png?rlkey=ti1gys82ghdsrcb5yl764njp4&raw=1" alt="The Brass House">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">Free Willy</div>
-                                    <div class="route-stop-time">2:05 PM - 3:05 PM</div>
+                                    <div class="route-stop-name">The Brass House</div>
+                                    <div class="route-stop-time">2:10 PM - 3:10 PM</div>
+                                </div>
+                            </div>
+                            <div class="route-stop">
+                                <div class="route-stop-logo">
+                                    <img src="https://www.dropbox.com/scl/fi/zzyllx8loh5mtrfvpkbu9/Maggie-Mays-Resort-2.png?rlkey=v68qkjwabubb56djb7uj11unw&raw=1" alt="Maggie Mays Resort">
+                                </div>
+                                <div class="route-stop-info">
+                                    <div class="route-stop-name">Maggie Mays Resort</div>
+                                    <div class="route-stop-time">3:15 PM - 4:15 PM</div>
+                                </div>
+                                <div class="route-stop-pool" title="Pool party every Saturday" aria-label="Pool party every Saturday">🏊</div>
+                            </div>
+                            <div class="route-stop">
+                                <div class="route-stop-logo">
+                                    <img src="https://www.dropbox.com/scl/fi/4mcjbtxfk6gd9yf06e7ey/Maggie-Mays-Darkside-Logo-V2-Transparent.png?rlkey=2qcbhkkwxjdhk8f47dz5pkuhd&raw=1" alt="Maggie Mays Darkside">
+                                </div>
+                                <div class="route-stop-info">
+                                    <div class="route-stop-name">Maggie Mays Darkside</div>
+                                    <div class="route-stop-time">4:35 PM - 5:35 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
@@ -1485,7 +1544,7 @@
                                 </div>
                                 <div class="route-stop-info">
                                     <div class="route-stop-name">CatFlaps</div>
-                                    <div class="route-stop-time">3:20 PM - 4:20 PM</div>
+                                    <div class="route-stop-time">6:00 PM - 7:00 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
@@ -1494,35 +1553,18 @@
                                 </div>
                                 <div class="route-stop-info">
                                     <div class="route-stop-name">Maggie Mays Jomtien</div>
-                                    <div class="route-stop-time">4:30 PM - 5:30 PM</div>
+                                    <div class="route-stop-time">7:15 PM - 8:15 PM</div>
                                 </div>
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/jco1gch7vrvgoo7upf2k7/Maggie-Mays-Jomtien-Logo-V2-Transparent.png?rlkey=ay3kgbszx79xsuwv8rvlav5uz&raw=1" alt="Maggie Mays Resort">
+                                    <img src="https://www.dropbox.com/scl/fi/ow7bps3if9vs029qmssnj/Free-Willy-Transparent-Logo.png?rlkey=6vsba6348wnkc3l64ero4i30i&raw=1" alt="Free Willy">
                                 </div>
                                 <div class="route-stop-info">
-                                    <div class="route-stop-name">Maggie Mays Resort</div>
-                                    <div class="route-stop-time">5:45 PM - 6:45 PM</div>
+                                    <div class="route-stop-name">Free Willy</div>
+                                    <div class="route-stop-time">8:30 PM - End</div>
                                 </div>
-                            </div>
-                            <div class="route-stop">
-                                <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/18vsvfu8nkdtk2i5eeqeb/Brass-House.png?rlkey=ti1gys82ghdsrcb5yl764njp4&raw=1" alt="The Brass House">
-                                </div>
-                                <div class="route-stop-info">
-                                    <div class="route-stop-name">The Brass House</div>
-                                    <div class="route-stop-time">6:50 PM - 7:50 PM</div>
-                                </div>
-                            </div>
-                            <div class="route-stop">
-                                <div class="route-stop-logo">
-                                    <img src="https://www.dropbox.com/scl/fi/jco1gch7vrvgoo7upf2k7/Maggie-Mays-Jomtien-Logo-V2-Transparent.png?rlkey=ay3kgbszx79xsuwv8rvlav5uz&raw=1" alt="Maggie Mays Darkside">
-                                </div>
-                                <div class="route-stop-info">
-                                    <div class="route-stop-name">Maggie Mays Darkside - Raffle! 🎟️</div>
-                                    <div class="route-stop-time">8:15 PM - End</div>
-                                </div>
+                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
                             </div>
                         </div>
                     </div>
