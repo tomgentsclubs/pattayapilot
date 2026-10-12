@@ -525,32 +525,27 @@
             color: var(--accent);
         }
 
-        .route-stop-raffle {
+        .route-stop-raffle,
+        .route-stop-pool {
             flex-shrink: 0;
-            width: 34px;
-            height: 34px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.1rem;
-            border-radius: 50%;
-            background: rgba(255, 215, 0, 0.15);
-            border: 1px solid var(--accent);
-            cursor: help;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .route-stop-raffle {
+            background: var(--primary);
+            color: var(--light);
         }
 
         .route-stop-pool {
-            flex-shrink: 0;
-            width: 34px;
-            height: 34px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.1rem;
-            border-radius: 50%;
-            background: rgba(0, 217, 255, 0.15);
-            border: 1px solid var(--secondary);
-            cursor: help;
+            background: var(--secondary);
+            color: var(--dark);
         }
 
         .perks {
@@ -1135,7 +1130,7 @@
                                     <div class="route-stop-name">Club Fate</div>
                                     <div class="route-stop-time">8:20 PM - End</div>
                                 </div>
-                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
+                                <div class="route-stop-raffle">Raffle</div>
                             </div>
                         </div>
                     </div>
@@ -1258,7 +1253,7 @@
                                     <div class="route-stop-name">CatFlaps</div>
                                     <div class="route-stop-time">8:30 PM - End</div>
                                 </div>
-                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
+                                <div class="route-stop-raffle">Raffle</div>
                             </div>
                         </div>
                     </div>
@@ -1381,7 +1376,7 @@
                                     <div class="route-stop-name">Club Fate</div>
                                     <div class="route-stop-time">8:00 PM - End</div>
                                 </div>
-                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
+                                <div class="route-stop-raffle">Raffle</div>
                             </div>
                         </div>
                     </div>
@@ -1527,7 +1522,7 @@
                                     <div class="route-stop-name">Maggie Mays Resort</div>
                                     <div class="route-stop-time">3:15 PM - 4:15 PM</div>
                                 </div>
-                                <div class="route-stop-pool" title="Pool party every Saturday" aria-label="Pool party every Saturday">🏊</div>
+                                <div class="route-stop-pool">Pool Party</div>
                             </div>
                             <div class="route-stop">
                                 <div class="route-stop-logo">
@@ -1564,7 +1559,7 @@
                                     <div class="route-stop-name">Free Willy</div>
                                     <div class="route-stop-time">8:30 PM - End</div>
                                 </div>
-                                <div class="route-stop-raffle" title="Beer card raffle drawn here" aria-label="Beer card raffle drawn here">🎟️</div>
+                                <div class="route-stop-raffle">Raffle</div>
                             </div>
                         </div>
                     </div>
