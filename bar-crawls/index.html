@@ -605,7 +605,7 @@
             font-size: 1.1rem;
         }
 
-        .calendar-button {
+        .tracker-button {
             display: block;
             width: 100%;
             padding: 14px;
@@ -625,17 +625,17 @@
             text-align: center;
         }
 
-        .calendar-button:hover {
+        .tracker-button:hover {
             background: #00A843;
             transform: translateY(-2px);
             box-shadow: 0 6px 15px rgba(0, 200, 83, 0.4);
         }
 
-        .calendar-button.discord {
+        .tracker-button.discord {
             background: #5865F2;
         }
 
-        .calendar-button.discord:hover {
+        .tracker-button.discord:hover {
             background: #4752C4;
             box-shadow: 0 6px 15px rgba(88, 101, 242, 0.4);
         }
@@ -1045,7 +1045,7 @@
                         </ul>
                     </div>
 
-                    <a href="https://discord.gg/HWQrMqawGY" class="calendar-button discord" target="_blank" rel="noopener noreferrer">💬 Find Out More</a>
+                    <a href="https://discord.gg/HWQrMqawGY" class="tracker-button discord" target="_blank" rel="noopener noreferrer">💬 Find Out More</a>
                 </div>
             </div>
 
@@ -1169,7 +1169,7 @@
                         </ul>
                     </div>
 
-                    <button class="calendar-button" onclick="addToCalendar('tuesday')">📅 Add to Calendar</button>
+                    <a href="https://shuttle.pattayapilot.com/" class="tracker-button" target="_blank" rel="noopener noreferrer">🚐 Bar Crawl Tracker</a>
                 </div>
             </div>
 
@@ -1293,7 +1293,7 @@
                         </ul>
                     </div>
 
-                    <button class="calendar-button" onclick="addToCalendar('wednesday')">📅 Add to Calendar</button>
+                    <a href="https://shuttle.pattayapilot.com/" class="tracker-button" target="_blank" rel="noopener noreferrer">🚐 Bar Crawl Tracker</a>
                 </div>
             </div>
 
@@ -1417,7 +1417,7 @@
                         </ul>
                     </div>
 
-                    <button class="calendar-button" onclick="addToCalendar('thursday')">📅 Add to Calendar</button>
+                    <a href="https://shuttle.pattayapilot.com/" class="tracker-button" target="_blank" rel="noopener noreferrer">🚐 Bar Crawl Tracker</a>
                 </div>
             </div>
 
@@ -1476,7 +1476,7 @@
                         </ul>
                     </div>
 
-                    <a href="https://discord.gg/HWQrMqawGY" class="calendar-button discord" target="_blank" rel="noopener noreferrer">💬 Find Out More</a>
+                    <a href="https://discord.gg/HWQrMqawGY" class="tracker-button discord" target="_blank" rel="noopener noreferrer">💬 Find Out More</a>
                 </div>
             </div>
 
@@ -1600,7 +1600,7 @@
                         </ul>
                     </div>
 
-                    <button class="calendar-button" onclick="addToCalendar('saturday')">📅 Add to Calendar</button>
+                    <a href="https://shuttle.pattayapilot.com/" class="tracker-button" target="_blank" rel="noopener noreferrer">🚐 Bar Crawl Tracker</a>
                 </div>
             </div>
         </div>
@@ -1737,145 +1737,6 @@
     </div>
 
     <script>
-        function addToCalendar(day) {
-            const events = {
-                monday: {
-                    title: 'Buzzin Bar Crawl - Monday',
-                    location: 'Buzzin Lounge, Pattaya',
-                    details: 'Join the Buzzin Monday Bar Crawl! 350฿ - Multiple venues around Pattaya with baht bus transportation. Meet at Buzzin Lounge.',
-                    start: getNextDayDate(1, 15, 0),
-                    end: getNextDayDate(1, 23, 0)
-                },
-                tuesday: {
-                    title: 'Pussy Wagon Bar Crawl - Tuesday',
-                    location: 'CatFlaps, Pattaya',
-                    details: 'FREE Pussy Wagon Bar Crawl! Transportation, food at Free Willy, sexy show, and raffle for 10 FREE beers at Club Fate!',
-                    start: getNextDayDate(2, 13, 0),
-                    end: getNextDayDate(2, 22, 0)
-                },
-                wednesday: {
-                    title: 'Pussy Wagon Bar Crawl - Wednesday',
-                    location: 'Maggie Mays Jomtien, Pattaya',
-                    details: 'FREE Pussy Wagon Bar Crawl! Transportation, food, sexy show, and raffle for 10 FREE beers!',
-                    start: getNextDayDate(3, 13, 0),
-                    end: getNextDayDate(3, 22, 0)
-                },
-                thursday: {
-                    title: 'Pussy Wagon Bar Crawl - Thursday',
-                    location: 'Maggie Mays Pattaya',
-                    details: 'FREE Pussy Wagon Bar Crawl! Transportation, food, sexy show, and raffle for 10 FREE beers!',
-                    start: getNextDayDate(4, 13, 0),
-                    end: getNextDayDate(4, 22, 0)
-                },
-                friday: {
-                    title: 'Buzzin Bar Crawl - Friday',
-                    location: 'Buzzin Lounge, Pattaya',
-                    details: 'Join the Buzzin Friday Bar Crawl! 350฿ - Multiple venues around Pattaya with baht bus transportation. Meet at Buzzin Lounge.',
-                    start: getNextDayDate(5, 15, 0),
-                    end: getNextDayDate(5, 23, 0)
-                },
-                saturday: {
-                    title: 'Pussy Wagon Bar Crawl - Saturday',
-                    location: 'Camel Toe, Pattaya',
-                    details: 'FREE Pussy Wagon Bar Crawl! Transportation, food, sexy show, and raffle for 10 FREE beers!',
-                    start: getNextDayDate(6, 13, 0),
-                    end: getNextDayDate(6, 22, 0)
-                }
-            };
-
-            const event = events[day];
-            showCalendarModal(event);
-        }
-
-        function showCalendarModal(event) {
-            const modal = document.createElement('div');
-            modal.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);display:flex;align-items:center;justify-content:center;z-index:10000;padding:20px;animation:fadeIn 0.3s ease;';
-
-            const modalContent = document.createElement('div');
-            modalContent.style.cssText = 'background:linear-gradient(135deg,#2a2a2a 0%,#1f1f1f 100%);padding:30px;border-radius:20px;max-width:500px;width:100%;border:2px solid #FF0066;box-shadow:0 20px 60px rgba(255,0,102,0.3);animation:slideUp 0.3s ease;';
-
-            modalContent.innerHTML = `
-                <style>
-                    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-                    @keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
-                    .cal-btn { background:#4285F4; color:white; border:none; padding:15px; border-radius:10px; font-size:1rem; font-weight:600; cursor:pointer; transition:all 0.3s ease; font-family:'Oswald',sans-serif; letter-spacing:1px; width:100%; }
-                    .cal-btn:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgba(66,133,244,0.4); }
-                    .cal-btn.apple { background:#000; border:2px solid #fff; }
-                    .cal-btn.apple:hover { box-shadow:0 8px 20px rgba(255,255,255,0.3); }
-                    .cal-btn.outlook { background:#0078D4; }
-                    .cal-btn.outlook:hover { box-shadow:0 8px 20px rgba(0,120,212,0.4); }
-                    .cal-btn.ics { background:#00C853; }
-                    .cal-btn.ics:hover { box-shadow:0 8px 20px rgba(0,200,83,0.4); }
-                    .cal-btn.cancel { background:transparent; border:2px solid #fff; margin-top:15px; }
-                    .cal-btn.cancel:hover { background:rgba(255,255,255,0.1); }
-                </style>
-                <h3 style="color:#00D9FF;font-family:'Oswald',sans-serif;font-size:1.5rem;margin-bottom:10px;text-transform:uppercase;">Add to Calendar</h3>
-                <p style="color:#fff;opacity:0.9;margin-bottom:25px;font-size:0.95rem;">${event.title}</p>
-                <div style="display:flex;flex-direction:column;gap:12px;">
-                    <button class="cal-btn" onclick="addToGoogleCalendar()">📅 Google Calendar</button>
-                    <button class="cal-btn apple" onclick="downloadICS()">🍎 Apple Calendar</button>
-                    <button class="cal-btn outlook" onclick="addToOutlookCalendar()">📧 Outlook Calendar</button>
-                    <button class="cal-btn ics" onclick="downloadICS()">💾 Download ICS File</button>
-                    <button class="cal-btn cancel" onclick="closeModal()">Cancel</button>
-                </div>
-            `;
-
-            modal.appendChild(modalContent);
-            document.body.appendChild(modal);
-
-            modal.addEventListener('click', (e) => { if (e.target === modal) modal.remove(); });
-            window.currentCalendarEvent = event;
-            window.currentModal = modal;
-        }
-
-        function closeModal() {
-            if (window.currentModal) window.currentModal.remove();
-        }
-
-        function addToGoogleCalendar() {
-            const ev = window.currentCalendarEvent;
-            const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.title)}&details=${encodeURIComponent(ev.details)}&location=${encodeURIComponent(ev.location)}&dates=${ev.start}/${ev.end}`;
-            window.open(url, '_blank');
-            closeModal();
-        }
-
-        function addToOutlookCalendar() {
-            const ev = window.currentCalendarEvent;
-            const url = `https://outlook.live.com/calendar/0/deeplink/compose?subject=${encodeURIComponent(ev.title)}&body=${encodeURIComponent(ev.details)}&location=${encodeURIComponent(ev.location)}&startdt=${ev.start}&enddt=${ev.end}`;
-            window.open(url, '_blank');
-            closeModal();
-        }
-
-        function downloadICS() {
-            const ev = window.currentCalendarEvent;
-            const ics = [
-                'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Gents Clubs//Bar Crawls//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT',
-                `DTSTART:${ev.start}`,`DTEND:${ev.end}`,`SUMMARY:${ev.title}`,`DESCRIPTION:${ev.details}`,`LOCATION:${ev.location}`,
-                'STATUS:CONFIRMED','SEQUENCE:0','END:VEVENT','END:VCALENDAR'
-            ].join('\r\n');
-            const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
-            const url = window.URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = `${ev.title.replace(/\s+/g, '-')}.ics`;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            window.URL.revokeObjectURL(url);
-            closeModal();
-        }
-
-        function getNextDayDate(targetDay, hour, minute) {
-            const now = new Date();
-            const currentDay = now.getDay();
-            let daysUntilTarget = targetDay - currentDay;
-            if (daysUntilTarget <= 0) daysUntilTarget += 7;
-            const targetDate = new Date(now);
-            targetDate.setDate(now.getDate() + daysUntilTarget);
-            targetDate.setHours(hour, minute, 0, 0);
-            return targetDate.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
-        }
-
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
