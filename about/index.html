@@ -90,22 +90,6 @@
             margin-bottom: 20px;
         }
         
-        nav {
-            margin: 20px 0;
-        }
-        
-        nav a {
-            color: #d4af37;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 0.95rem;
-            transition: opacity 0.3s ease;
-        }
-        
-        nav a:hover {
-            opacity: 0.7;
-        }
-        
         main {
             flex: 1;
             padding: 40px 0 60px;
@@ -152,16 +136,17 @@
         }
         
         .cta-buttons {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            max-width: 520px;
+            margin: 20px auto 0;
         }
         
         .cta-button {
-            display: inline-block;
-            padding: 12px 28px;
+            display: block;
+            padding: 12px 16px;
+            text-align: center;
             background-color: #d4af37;
             color: #0a1628;
             text-decoration: none;
@@ -209,31 +194,41 @@
             .logo {
                 max-width: 200px;
             }
-            
-            nav a {
-                display: block;
-                margin: 10px 0;
-            }
-            
+        }
+        
+        @media (max-width: 480px) {
             .cta-buttons {
-                flex-direction: column;
+                grid-template-columns: 1fr;
             }
         }
     </style>
+    <link rel="stylesheet" href="/site-nav.css">
+    <script src="/site-nav.js" defer></script>
 </head>
 <body>
+<nav class="site-nav" aria-label="Main">
+    <div class="site-nav-bar">
+        <a href="/" class="site-nav-brand">Pattaya Pilot</a>
+        <button type="button" class="site-nav-toggle" aria-expanded="false" aria-controls="site-nav-links">&#9776; Menu</button>
+    </div>
+    <ul class="site-nav-links" id="site-nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/bar-crawls/">Bar Crawls</a></li>
+        <li><a href="https://shuttle.pattayapilot.com" target="_blank" rel="noopener noreferrer">Live Tracker</a></li>
+        <li><a href="/events/">Events</a></li>
+        <li><a href="https://www.gentsclubs.com/pool-parties" target="_blank" rel="noopener noreferrer">Pool Parties</a></li>
+        <li><a href="https://gentsclubs.com/ban-chang-trip" target="_blank" rel="noopener noreferrer">Day Trips</a></li>
+        <li><a href="https://uptoyouka.com" target="_blank" rel="noopener noreferrer">Uptoyouka</a></li>
+        <li><a href="https://discord.gg/pattayamongers" target="_blank" rel="noopener noreferrer">Community</a></li>
+        <li><a href="https://lin.ee/tJwS2kU" target="_blank" rel="noopener noreferrer">Contact</a></li>
+        <li><a href="/about/" aria-current="page">About</a></li>
+    </ul>
+</nav>
     <header>
         <div class="container">
             <a href="/">
                 <img src="/images/pattaya-pilot-logo.png" alt="Pattaya Pilot Logo" class="logo">
             </a>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/events/">Events</a>
-                <a href="/bar-crawls/">Bar Crawls</a>
-                <a href="https://discord.gg/pattayamongers" target="_blank" rel="noopener noreferrer">Community</a>
-                <a href="https://lin.ee/tJwS2kU" target="_blank" rel="noopener noreferrer">Contact</a>
-            </nav>
         </div>
     </header>
     
@@ -279,6 +274,10 @@
                         <a href="/events/" class="cta-button">View Events Calendar</a>
                         <a href="/bar-crawls/" class="cta-button">Join a Bar Crawl</a>
                         <a href="https://shuttle.pattayapilot.com" class="cta-button" target="_blank" rel="noopener noreferrer">Track the Wagon Live</a>
+                        <a href="https://www.gentsclubs.com/pool-parties" class="cta-button" target="_blank" rel="noopener noreferrer">Pool Parties</a>
+                        <a href="https://gentsclubs.com/ban-chang-trip" class="cta-button" target="_blank" rel="noopener noreferrer">Day Trips</a>
+                        <a href="https://uptoyouka.com" class="cta-button" target="_blank" rel="noopener noreferrer">Uptoyouka</a>
+                        <a href="https://discord.gg/pattayamongers" class="cta-button" target="_blank" rel="noopener noreferrer">Join our Discord</a>
                         <a href="https://lin.ee/tJwS2kU" class="cta-button" target="_blank" rel="noopener noreferrer">Contact on Line</a>
                     </div>
                 </div>
@@ -288,13 +287,18 @@
     
     <footer>
         <div class="container">
-            <p>
-                <a href="/">Home</a> | 
-                <a href="/events/">Events</a> | 
-                <a href="/bar-crawls/">Bar Crawls</a> | 
-                <a href="https://discord.gg/pattayamongers" target="_blank" rel="noopener noreferrer">Community</a> | 
+            <nav class="site-footer-links" aria-label="Footer">
+                <a href="/">Home</a>
+                <a href="/bar-crawls/">Bar Crawls</a>
+                <a href="https://shuttle.pattayapilot.com" target="_blank" rel="noopener noreferrer">Live Tracker</a>
+                <a href="/events/">Events</a>
+                <a href="https://www.gentsclubs.com/pool-parties" target="_blank" rel="noopener noreferrer">Pool Parties</a>
+                <a href="https://gentsclubs.com/ban-chang-trip" target="_blank" rel="noopener noreferrer">Day Trips</a>
+                <a href="https://uptoyouka.com" target="_blank" rel="noopener noreferrer">Uptoyouka</a>
+                <a href="https://discord.gg/pattayamongers" target="_blank" rel="noopener noreferrer">Community</a>
                 <a href="https://lin.ee/tJwS2kU" target="_blank" rel="noopener noreferrer">Contact</a>
-            </p>
+                <a href="/about/">About</a>
+            </nav>
             <p style="margin-top: 15px;">&copy; 2026 Pattaya Pilot. Your Guide to Pattaya Nightlife.</p>
         </div>
     </footer>

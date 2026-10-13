@@ -60,6 +60,9 @@
             padding: 20px;
         }
 
+        /* Cancel the body padding so the shared site nav runs edge to edge */
+        body > .site-nav { margin: -20px -20px 20px; }
+
         .container { max-width: 1200px; margin: 0 auto; overflow-x: hidden; }
 
         .header {
@@ -216,18 +219,29 @@
             .subpage-nav a { font-size: 0.8rem; }
         }
     </style>
+    <link rel="stylesheet" href="/site-nav.css">
+    <script src="/site-nav.js" defer></script>
 </head>
 <body>
 
-<header class="subpage-header">
-    <nav class="subpage-nav">
-        <a href="/" class="home-link">← Home</a>
-        <a href="/bar-crawls/" class="nav-link">Bar Crawls</a>
-        <a href="/about/" class="nav-link">About</a>
-        <a href="https://lin.ee/tJwS2kU" class="nav-link" target="_blank">Contact</a>
-        <a href="https://discord.gg/pattayamongers" class="nav-link discord-link" target="_blank">Discord</a>
-    </nav>
-</header>
+<nav class="site-nav" aria-label="Main">
+    <div class="site-nav-bar">
+        <a href="/" class="site-nav-brand">Pattaya Pilot</a>
+        <button type="button" class="site-nav-toggle" aria-expanded="false" aria-controls="site-nav-links">&#9776; Menu</button>
+    </div>
+    <ul class="site-nav-links" id="site-nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/bar-crawls/">Bar Crawls</a></li>
+        <li><a href="https://shuttle.pattayapilot.com" target="_blank" rel="noopener noreferrer">Live Tracker</a></li>
+        <li><a href="/events/" aria-current="page">Events</a></li>
+        <li><a href="https://www.gentsclubs.com/pool-parties" target="_blank" rel="noopener noreferrer">Pool Parties</a></li>
+        <li><a href="https://gentsclubs.com/ban-chang-trip" target="_blank" rel="noopener noreferrer">Day Trips</a></li>
+        <li><a href="https://uptoyouka.com" target="_blank" rel="noopener noreferrer">Uptoyouka</a></li>
+        <li><a href="https://discord.gg/pattayamongers" target="_blank" rel="noopener noreferrer">Community</a></li>
+        <li><a href="https://lin.ee/tJwS2kU" target="_blank" rel="noopener noreferrer">Contact</a></li>
+        <li><a href="/about/">About</a></li>
+    </ul>
+</nav>
 
 <div class="container">
 
@@ -354,12 +368,17 @@
 </script>
 
 <footer class="subpage-footer">
-    <nav class="subpage-nav">
-        <a href="/" class="home-link">← Home</a>
-        <a href="/bar-crawls/" class="nav-link">Bar Crawls</a>
-        <a href="/about/" class="nav-link">About</a>
-        <a href="https://lin.ee/tJwS2kU" class="nav-link" target="_blank">Contact</a>
-        <a href="https://discord.gg/pattayamongers" class="nav-link discord-link" target="_blank">Discord</a>
+    <nav class="site-footer-links" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/bar-crawls/">Bar Crawls</a>
+        <a href="https://shuttle.pattayapilot.com" target="_blank" rel="noopener noreferrer">Live Tracker</a>
+        <a href="/events/">Events</a>
+        <a href="https://www.gentsclubs.com/pool-parties" target="_blank" rel="noopener noreferrer">Pool Parties</a>
+        <a href="https://gentsclubs.com/ban-chang-trip" target="_blank" rel="noopener noreferrer">Day Trips</a>
+        <a href="https://uptoyouka.com" target="_blank" rel="noopener noreferrer">Uptoyouka</a>
+        <a href="https://discord.gg/pattayamongers" target="_blank" rel="noopener noreferrer">Community</a>
+        <a href="https://lin.ee/tJwS2kU" target="_blank" rel="noopener noreferrer">Contact</a>
+        <a href="/about/">About</a>
     </nav>
 </footer>
 
