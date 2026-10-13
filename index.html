@@ -54,17 +54,54 @@
     <main>
         <div class="container">
             <div class="tiles">
-                <a href="/bar-crawls/" class="tile">
-                    <img src="/images/bar-crawls-tile.png" alt="Pattaya Bar Crawls - Party Tours">
-                    <h2>Bar Crawls</h2>
-                </a>
+                <div class="tile tile-stretched">
+                    <div class="tile-media">
+                        <img src="/images/bar-crawls-tile.png" alt="Pattaya Bar Crawls - Party Tours">
+                        <a href="https://shuttle.pattayapilot.com" class="live-strip" id="live-strip" target="_blank" rel="noopener noreferrer" hidden>
+                            <span class="live-dot" aria-hidden="true"></span>
+                            <span class="live-label">LIVE</span>
+                            <span class="live-text" id="live-text"></span>
+                        </a>
+                    </div>
+                    <div class="tile-body">
+                        <h2><a href="/bar-crawls/" class="tile-link">Bar Crawls</a></h2>
+                        <p class="tile-subtext">6 crawls every week</p>
+                    </div>
+                </div>
                 <a href="/events/" class="tile">
                     <img src="/images/events-tile.png" alt="Pattaya Events Calendar">
-                    <h2>Events</h2>
+                    <div class="tile-body">
+                        <h2>Events</h2>
+                        <p class="tile-subtext">What's on in Pattaya</p>
+                    </div>
+                </a>
+                <a href="https://www.gentsclubs.com/pool-parties" class="tile" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/pool-parties-tile.png" alt="Pattaya Pool Parties">
+                    <div class="tile-body">
+                        <h2>Pool Parties</h2>
+                        <p class="tile-subtext">Best Pool Parties in Pattaya</p>
+                    </div>
+                </a>
+                <a href="https://gentsclubs.com/ban-chang-trip" class="tile" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/day-trips-tile.png" alt="Day Trips from Pattaya to Ban Chang">
+                    <div class="tile-body">
+                        <h2>Day Trips</h2>
+                        <p class="tile-subtext">Ban Chang and beyond</p>
+                    </div>
+                </a>
+                <a href="https://uptoyouka.com" class="tile" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/uptoyouka-tile.png" alt="Uptoyouka - Message the Ladies for Free">
+                    <div class="tile-body">
+                        <h2>Uptoyouka</h2>
+                        <p class="tile-subtext">Message the ladies for free</p>
+                    </div>
                 </a>
                 <a href="https://discord.gg/pattayamongers" class="tile" target="_blank" rel="noopener noreferrer">
                     <img src="/images/discord-tile.png" alt="Join Pattaya Mongers Discord Community">
-                    <h2>Discord</h2>
+                    <div class="tile-body">
+                        <h2>Discord</h2>
+                        <p class="tile-subtext">Join 11,000 Pattaya mongers</p>
+                    </div>
                 </a>
             </div>
         </div>
@@ -78,5 +115,43 @@
         <p style="margin-top: 15px;">&copy; 2026 Pattaya Pilot. Your Guide to Pattaya Nightlife.</p>
     </div>
     </footer>
+    <script>
+        // Live wagon strip on the Bar Crawls tile. Stays hidden unless a crawl is running
+        // and the tracker feed answers, so the tile looks normal if anything goes wrong.
+        (function () {
+            var STATUS_URL = 'https://shuttle.pattayapilot.com/api/status';
+            var strip = document.getElementById('live-strip');
+            var text = document.getElementById('live-text');
+            if (!strip || !text || !window.fetch) return;
+
+            function name(bar) { return bar && bar.name ? bar.name : null; }
+
+            function message(s) {
+                if (!s) return null;
+                if (s.state === 'on_way') {
+                    if (name(s.probably_next)) return 'Wagon heading to ' + name(s.probably_next);
+                    return 'Wagon on the move';
+                }
+                if ((s.state === 'start' || s.state === 'at_bar') && name(s.current_bar)) {
+                    return 'Wagon at ' + name(s.current_bar);
+                }
+                return null;
+            }
+
+            function update() {
+                fetch(STATUS_URL)
+                    .then(function (r) { return r.ok ? r.json() : null; })
+                    .then(function (s) {
+                        var msg = message(s);
+                        if (msg) text.textContent = msg;
+                        strip.hidden = !msg;
+                    })
+                    .catch(function () { strip.hidden = true; });
+            }
+
+            update();
+            setInterval(update, 60000);
+        })();
+    </script>
 </body>
 </html>
