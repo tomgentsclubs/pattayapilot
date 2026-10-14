@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-13T00:00:33Z",
+    "generated_at": "2026-10-14T08:16:08Z",
     "source": "elfsight",
-    "total_events": 47
+    "total_events": 48
   },
   "event_types": [
     {
@@ -860,6 +860,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "6740e1bf-116e-4bd8-9e37-235137eb068e",
+      "title": "Bob's Big Bash",
+      "date": "2026-10-16",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f3fa2910-d9ab-4d37-9ccb-e9ddbb175d8d/MMD-October-16th-Bob.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
       ]
     },
     {
