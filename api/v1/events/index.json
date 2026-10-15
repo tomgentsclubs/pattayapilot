@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-14T08:16:08Z",
+    "generated_at": "2026-10-15T00:00:22Z",
     "source": "elfsight",
-    "total_events": 48
+    "total_events": 46
   },
   "event_types": [
     {
@@ -600,58 +600,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
-      ]
-    },
-    {
-      "id": "be494638-b37a-42a7-903b-80082d77d54d",
-      "title": "Tom's Birthday Party",
-      "date": "2026-10-07",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/93e55aed-8b99-4536-afc1-068b4c82d646/MMR-October-7th-Tom.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
-      ]
-    },
-    {
-      "id": "dc595a7f-9314-44d5-9a6a-2eb36626239a",
-      "title": "Bikini Party",
-      "date": "2026-10-07",
-      "start_time": "14:00",
-      "end_time": "01:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Free Willy",
-      "venue_id": "free-willy",
-      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/20841f67-4304-46d0-821e-97c60b942ba5/Free-Willy-October-7th-Bikini.jpg",
-      "description": "",
-      "color": "rgb(17, 85, 178)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Free Willy"
       ]
     },
     {
