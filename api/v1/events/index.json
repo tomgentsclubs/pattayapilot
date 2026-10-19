@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-19T05:00:39Z",
+    "generated_at": "2026-10-19T05:15:31Z",
     "source": "elfsight",
-    "total_events": 43
+    "total_events": 45
   },
   "event_types": [
     {
@@ -886,6 +886,58 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Jomtien"
+      ]
+    },
+    {
+      "id": "6b61b661-03de-401b-9462-9074c04523e1",
+      "title": "Jeff's Leaving Party",
+      "date": "2026-10-22",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d03eac08-2fd1-4533-b47f-d2117e777742/MMBB-October-22nd-Jeff.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "53ba615a-4fa4-4297-8e92-41bc4af25313",
+      "title": "Thai Tuesday Party",
+      "date": "2026-10-27",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0461ed49-f08d-4086-8a6e-f159001cd19b/Camel-Toe-October-27th-Thai-Tuesday-2.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
       ]
     },
     {
