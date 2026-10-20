@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-20T11:45:38Z",
+    "generated_at": "2026-10-20T13:00:42Z",
     "source": "elfsight",
-    "total_events": 49
+    "total_events": 50
   },
   "event_types": [
     {
@@ -990,6 +990,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "5c9d4b7e-149f-44fa-b8ed-0db0514282bd",
+      "title": "Pool Party",
+      "date": "2026-10-24",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c9f262b9-4883-4f71-8ac2-8ef13fa9d0c6/MMR-October-24th-Pool-Party-2.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
