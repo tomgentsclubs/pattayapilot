@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-19T07:45:35Z",
+    "generated_at": "2026-10-20T11:45:38Z",
     "source": "elfsight",
-    "total_events": 48
+    "total_events": 49
   },
   "event_types": [
     {
@@ -964,6 +964,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Beer Bar"
+      ]
+    },
+    {
+      "id": "057b2321-a70a-4d9c-b4a2-c1b60aa5dc32",
+      "title": "Bob's Big Bash",
+      "date": "2026-10-23",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Weekly Event",
+      "event_type_id": "weekly-event",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7628599b-d42e-44dc-b631-c248c57855c7/MMD-October-23rd-Bob.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
       ]
     },
     {
