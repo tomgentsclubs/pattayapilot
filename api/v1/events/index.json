@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-21T07:15:39Z",
+    "generated_at": "2026-10-21T09:00:42Z",
     "source": "elfsight",
     "total_events": 51
   },
@@ -875,7 +875,7 @@
       "venue": "Club Fate",
       "venue_id": "club-fate",
       "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/10c2bff0-f8f4-4bc5-ae7e-766914f78a51/Club-Fate-October-21st-Pyjama.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c29cf04d-af66-4688-8955-b87c2c09beee/Club-Fate-October-21st-Pyjama.jpg",
       "description": "",
       "color": "rgb(103, 44, 184)",
       "button_link": null,
