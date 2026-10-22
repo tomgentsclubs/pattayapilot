@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-21T09:00:42Z",
+    "generated_at": "2026-10-22T00:01:55Z",
     "source": "elfsight",
-    "total_events": 51
+    "total_events": 49
   },
   "event_types": [
     {
@@ -626,58 +626,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
-      ]
-    },
-    {
-      "id": "40236220-4acb-4f97-803e-5e13c13366c8",
-      "title": "Pond's Birthday Party",
-      "date": "2026-10-14",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Pattaya",
-      "venue_id": "maggie-mays-pattaya",
-      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8983445b-a3c5-4dc3-b462-5e71831a9f5e/MMP-October-14th-Pond.jpg",
-      "description": "",
-      "color": "rgb(87, 87, 87)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Pattaya"
-      ]
-    },
-    {
-      "id": "1446389a-623f-4b63-83fa-a9431dca2f76",
-      "title": "Kob's Birthday Party",
-      "date": "2026-10-14",
-      "start_time": "14:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "The Brass House",
-      "venue_id": "the-brass-house",
-      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/c303512e-5da5-4165-bd0e-388968a4cf6b/Brass-House-October-14th-Kob-3.jpg",
-      "description": "",
-      "color": "rgb(112, 32, 32)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "The Brass House"
       ]
     },
     {
