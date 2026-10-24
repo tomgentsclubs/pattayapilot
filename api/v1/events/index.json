@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-23T00:00:40Z",
+    "generated_at": "2026-10-24T00:00:38Z",
     "source": "elfsight",
-    "total_events": 48
+    "total_events": 45
   },
   "event_types": [
     {
@@ -626,84 +626,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
-      ]
-    },
-    {
-      "id": "6740e1bf-116e-4bd8-9e37-235137eb068e",
-      "title": "Bob's Big Bash",
-      "date": "2026-10-16",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Themed Party",
-      "event_type_id": "themed-party",
-      "venue": "Maggie Mays Darkside",
-      "venue_id": "maggie-mays-darkside",
-      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/f3fa2910-d9ab-4d37-9ccb-e9ddbb175d8d/MMD-October-16th-Bob.jpg",
-      "description": "",
-      "color": "rgb(151, 130, 65)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Darkside"
-      ]
-    },
-    {
-      "id": "f0baa91d-2a29-440d-a098-25726546264a",
-      "title": "Patty's Birthday Party",
-      "date": "2026-10-16",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/5d1b88d4-6456-41a1-bb6c-518afd223ac9/Catflaps-October-16th-Patty.jpg",
-      "description": "",
-      "color": "rgb(255, 255, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Catflaps"
-      ]
-    },
-    {
-      "id": "20c03a84-d7f0-4ced-a083-854a237e0a6d",
-      "title": "Ning's Birthday Party",
-      "date": "2026-10-16",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Maggie Mays Beer Bar",
-      "venue_id": "maggie-mays-beer-bar",
-      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0b2ad5c4-1c51-478f-b4b0-8b1a697b425d/MMBB-October-16th-Ning.jpg",
-      "description": "",
-      "color": "rgb(14, 139, 37)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Beer Bar"
       ]
     },
     {
