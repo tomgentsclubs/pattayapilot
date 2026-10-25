@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-24T00:00:38Z",
+    "generated_at": "2026-10-25T00:00:54Z",
     "source": "elfsight",
-    "total_events": 45
+    "total_events": 43
   },
   "event_types": [
     {
@@ -626,58 +626,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
-      ]
-    },
-    {
-      "id": "0365e369-8269-464f-b7ab-e3568814771a",
-      "title": "Tom & Matty's Birthday Pool Party",
-      "date": "2026-10-17",
-      "start_time": "13:00",
-      "end_time": "23:59",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Pool Party",
-      "event_type_id": "pool-party",
-      "venue": "Maggie Mays Resort",
-      "venue_id": "maggie-mays-resort",
-      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/ad1eb22b-060e-4473-9f21-6f1602d1fea4/MMR-October-17th-Tom-Matty.jpg",
-      "description": "",
-      "color": "rgb(153, 229, 227)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Maggie Mays Resort"
-      ]
-    },
-    {
-      "id": "dd94c190-10b4-43c3-8444-33784950ac86",
-      "title": "Susy's Birthday Party",
-      "date": "2026-10-17",
-      "start_time": "18:00",
-      "end_time": "04:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "Club Fate",
-      "venue_id": "club-fate",
-      "directions_url": "https://maps.app.goo.gl/apvSxup84vXGNkfP9",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6d1fc6b8-f248-4ae5-945d-cce35ea39364/Club-Fate-October-17th-Susy-2.jpg",
-      "description": "",
-      "color": "rgb(103, 44, 184)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Club Fate"
       ]
     },
     {
