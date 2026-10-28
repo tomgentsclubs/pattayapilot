@@ -101,55 +101,15 @@
             min-height: 600px;
         }
 
-        /* Loading overlay */
-        .loading-overlay {
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(26, 26, 26, 0.98);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 9999;
-            transition: opacity 0.6s ease;
-        }
-
-        .loading-overlay.hidden { opacity: 0; pointer-events: none; }
-
-        .loading-text {
-            color: #ffd700;
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 30px;
+        /* "Loading events..." line, absolutely positioned so hiding it doesn't shift the calendar */
+        .calendar-loading {
+            position: absolute;
+            top: 80px; left: 0; right: 0;
             text-align: center;
+            color: rgba(255,255,255,0.6);
+            font-size: 16px;
+            pointer-events: none;
         }
-
-        .loading-bar-container {
-            width: 80%;
-            max-width: 400px;
-            height: 8px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 4px;
-            overflow: hidden;
-        }
-
-        .loading-bar {
-            height: 100%;
-            width: 0%;
-            background: linear-gradient(90deg, #ffd700 0%, #ffed4e 50%, #ffd700 100%);
-            background-size: 200% 100%;
-            border-radius: 4px;
-            transition: width 0.3s ease;
-            animation: shimmer 1.5s linear infinite;
-            box-shadow: 0 0 10px rgba(255,215,0,0.5);
-        }
-
-        @keyframes shimmer {
-            0%   { background-position: 200% 0; }
-            100% { background-position: -200% 0; }
-        }
-
-        .loading-subtext { color: rgba(255,255,255,0.7); font-size: 14px; margin-top: 20px; }
 
         /* Line browser banner */
         .line-banner {
@@ -210,8 +170,6 @@
             .header-logo { width: 130px; }
             .header { padding: 20px 10px; }
             .calendar-wrapper { padding: 5px; }
-            .loading-text { font-size: 20px; }
-            .loading-bar-container { width: 90%; }
         }
 
         @media (max-width: 480px) {
@@ -260,14 +218,8 @@
         <div class="subtitle">All upcoming nightlife events and parties in Pattaya</div>
     </div>
 
-    <div class="calendar-wrapper" id="calendarWrapper">
-        <div class="loading-overlay" id="loadingOverlay">
-            <div class="loading-text">Loading Events Calendar...</div>
-            <div class="loading-bar-container">
-                <div class="loading-bar" id="loadingBar"></div>
-            </div>
-            <div class="loading-subtext" id="loadingSubtext">Please wait a moment</div>
-        </div>
+    <div class="calendar-wrapper">
+        <div class="calendar-loading" id="calendarLoading">Loading events...</div>
 
         <div class="elfsight-app-a420d7b3-7429-492e-b394-3f772b3d23b3"></div>
     </div>
@@ -302,26 +254,10 @@
         }
     }
 
-    // Loading bar
-    var overlay    = document.getElementById('loadingOverlay');
-    var loadingBar = document.getElementById('loadingBar');
-    var subtext    = document.getElementById('loadingSubtext');
-    var gone       = false;
+    // "Loading events..." line, hidden once the calendar renders
+    var loadingText = document.getElementById('calendarLoading');
 
-    function setBar(pct) { loadingBar.style.width = pct + '%'; }
-    setBar(15);
-    setTimeout(function(){ setBar(40); }, 600);
-    setTimeout(function(){ setBar(65); }, 1400);
-
-    function hideOverlay() {
-        if (gone) return;
-        gone = true;
-        setBar(100);
-        setTimeout(function() {
-            overlay.classList.add('hidden');
-            setTimeout(function() { overlay.style.display = 'none'; }, 650);
-        }, 300);
-    }
+    function hideLoadingText() { loadingText.style.display = 'none'; }
 
     // Detect that Elfsight has actually put content in the DOM
     function isRendered() {
@@ -351,17 +287,14 @@
 
         if (isRendered()) {
             clearInterval(timer);
-            hideOverlay();
+            hideLoadingText();
             gentleNudge();
             return;
         }
 
-        if (polls === 35) subtext.textContent = 'Almost there...';
-        if (polls === 60) subtext.textContent = 'Nearly ready...';
-
         if (polls >= 100) {
             clearInterval(timer);
-            hideOverlay();
+            hideLoadingText();
             gentleNudge();
         }
     }, 100);
