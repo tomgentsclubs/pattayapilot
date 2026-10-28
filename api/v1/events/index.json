@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-10-28T14:30:39Z",
+    "generated_at": "2026-10-28T15:00:40Z",
     "source": "elfsight",
-    "total_events": 36
+    "total_events": 37
   },
   "event_types": [
     {
@@ -626,6 +626,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
+      ]
+    },
+    {
+      "id": "144033b3-1180-48ec-807a-5f20c36c203e",
+      "title": "Didi & Kai's Birthday Party",
+      "date": "2026-10-29",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/4b9654b4-441e-4403-8b43-16b55ae3d472/MMR-October-29th-Didi-Kai.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
