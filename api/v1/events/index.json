@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-01T12:15:38Z",
+    "generated_at": "2026-11-02T05:00:38Z",
     "source": "elfsight",
-    "total_events": 40
+    "total_events": 42
   },
   "event_types": [
     {
@@ -36,6 +36,11 @@
     }
   ],
   "venues": [
+    {
+      "id": "maggie's-mini",
+      "name": "Maggie's Mini",
+      "directions_url": null
+    },
     {
       "id": "maggie-mays-ban-chang",
       "name": "Maggie Mays Ban Chang",
@@ -1019,6 +1024,32 @@
       ]
     },
     {
+      "id": "59e119cf-bdf8-4825-9208-5e86b9c0a66b",
+      "title": "Kookai & Sharp's Birthday",
+      "date": "2026-11-06",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0959ddf2-7e61-461c-8f44-d16586a30b6e/Catflaps-November-6th-Kookai-Sharp.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
+      ]
+    },
+    {
       "id": "306e437c-2191-4b6c-bf18-4ab7a3042153",
       "title": "Pool Party",
       "date": "2026-11-07",
@@ -1094,6 +1125,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "f5cf4727-d042-4d47-a6f7-eaf1578d561c",
+      "title": "Maggie's Mini Launch Party",
+      "date": "2026-11-13",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie's Mini",
+      "venue_id": "maggie's-mini",
+      "directions_url": null,
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d60702d3-2227-425c-abb9-fd293f9a9d21/MMJ-November-13th-Launch.jpg",
+      "description": "",
+      "color": "rgb(178, 30, 132)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie's Mini"
       ]
     },
     {
