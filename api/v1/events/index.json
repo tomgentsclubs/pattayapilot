@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-02T05:00:38Z",
+    "generated_at": "2026-11-02T05:45:39Z",
     "source": "elfsight",
     "total_events": 42
   },
@@ -39,7 +39,7 @@
     {
       "id": "maggie's-mini",
       "name": "Maggie's Mini",
-      "directions_url": null
+      "directions_url": "https://maps.app.goo.gl/sNNTxmV7xmsskhVq5"
     },
     {
       "id": "maggie-mays-ban-chang",
@@ -50,11 +50,6 @@
       "id": "buzzin-lounge",
       "name": "Buzzin Lounge",
       "directions_url": "https://maps.app.goo.gl/gUt1piYFnUW3eWk88"
-    },
-    {
-      "id": "maggie-mays-agogo",
-      "name": "Maggie Mays Agogo",
-      "directions_url": null
     },
     {
       "id": "maggie-mays-beer-bar",
@@ -1139,7 +1134,7 @@
       "event_type_id": "themed-party",
       "venue": "Maggie's Mini",
       "venue_id": "maggie's-mini",
-      "directions_url": null,
+      "directions_url": "https://maps.app.goo.gl/sNNTxmV7xmsskhVq5",
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d60702d3-2227-425c-abb9-fd293f9a9d21/MMJ-November-13th-Launch.jpg",
       "description": "",
       "color": "rgb(178, 30, 132)",
