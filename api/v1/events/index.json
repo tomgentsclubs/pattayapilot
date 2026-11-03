@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-03T09:45:38Z",
+    "generated_at": "2026-11-03T12:00:39Z",
     "source": "elfsight",
-    "total_events": 46
+    "total_events": 47
   },
   "event_types": [
     {
@@ -1094,6 +1094,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "e8719d8a-f962-469f-892d-e94b19dcc55d",
+      "title": "Bob's Sunday Funday",
+      "date": "2026-11-08",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Weekly Event",
+      "event_type_id": "weekly-event",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8b590be8-552b-44a2-9a44-fa2fe6646735/MMD-November-8th-Bob.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
       ]
     },
     {
