@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-02T16:15:38Z",
+    "generated_at": "2026-11-03T09:45:38Z",
     "source": "elfsight",
-    "total_events": 44
+    "total_events": 46
   },
   "event_types": [
     {
@@ -1123,6 +1123,32 @@
       ]
     },
     {
+      "id": "60a75e70-370e-4d58-88bf-e0e62f7d3bb8",
+      "title": "Beach Party",
+      "date": "2026-11-10",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/9ef2367d-412b-4cc2-97ba-a784889fdf74/MMJ-November-10th-Beach.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
+      ]
+    },
+    {
       "id": "5c5a1359-c451-40b0-9661-82eb9862e289",
       "title": "Tree & Ben's Birthday Party",
       "date": "2026-11-10",
@@ -1224,6 +1250,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "8e014971-b44e-4e99-9346-defa6be16cc5",
+      "title": "Thai Tuesday",
+      "date": "2026-11-24",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "The Camel Toe",
+      "venue_id": "the-camel-toe",
+      "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7dcab6b7-14f9-4e74-b081-f8355f7a4e1d/Camel-Toe-November-24th-Thai-Tuesday.jpg",
+      "description": "",
+      "color": "rgb(255, 235, 0)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Camel Toe"
       ]
     },
     {
