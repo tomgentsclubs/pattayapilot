@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-03T12:00:39Z",
+    "generated_at": "2026-11-05T09:45:38Z",
     "source": "elfsight",
-    "total_events": 47
+    "total_events": 48
   },
   "event_types": [
     {
@@ -1302,6 +1302,32 @@
       "repeat_ends_date": null,
       "tags": [
         "The Camel Toe"
+      ]
+    },
+    {
+      "id": "26dfdf7d-2aef-4cb1-8f1d-e1edfe2e5d61",
+      "title": "Kat's Birthday Party",
+      "date": "2026-11-25",
+      "start_time": "14:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "The Brass House",
+      "venue_id": "the-brass-house",
+      "directions_url": "https://maps.app.goo.gl/5hzcUcvMTmR5m3648",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/a1f585db-2afd-4f22-939a-35ec0f9542a0/Brass-House-November-25th-Kat.jpg",
+      "description": "",
+      "color": "rgb(112, 32, 32)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "The Brass House"
       ]
     },
     {
