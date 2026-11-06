@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-06T00:00:40Z",
+    "generated_at": "2026-11-06T07:45:38Z",
     "source": "elfsight",
-    "total_events": 46
+    "total_events": 47
   },
   "event_types": [
     {
@@ -1172,6 +1172,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie's Mini"
+      ]
+    },
+    {
+      "id": "0a9306d6-4b58-4ff4-b0f3-0e21c47fd8c1",
+      "title": "1 Year Anniversary Party",
+      "date": "2026-11-15",
+      "start_time": "18:00",
+      "end_time": "04:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Beer Bar",
+      "venue_id": "maggie-mays-beer-bar",
+      "directions_url": "https://maps.app.goo.gl/XtgZEUM6Ruq7bAys7",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0a652d74-385c-4567-8218-8c1c4f313b5b/MMBB-November-15th-Anniversary.jpg",
+      "description": "",
+      "color": "rgb(14, 139, 37)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Beer Bar"
       ]
     },
     {
