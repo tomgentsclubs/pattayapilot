@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-09T06:45:37Z",
+    "generated_at": "2026-11-09T09:15:38Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 38
   },
   "event_types": [
     {
@@ -886,6 +886,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie's Mini"
+      ]
+    },
+    {
+      "id": "09c5f821-47b9-4236-b656-f404322148b3",
+      "title": "Pool Party",
+      "date": "2026-11-14",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/6cd70ade-19a3-4593-b369-2baf56ada8be/MMR-November-14th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
