@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-11T10:15:38Z",
+    "generated_at": "2026-11-11T11:45:38Z",
     "source": "elfsight",
-    "total_events": 40
+    "total_events": 41
   },
   "event_types": [
     {
@@ -1068,6 +1068,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "4d0820f2-6eb5-4cbc-9eed-949cd93e7bb2",
+      "title": "Loy Krathong Party",
+      "date": "2026-11-24",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Jomtien",
+      "venue_id": "maggie-mays-jomtien",
+      "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7c7ee6ed-ebf7-4699-9f12-46033e7a0519/MMJ-November-24th-Loy-Krathong.jpg",
+      "description": "",
+      "color": "rgb(163, 202, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Jomtien"
       ]
     },
     {
