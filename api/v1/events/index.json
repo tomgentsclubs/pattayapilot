@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-12T14:45:38Z",
+    "generated_at": "2026-11-12T15:15:39Z",
     "source": "elfsight",
-    "total_events": 42
+    "total_events": 43
   },
   "event_types": [
     {
@@ -1042,6 +1042,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Free Willy"
+      ]
+    },
+    {
+      "id": "b8cc2578-5707-471a-a84f-6c5e047ad23a",
+      "title": "Dream Job Party",
+      "date": "2026-11-18",
+      "start_time": "15:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Bradleys",
+      "venue_id": "bradleys",
+      "directions_url": "https://maps.app.goo.gl/PTsE4jd2ayi2RxDc8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/899bb272-2f53-4b8e-90dc-a52715ee5da2/Bradleys-November-18th-Dream-Job.jpg",
+      "description": "",
+      "color": "rgb(17, 17, 17)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Bradleys"
       ]
     },
     {
