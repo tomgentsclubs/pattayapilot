@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-13T05:00:39Z",
+    "generated_at": "2026-11-14T00:00:39Z",
     "source": "elfsight",
-    "total_events": 43
+    "total_events": 42
   },
   "event_types": [
     {
@@ -626,32 +626,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
-      ]
-    },
-    {
-      "id": "59e119cf-bdf8-4825-9208-5e86b9c0a66b",
-      "title": "Kookai & Sharp's Birthday",
-      "date": "2026-11-06",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/0959ddf2-7e61-461c-8f44-d16586a30b6e/Catflaps-November-6th-Kookai-Sharp.jpg",
-      "description": "",
-      "color": "rgb(255, 255, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Catflaps"
       ]
     },
     {
