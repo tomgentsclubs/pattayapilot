@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-16T08:00:38Z",
+    "generated_at": "2026-11-16T10:00:39Z",
     "source": "elfsight",
-    "total_events": 43
+    "total_events": 44
   },
   "event_types": [
     {
@@ -1034,6 +1034,32 @@
       "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/4989b0fb-fded-4e64-a965-d81d2e037728/Free-Willy-November-19th-Black-and-White.jpg",
       "description": "",
       "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
+      ]
+    },
+    {
+      "id": "f6109595-43e7-4bb1-883c-7efc97febcf8",
+      "title": "Nicha's Birthday Party",
+      "date": "2026-11-20",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/60153159-078d-4356-92db-8338bd317c7c/Catflaps-November-20th-Nicha.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
       "button_link": null,
       "button_text": null,
       "recurring": false,
