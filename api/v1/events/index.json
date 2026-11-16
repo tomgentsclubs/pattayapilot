@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-16T02:30:45Z",
+    "generated_at": "2026-11-16T05:15:39Z",
     "source": "elfsight",
-    "total_events": 41
+    "total_events": 42
   },
   "event_types": [
     {
@@ -1068,6 +1068,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Resort"
+      ]
+    },
+    {
+      "id": "b2c7e67f-436a-4b0f-8fdb-6a1ab5eb3b81",
+      "title": "Sunday Funday with Bob",
+      "date": "2026-11-22",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Weekly Event",
+      "event_type_id": "weekly-event",
+      "venue": "Maggie Mays Darkside",
+      "venue_id": "maggie-mays-darkside",
+      "directions_url": "https://maps.app.goo.gl/8BRZ4a1RciWj1bCq8",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/592f33b2-3751-4fac-ab4b-dc9774fd7623/MMD-November-22nd-Bob.jpg",
+      "description": "",
+      "color": "rgb(151, 130, 65)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Darkside"
       ]
     },
     {
