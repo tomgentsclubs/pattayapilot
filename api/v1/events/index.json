@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-20T07:15:40Z",
+    "generated_at": "2026-11-20T08:45:38Z",
     "source": "elfsight",
-    "total_events": 40
+    "total_events": 41
   },
   "event_types": [
     {
@@ -1005,7 +1005,7 @@
       "venue": "Maggie Mays Jomtien",
       "venue_id": "maggie-mays-jomtien",
       "directions_url": "https://maps.app.goo.gl/gdV42oAnhfGfNwT56",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7c7ee6ed-ebf7-4699-9f12-46033e7a0519/MMJ-November-24th-Loy-Krathong.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/5211b2c7-1107-4a36-954e-ea06b20433ed/MMJ-November-24th-Loy-Krathong.jpg",
       "description": "",
       "color": "rgb(163, 202, 255)",
       "button_link": null,
@@ -1031,7 +1031,7 @@
       "venue": "The Camel Toe",
       "venue_id": "the-camel-toe",
       "directions_url": "https://maps.app.goo.gl/ojWc2NzYTjcf8bNs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/7dcab6b7-14f9-4e74-b081-f8355f7a4e1d/Camel-Toe-November-24th-Thai-Tuesday.jpg",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/3657f89d-259f-4682-bdeb-1a631dafd442/Camel-Toe-November-24th-Thai-Tuesday-2.jpg",
       "description": "",
       "color": "rgb(255, 235, 0)",
       "button_link": null,
@@ -1146,6 +1146,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Club Fate"
+      ]
+    },
+    {
+      "id": "e48bc205-5650-43b1-bdc0-82c0cc3fc8d4",
+      "title": "Black & White Party",
+      "date": "2026-11-30",
+      "start_time": "14:00",
+      "end_time": "01:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Free Willy",
+      "venue_id": "free-willy",
+      "directions_url": "https://maps.app.goo.gl/ET1BkkdgL9RusdeDA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/942c4f96-57c9-42a9-a1dd-65667c73cdf5/Free-Willy-November-30th-Black-and-White.jpg",
+      "description": "",
+      "color": "rgb(17, 85, 178)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Free Willy"
       ]
     }
   ]
