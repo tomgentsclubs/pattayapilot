@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-20T08:45:38Z",
+    "generated_at": "2026-11-20T10:15:38Z",
     "source": "elfsight",
-    "total_events": 41
+    "total_events": 42
   },
   "event_types": [
     {
@@ -990,6 +990,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Darkside"
+      ]
+    },
+    {
+      "id": "78cc1f98-6873-41fb-9c9e-244b6cd7f39b",
+      "title": "Traditional Thai Dress Party",
+      "date": "2026-11-24",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "Maggie Mays Pattaya",
+      "venue_id": "maggie-mays-pattaya",
+      "directions_url": "https://maps.app.goo.gl/pnE5AQqbLbxdKXp97",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/255dd282-d22d-4d6d-bfbc-81bfbcb6d099/MMP-November-24th-Loy-Krathong.jpg",
+      "description": "",
+      "color": "rgb(87, 87, 87)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Pattaya"
       ]
     },
     {
