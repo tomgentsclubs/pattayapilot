@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-22T00:00:37Z",
+    "generated_at": "2026-11-22T15:00:37Z",
     "source": "elfsight",
-    "total_events": 38
+    "total_events": 39
   },
   "event_types": [
     {
@@ -1068,6 +1068,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Club Fate"
+      ]
+    },
+    {
+      "id": "bf5e681d-9f88-498a-b72e-a7a7633608ee",
+      "title": "Sexy Pyjama Party",
+      "date": "2026-11-27",
+      "start_time": "13:00",
+      "end_time": "23:00",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Themed Party",
+      "event_type_id": "themed-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/92b04f20-b611-4456-bb69-e28a374dd999/Catflaps-November-27th-Pyjama-2.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
       ]
     },
     {
