@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-23T00:00:43Z",
+    "generated_at": "2026-11-23T13:15:39Z",
     "source": "elfsight",
-    "total_events": 37
+    "total_events": 38
   },
   "event_types": [
     {
@@ -1042,6 +1042,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Catflaps"
+      ]
+    },
+    {
+      "id": "7c27e453-4ded-415d-b165-5d747f3fa45d",
+      "title": "Pool Party",
+      "date": "2026-11-28",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Pool Party",
+      "event_type_id": "pool-party",
+      "venue": "Maggie Mays Resort",
+      "venue_id": "maggie-mays-resort",
+      "directions_url": "https://maps.app.goo.gl/KcAQgya5Jijp4EacA",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/d64426c0-d458-4c95-b454-f2f048822c1f/MMR-November-28th-Pool-Party.jpg",
+      "description": "",
+      "color": "rgb(153, 229, 227)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Maggie Mays Resort"
       ]
     },
     {
