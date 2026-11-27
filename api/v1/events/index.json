@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-27T00:00:37Z",
+    "generated_at": "2026-11-27T06:45:36Z",
     "source": "elfsight",
     "total_events": 33
   },
@@ -595,7 +595,7 @@
       "button_link": null,
       "button_text": null,
       "recurring": true,
-      "recurrence_rule": "custom:weekly:2",
+      "recurrence_rule": "custom:weekly:1",
       "repeat_ends": "never",
       "repeat_ends_date": null,
       "tags": [
