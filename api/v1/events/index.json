@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-27T06:45:36Z",
+    "generated_at": "2026-11-28T00:00:37Z",
     "source": "elfsight",
-    "total_events": 33
+    "total_events": 32
   },
   "event_types": [
     {
@@ -600,32 +600,6 @@
       "repeat_ends_date": null,
       "tags": [
         "Maggie Mays Ban Chang"
-      ]
-    },
-    {
-      "id": "f6109595-43e7-4bb1-883c-7efc97febcf8",
-      "title": "Nicha's Birthday Party",
-      "date": "2026-11-20",
-      "start_time": "13:00",
-      "end_time": "23:00",
-      "is_all_day": false,
-      "timezone": "Asia/Bangkok",
-      "event_type": "Girl Party",
-      "event_type_id": "girl-party",
-      "venue": "CatFlaps",
-      "venue_id": "catflaps",
-      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
-      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/60153159-078d-4356-92db-8338bd317c7c/Catflaps-November-20th-Nicha.jpg",
-      "description": "",
-      "color": "rgb(255, 255, 255)",
-      "button_link": null,
-      "button_text": null,
-      "recurring": false,
-      "recurrence_rule": null,
-      "repeat_ends": null,
-      "repeat_ends_date": null,
-      "tags": [
-        "Catflaps"
       ]
     },
     {
