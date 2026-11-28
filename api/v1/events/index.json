@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-11-28T11:00:38Z",
+    "generated_at": "2026-11-28T12:15:37Z",
     "source": "elfsight",
-    "total_events": 35
+    "total_events": 36
   },
   "event_types": [
     {
@@ -964,6 +964,32 @@
       "repeat_ends_date": null,
       "tags": [
         "Club Fate"
+      ]
+    },
+    {
+      "id": "aec44deb-08eb-48dc-a3c5-2f0946360ab6",
+      "title": "Yaya's Birthday Party",
+      "date": "2026-12-04",
+      "start_time": "13:00",
+      "end_time": "23:59",
+      "is_all_day": false,
+      "timezone": "Asia/Bangkok",
+      "event_type": "Girl Party",
+      "event_type_id": "girl-party",
+      "venue": "CatFlaps",
+      "venue_id": "catflaps",
+      "directions_url": "https://maps.app.goo.gl/Pi3AUFZk79cXYdXs6",
+      "image_url": "https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/e1b81b06-0249-4f51-89f9-3a88b0166b13/Catflaps-December-4th-Yaya-2.jpg",
+      "description": "",
+      "color": "rgb(255, 255, 255)",
+      "button_link": null,
+      "button_text": null,
+      "recurring": false,
+      "recurrence_rule": null,
+      "repeat_ends": null,
+      "repeat_ends_date": null,
+      "tags": [
+        "Catflaps"
       ]
     },
     {
